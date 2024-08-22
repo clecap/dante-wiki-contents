@@ -36,4 +36,48 @@
       <namespace key="3001" case="first-letter">Test talk</namespace>
     </namespaces>
   </siteinfo>
+  <page>
+    <title>Test</title>
+    <ns>0</ns>
+    <id>668</id>
+    <revision>
+      <id>694</id>
+      <timestamp>2019-04-08T14:12:20Z</timestamp>
+      <contributor>
+        <username>imported&gt;WikiSysop</username>
+        <id>0</id>
+      </contributor>
+      <comment>Created page with "&lt;amsmath&gt; asd asd asd &lt;/amsmath&gt;"</comment>
+      <origin>694</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32" sha1="1ahfng8xgeflcnn5tv83ugkutb8z66q" xml:space="preserve">&lt;amsmath&gt;
+asd asd
+asd
+&lt;/amsmath&gt;</text>
+      <sha1>1ahfng8xgeflcnn5tv83ugkutb8z66q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tester</title>
+    <ns>0</ns>
+    <id>181</id>
+    <revision>
+      <id>205</id>
+      <timestamp>2015-12-02T18:55:50Z</timestamp>
+      <contributor>
+        <username>imported&gt;WikiSysop</username>
+        <id>0</id>
+      </contributor>
+      <minor/>
+      <comment>2 revisions imported</comment>
+      <origin>205</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23" sha1="9mk9w2mjcd0od0qa7xo69b34bpvpv7b" xml:space="preserve">asd
+
+[[Category:Tests]]</text>
+      <sha1>9mk9w2mjcd0od0qa7xo69b34bpvpv7b</sha1>
+    </revision>
+  </page>
 </mediawiki>
