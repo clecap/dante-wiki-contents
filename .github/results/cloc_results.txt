@@ -1,13 +1,14 @@
-       3 text files.
-classified 3 files       3 unique files.                              
-       3 files ignored.
+       6 text files.
+classified 6 files       6 unique files.                              
+       4 files ignored.
 
-github.com/AlDanial/cloc v 1.90  T=0.01 s (282.9 files/s, 8346.5 lines/s)
+github.com/AlDanial/cloc v 1.90  T=0.01 s (617.9 files/s, 14519.6 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 YAML                             1             10              0             45
-Markdown                         1              1              0              3
+JSON                             1              1              0             23
+Markdown                         2              3              0             12
 -------------------------------------------------------------------------------
-SUM:                             2             11              0             48
+SUM:                             4             14              0             80
 -------------------------------------------------------------------------------
