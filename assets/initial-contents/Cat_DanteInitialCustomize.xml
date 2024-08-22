@@ -32,6 +32,8 @@
       <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
       <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
       <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="3000" case="first-letter">Test</namespace>
+      <namespace key="3001" case="first-letter">Test talk</namespace>
     </namespaces>
   </siteinfo>
 </mediawiki>
