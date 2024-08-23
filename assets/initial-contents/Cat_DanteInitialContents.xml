@@ -683,17 +683,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>17</id>
     <revision>
-      <id>1335</id>
-      <parentid>1334</parentid>
-      <timestamp>2024-07-28T10:46:06Z</timestamp>
+      <id>1656</id>
+      <parentid>1335</parentid>
+      <timestamp>2024-08-22T17:57:40Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>1335</origin>
+      <origin>1656</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3679" sha1="ppbbe0r3vnxrhhlec286xktxc1vkm2a" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3813" sha1="667pkvx0lpg63c4s85k2cgdb7i2uldz" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -715,15 +715,17 @@ The contents of this page must conform to the following rules:
 ** [{{fullurl:MediaWiki:Sidebar/UI|action=edit}} UI]
 ** [{{fullurl:MediaWiki:Sidebar/Social|action=edit}} Social]
 
-* &lt;b title="Query for pages in specific namespaces"&gt;Lists &amp; Queries&lt;/b&gt;
+* &lt;b title="Query for pages in specific namespaces"&gt;Namespace Lists&lt;/b&gt;
 ** [{{fullurl:Special:AllPages}} All Pages]
-** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=8}} MediaWiki]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=14}} Category]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=10}} Template]
-** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2}} User]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=12}} Help]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=4}} Project]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2100}} Snip]
+** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=3000}} Test]
+** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2200}} Translated]
+** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=8}} MediaWiki]
+** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2}} User]
 ** [{{fullurl:Special:ListFiles}} Files]
 
 * &lt;b title="Found a bug"&gt;Issue Reporting&lt;/b&gt;
@@ -776,7 +778,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>ppbbe0r3vnxrhhlec286xktxc1vkm2a</sha1>
+      <sha1>667pkvx0lpg63c4s85k2cgdb7i2uldz</sha1>
     </revision>
   </page>
   <page>
