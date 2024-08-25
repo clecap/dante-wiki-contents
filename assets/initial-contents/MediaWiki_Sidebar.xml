@@ -39,19 +39,19 @@
   <page>
     <title>MediaWiki:Sidebar</title>
     <ns>8</ns>
-    <id>4</id>
+    <id>28</id>
     <revision>
-      <id>1657</id>
-      <parentid>94</parentid>
-      <timestamp>2024-08-23T18:37:02Z</timestamp>
+      <id>28</id>
+      <timestamp>2024-08-24T14:14:04Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>Maintenance script</username>
+        <id>3</id>
       </contributor>
-      <origin>1657</origin>
+      <comment>Imported by wiki-init.sh</comment>
+      <origin>28</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="68" sha1="kpc4y4rp6znwuqmzgfunuk4j7newtrr" xml:space="preserve">* Areas
+      <text bytes="112" sha1="47aneato1p0lg93mn0wlpml14z0ctor" xml:space="preserve">* Areas
 
 * catus
 
@@ -59,10 +59,13 @@
 
 * UI
 
+* Social
+
 * SEARCH
 * TOOLBOX
-* LANGUAGES</text>
-      <sha1>kpc4y4rp6znwuqmzgfunuk4j7newtrr</sha1>
+* LANGUAGES
+[[Category:DanteInitialContents]]</text>
+      <sha1>47aneato1p0lg93mn0wlpml14z0ctor</sha1>
     </revision>
   </page>
 </mediawiki>
