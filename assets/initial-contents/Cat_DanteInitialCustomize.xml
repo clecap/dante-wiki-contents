@@ -36,4 +36,253 @@
       <namespace key="3001" case="first-letter">Test talk</namespace>
     </namespaces>
   </siteinfo>
+  <page>
+    <title>Dantewiki:About</title>
+    <ns>4</ns>
+    <id>91</id>
+    <revision>
+      <id>118</id>
+      <parentid>107</parentid>
+      <timestamp>2024-08-24T16:56:18Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>118</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="107" sha1="nozbgwh1pewr8gqibkbqxent99cylo7" xml:space="preserve">This page must be customized to describe the purpose of this DanteWiki.
+
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>nozbgwh1pewr8gqibkbqxent99cylo7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dantewiki:Disclaimer</title>
+    <ns>4</ns>
+    <id>92</id>
+    <revision>
+      <id>119</id>
+      <parentid>108</parentid>
+      <timestamp>2024-08-24T16:56:32Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>119</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="152" sha1="4iaz5lslraa0mbs0wc1p80p3bkqectc" xml:space="preserve">This page must be customized to describe the disclaimers, terms of services and conditions of use for this DanteWiki.
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>4iaz5lslraa0mbs0wc1p80p3bkqectc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dantewiki:Imprint</title>
+    <ns>4</ns>
+    <id>88</id>
+    <revision>
+      <id>120</id>
+      <parentid>103</parentid>
+      <timestamp>2024-08-24T16:56:47Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>120</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="331" sha1="ns2t9otml0mnzdqrnqxmrk9wzpvtr7s" xml:space="preserve">A Dantewiki is intended for the use of a single person or a very small number of closely cooperating persons with mutual trust.
+
+For this usage scenario, no privacy information page is necessary.
+
+This page can and should be customized to display privacy information for the use of this webpage.
+
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>ns2t9otml0mnzdqrnqxmrk9wzpvtr7s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dantewiki:Privacy</title>
+    <ns>4</ns>
+    <id>90</id>
+    <revision>
+      <id>121</id>
+      <parentid>106</parentid>
+      <timestamp>2024-08-24T16:57:02Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>121</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="114" sha1="l3ghryip8qaxwt4wssb6xgnhyawixoz" xml:space="preserve">This page must be customized to describe the privacy policy of this DanteWiki.
+
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>l3ghryip8qaxwt4wssb6xgnhyawixoz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dantewiki:Privacy Information</title>
+    <ns>4</ns>
+    <id>86</id>
+    <revision>
+      <id>122</id>
+      <parentid>101</parentid>
+      <timestamp>2024-08-24T16:57:13Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>122</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="331" sha1="cy8oq4ejsa88qv1vuxmllrenz1om6wx" xml:space="preserve">A Dantewiki is intended for the use of a single person or a very small number
+of closely cooperating persons with mutual trust.
+
+For this usage scenario, no privacy information page is necessary.
+
+This page can and should be customized to display privacy information for the use
+of this webpage.
+
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>cy8oq4ejsa88qv1vuxmllrenz1om6wx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Empty</title>
+    <ns>14</ns>
+    <id>73</id>
+    <revision>
+      <id>126</id>
+      <parentid>124</parentid>
+      <timestamp>2024-08-24T17:00:16Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>126</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="114" sha1="aas2v6b1g0cxutzq91ex0zj8b1ntb30" xml:space="preserve">This is an empty category
+
+[[Category:Root]]
+[[Category:DanteInitialCustomize]]
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>aas2v6b1g0cxutzq91ex0zj8b1ntb30</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:DanteInitialCustomize</title>
+    <ns>14</ns>
+    <id>87</id>
+    <revision>
+      <id>125</id>
+      <parentid>117</parentid>
+      <timestamp>2024-08-24T17:00:12Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>125</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="167" sha1="9wa4rf2ocqixm5565cla6k39adbx2xa" xml:space="preserve">This category is for initial contents pages of dantewiki which should be
+customized by the user.
+
+
+[[Category:DanteInitialContents]]
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>9wa4rf2ocqixm5565cla6k39adbx2xa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Pages with syntax highlighting errors</title>
+    <ns>14</ns>
+    <id>71</id>
+    <revision>
+      <id>127</id>
+      <parentid>86</parentid>
+      <timestamp>2024-08-24T17:00:20Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>127</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="94" sha1="ri1ksl46fcyn5wk19jrf022mf8bf4e1" xml:space="preserve">Do not remove this page. It is needed by the system itself.
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>ri1ksl46fcyn5wk19jrf022mf8bf4e1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:ParsifalTemplate</title>
+    <ns>14</ns>
+    <id>69</id>
+    <revision>
+      <id>128</id>
+      <parentid>84</parentid>
+      <timestamp>2024-08-24T17:00:23Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>128</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="233" sha1="j0uts8u9y9s0z0jt0o66b8rq7f2rezk" xml:space="preserve">This category contains all pages which may serve as templates for the Parsifal extension.
+
+Usually, such templates are also in the MediaWiki: namespace and subpages of [[MediaWiki:ParsifalTemplate]]
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>j0uts8u9y9s0z0jt0o66b8rq7f2rezk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Root</title>
+    <ns>14</ns>
+    <id>70</id>
+    <revision>
+      <id>129</id>
+      <parentid>123</parentid>
+      <timestamp>2024-08-24T17:00:26Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>129</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="67" sha1="rap1hj047h1eae9b5m5ii1ll6lswbah" xml:space="preserve">This is a generic root category.
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>rap1hj047h1eae9b5m5ii1ll6lswbah</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Testpage</title>
+    <ns>14</ns>
+    <id>72</id>
+    <revision>
+      <id>130</id>
+      <parentid>87</parentid>
+      <timestamp>2024-08-24T17:00:30Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>130</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="97" sha1="1dw0fc295o2lizaqvncbqtj0r5qpukh" xml:space="preserve">Pages in this category are for testing and demo purposes only.
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>1dw0fc295o2lizaqvncbqtj0r5qpukh</sha1>
+    </revision>
+  </page>
 </mediawiki>
