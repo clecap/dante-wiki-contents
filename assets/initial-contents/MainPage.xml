@@ -41,46 +41,21 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>1594</id>
-      <parentid>1549</parentid>
-      <timestamp>2024-08-19T17:10:23Z</timestamp>
+      <id>29</id>
+      <parentid>1</parentid>
+      <timestamp>2024-08-24T14:14:04Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>Maintenance script</username>
+        <id>3</id>
       </contributor>
-      <origin>1594</origin>
+      <comment>Imported by wiki-init.sh</comment>
+      <origin>29</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="280" sha1="bp39fo4jeitzrjn5n75xyay41eylf6j" xml:space="preserve">
+      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
 
-This is a freshly installed Dante Wiki.
-
-[[Translated:Main Page]]
-
-
-[[Languagetest]]
-
-=== Subpages of Main Page are ===
-{{Special:PrefixIndex/Help:Subpages/}}
-
-
-== Markdwon ==
-&lt;markdown&gt;
-This is a test.
-
-* Markdown *
-'''m'''
-_m_
-
-* ma
-* ba
-* ji
-
-1. qwe
-1. sdf
-1. sdf
-&lt;/markdown&gt;</text>
-      <sha1>bp39fo4jeitzrjn5n75xyay41eylf6j</sha1>
+This is a freshly installed Dante Wiki.</text>
+      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
     </revision>
   </page>
 </mediawiki>
