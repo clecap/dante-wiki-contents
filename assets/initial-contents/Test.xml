@@ -37,30 +37,6 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>Test:/DanteLinks2</title>
-    <ns>3000</ns>
-    <id>61</id>
-    <revision>
-      <id>71</id>
-      <timestamp>2024-08-24T12:52:42Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test for DanteLinks]] to [[Test:/DanteLinks2]] without leaving a redirect</comment>
-      <origin>71</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="177" sha1="34brh7em6shfxd9xx2fq18qel0twxhs" xml:space="preserve">* Broken pipes for the internal links do not yet work.
-[[Main Page ¦ style=color:green;]]
-
-== Test for setting target ==
-* [https://www.mediawiki.org/ olgana ¦ target=_blank ]</text>
-      <sha1>34brh7em6shfxd9xx2fq18qel0twxhs</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Test:DanteLinks</title>
     <ns>3000</ns>
     <id>17</id>
@@ -83,6 +59,31 @@
 * [https://www.mediawiki.org/ olgana ¦ target=_blank ]
 [[Category:DanteInitialContents]]</text>
       <sha1>fw0c8e9nzmfd59pje2c5mqcx0mhb4h0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:DanteLinks2</title>
+    <ns>3000</ns>
+    <id>61</id>
+    <revision>
+      <id>151</id>
+      <parentid>71</parentid>
+      <timestamp>2024-08-25T15:56:22Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Admin moved page [[Test:/DanteLinks2]] to [[Test:DanteLinks2]] without leaving a redirect</comment>
+      <origin>71</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="177" sha1="34brh7em6shfxd9xx2fq18qel0twxhs" xml:space="preserve">* Broken pipes for the internal links do not yet work.
+[[Main Page ¦ style=color:green;]]
+
+== Test for setting target ==
+* [https://www.mediawiki.org/ olgana ¦ target=_blank ]</text>
+      <sha1>34brh7em6shfxd9xx2fq18qel0twxhs</sha1>
     </revision>
   </page>
   <page>
