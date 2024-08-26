@@ -2022,17 +2022,17 @@ asd khjks
     <ns>8</ns>
     <id>31</id>
     <revision>
-      <id>150</id>
-      <parentid>133</parentid>
-      <timestamp>2024-08-25T09:56:33Z</timestamp>
+      <id>161</id>
+      <parentid>159</parentid>
+      <timestamp>2024-08-25T17:51:11Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>150</origin>
+      <origin>161</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="622" sha1="5b063bxokv0gom0ji567yc8pgcwa98v" xml:space="preserve">
+      <text bytes="825" sha1="7gqhe16e8cu0pjjiba25oiherpf7il7" xml:space="preserve">
 
 &lt;pre&gt;
 File:Dblp.png
@@ -2041,15 +2041,21 @@ File:Flex.svg
 File:T-diagram.svg
 File:Compiler-abstraktion.svg
 File:Compiler-und-interpreter.svg
-MediaWiki:Aboutsite
 MediaWiki:AboutPage
+MediaWiki:Aboutsite
+MediaWiki:Backupcategories
+MediaWiki_Backupfiles
 MediaWiki:CategoryCloud
 MediaWiki:CategoryTree
 MediaWiki:Common.js
 MediaWiki:Copyrightwarning
 MediaWiki:Copyrightwarning2
+MediaWiki:CreatePage
 MediaWiki:Deletereason-dropdown
 MediaWiki:Disclaimerpage
+MediaWiki:Gadget-danteDump1.js
+MediaWiki:Gadget-danteGadgetTest.js
+MediaWiki:Gadgets-definition
 MediaWiki:Privacy
 MediaWiki:Privacypage
 MediaWiki:Sidebar
@@ -2058,11 +2064,12 @@ MediaWiki:Sidebar/Categories
 MediaWiki:Sidebar/Navigation
 MediaWiki:Sidebar/Social
 MediaWiki:Sidebar/UI
+MediaWiki:Transitivebackupcategories
 Template:Extension DPL
 Template:Subpages
 &lt;/pre&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>5b063bxokv0gom0ji567yc8pgcwa98v</sha1>
+      <sha1>7gqhe16e8cu0pjjiba25oiherpf7il7</sha1>
     </revision>
   </page>
   <page>
@@ -2315,6 +2322,28 @@ In a Wikipedia installation the respective settings usually are done as part of 
 [[Category:ParsifalTemplate]]
 [[Category:DanteInitialContents]]</text>
       <sha1>ocm8rwc2tld1k67gd8q12u94ovx7ujy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Todo</title>
+    <ns>14</ns>
+    <id>103</id>
+    <revision>
+      <id>163</id>
+      <parentid>162</parentid>
+      <timestamp>2024-08-25T17:53:50Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>163</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="70" sha1="pcvck8pxxomzef3j7mfd6edyvfzhj66" xml:space="preserve">Pages on which we have to work on.
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>pcvck8pxxomzef3j7mfd6edyvfzhj66</sha1>
     </revision>
   </page>
 </mediawiki>
