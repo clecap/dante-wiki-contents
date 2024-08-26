@@ -1431,6 +1431,27 @@ YW5ub3QgZGlzcGxheTwvdGV4dD48L2E+PC9zd2l0Y2g+PC9zdmc+
     </revision>
   </page>
   <page>
+    <title>MediaWiki:Backupcategories</title>
+    <ns>8</ns>
+    <id>48</id>
+    <revision>
+      <id>152</id>
+      <parentid>141</parentid>
+      <timestamp>2024-08-25T16:11:26Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>152</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="41" sha1="axdif1yjxju3r75lrxb1ly10m5ho2od" xml:space="preserve">Enter one category per line.
+&lt;pre&gt;
+&lt;/pre&gt;</text>
+      <sha1>axdif1yjxju3r75lrxb1ly10m5ho2od</sha1>
+    </revision>
+  </page>
+  <page>
     <title>MediaWiki:CategoryCloud</title>
     <ns>8</ns>
     <id>24</id>
@@ -1559,6 +1580,38 @@ this system are subject to copyright.
     </revision>
   </page>
   <page>
+    <title>MediaWiki:CreatePage</title>
+    <ns>8</ns>
+    <id>10</id>
+    <revision>
+      <id>10</id>
+      <timestamp>2024-07-29T18:42:41Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <origin>10</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="199" sha1="mefz1vjair2eh6idbwrzjv4wymcg5uw" xml:space="preserve">&lt;div style="float:left;"&gt;
+&lt;inputbox&gt;
+type=create 
+break=no 
+buttonlabel=Create new article with this title  
+&lt;/inputbox&gt;
+&lt;/div&gt;&lt;div style="clear:left;"&gt;&lt;/div&gt;
+
+
+
+
+
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>mefz1vjair2eh6idbwrzjv4wymcg5uw</sha1>
+    </revision>
+  </page>
+  <page>
     <title>MediaWiki:Deletereason-dropdown</title>
     <ns>8</ns>
     <id>38</id>
@@ -1599,6 +1652,121 @@ this system are subject to copyright.
       <format>text/x-wiki</format>
       <text bytes="18" sha1="r8bftppky4d71xmd6611zovab7xnn6e" xml:space="preserve">Project:Disclaimer</text>
       <sha1>r8bftppky4d71xmd6611zovab7xnn6e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Gadget-danteDump1.js</title>
+    <ns>8</ns>
+    <id>44</id>
+    <revision>
+      <id>50</id>
+      <timestamp>2023-06-04T19:54:50Z</timestamp>
+      <contributor>
+        <username>imported&gt;Dir</username>
+        <id>0</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>50</origin>
+      <model>javascript</model>
+      <format>text/javascript</format>
+      <text bytes="1080" sha1="epujlwy6slmgda06lpeaefxsn1lhi8z" xml:space="preserve">window.Dante=window.Dante || {};
+(function(){
+
+
+function escapeHtml(unsafe)
+{
+    return unsafe
+         .replace(/&amp;/g, "&amp;amp;")
+         .replace(/&lt;/g, "&amp;lt;")
+         .replace(/&gt;/g, "&amp;gt;")
+         .replace(/"/g, "&amp;quot;")
+         .replace(/'/g, "&amp;#039;");
+ }
+
+
+window.Dante.testDump=function(){
+  var myWindow = window.open("", "", "width=1200,height=800");
+
+  var params = {"srces":"core", "srcFeatures":"current", "target":"window","title":"Special:DanteDump"};
+
+  var formBody = [];
+  for (var property in params) {
+    var encodedKey   = encodeURIComponent (property);
+    var encodedValue = encodeURIComponent (params[property]);
+    formBody.push(encodedKey + "=" + encodedValue);
+  }
+  formBody = formBody.join("&amp;");
+
+
+  fetch('./Special:DanteDump', {
+    method: 'POST',
+    headers: {
+        'Accept': 'text/html',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: formBody})
+   .then( function(response){ return response.text();} )
+   .then( function(text){return myWindow.document.write("&lt;pre&gt;"+escapeHtml(text)+"&lt;/pre&gt;");} );
+}
+
+})();</text>
+      <sha1>epujlwy6slmgda06lpeaefxsn1lhi8z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Gadget-danteGadgetTest.js</title>
+    <ns>8</ns>
+    <id>42</id>
+    <revision>
+      <id>48</id>
+      <timestamp>2023-06-04T19:54:49Z</timestamp>
+      <contributor>
+        <username>imported&gt;Dir</username>
+        <id>0</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>48</origin>
+      <model>javascript</model>
+      <format>text/javascript</format>
+      <text bytes="187" sha1="0ek8xmfckm3ouywxtkxf5k45ka3odq9" xml:space="preserve">window.Dante=window.Dante || {};
+
+(function(){
+
+
+window.Dante.testConsoleDrei=function() {console.log ("testconsoleDrei");};
+
+console.log ("*** inside dante gadget", window.Dante);
+
+})();</text>
+      <sha1>0ek8xmfckm3ouywxtkxf5k45ka3odq9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Gadgets-definition</title>
+    <ns>8</ns>
+    <id>41</id>
+    <revision>
+      <id>47</id>
+      <timestamp>2023-06-04T19:54:49Z</timestamp>
+      <contributor>
+        <username>imported&gt;Dir</username>
+        <id>0</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>47</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="146" sha1="619q71sg2v39xymslvtl6l3pt98ia68" xml:space="preserve">
+
+== Test ==
+* danteGadgetTest[ResourceLoader]|danteGadgetTest.js
+
+* Edittop[ResourceLoader]|edittop.js
+* danteDump1[ResourceLoader]|danteDump1.js</text>
+      <sha1>619q71sg2v39xymslvtl6l3pt98ia68</sha1>
     </revision>
   </page>
   <page>
@@ -1885,6 +2053,28 @@ The contents of this page must conform to the following rules:
 
 [[Category:DanteInitialContents]]</text>
       <sha1>2wibqj59ggxdcdujsaqve3bzvaltwg5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Transitivebackupcategories</title>
+    <ns>8</ns>
+    <id>100</id>
+    <revision>
+      <id>154</id>
+      <timestamp>2024-08-25T16:15:07Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "One entry per line.  &lt;pre&gt; &lt;/pre&gt;"</comment>
+      <origin>154</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33" sha1="0lop0rgm336nbbxxc7bxrs4o27wg8u6" xml:space="preserve">One entry per line.
+
+&lt;pre&gt;
+&lt;/pre&gt;</text>
+      <sha1>0lop0rgm336nbbxxc7bxrs4o27wg8u6</sha1>
     </revision>
   </page>
   <page>
