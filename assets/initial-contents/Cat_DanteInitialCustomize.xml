@@ -285,4 +285,35 @@ Usually, such templates are also in the MediaWiki: namespace and subpages of [[M
       <sha1>1dw0fc295o2lizaqvncbqtj0r5qpukh</sha1>
     </revision>
   </page>
+  <page>
+    <title>MediaWiki:DanteInitialCustomize</title>
+    <ns>8</ns>
+    <id>32</id>
+    <revision>
+      <id>158</id>
+      <parentid>155</parentid>
+      <timestamp>2024-08-25T17:47:34Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>158</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="189" sha1="qglhhzd3444h75srxvzo7wvwuaizjc5" xml:space="preserve">
+
+
+&lt;pre&gt;
+MediaWiki:Copyright
+MediaWiki:CopyrightNotice
+MediaWiki:DanteIntialCustomize
+Project:About
+Project:Disclaimer
+Project:Privacy Information
+&lt;/pre&gt;
+
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>qglhhzd3444h75srxvzo7wvwuaizjc5</sha1>
+    </revision>
+  </page>
 </mediawiki>
