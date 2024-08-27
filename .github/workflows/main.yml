@@ -1,7 +1,11 @@
 name: Count Lines of Code
 
+
+# Do not run this on every push. We usually are pushing several files in a row shortly after one
+# another from DanteWiki and this usually results in github workflow system protesting due to an
+# inconsistent state happening while the line count is running
+
 on:
-  push:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight
 
