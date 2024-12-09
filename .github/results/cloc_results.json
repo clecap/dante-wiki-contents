@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0516819953918457,
+  "elapsed_seconds"    : 0.0533339977264404,
   "n_files"            : 12,
   "n_lines"            : 18510,
-  "files_per_second"   : 232.189177469207,
-  "lines_per_second"   : 358151.806246252},
+  "files_per_second"   : 224.997197126496,
+  "lines_per_second"   : 347058.17656762},
 "SQL" :{
   "nFiles": 1,
   "blank": 239,
@@ -23,16 +23,16 @@
   "code": 44},
 "Markdown" :{
   "nFiles": 2,
-  "blank": 3,
+  "blank": 2,
   "comment": 0,
-  "code": 14},
+  "code": 15},
 "Text" :{
   "nFiles": 1,
   "blank": 0,
   "comment": 0,
   "code": 12},
 "SUM": {
-  "blank": 1236,
+  "blank": 1235,
   "comment": 1581,
-  "code": 15693,
+  "code": 15694,
   "nFiles": 12} }
