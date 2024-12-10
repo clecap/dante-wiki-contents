@@ -41,21 +41,25 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>29</id>
-      <parentid>1</parentid>
-      <timestamp>2024-08-24T14:14:04Z</timestamp>
+      <id>138</id>
+      <parentid>130</parentid>
+      <timestamp>2024-12-10T23:10:49Z</timestamp>
       <contributor>
-        <username>Maintenance script</username>
-        <id>3</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>Imported by wiki-init.sh</comment>
-      <origin>29</origin>
+      <comment>Replaced content with "  This is a &lt;br&gt;&lt;br&gt;fres hly i nst alled Dante Wiki.  One Two Three"</comment>
+      <origin>138</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
+      <text bytes="67" sha1="erxz9mvygcezmxlpht37iiazxt6esyb" xml:space="preserve">
 
-This is a freshly installed Dante Wiki.</text>
-      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
+This is a &lt;br&gt;&lt;br&gt;fres hly i nst alled Dante Wiki.
+
+One
+Two
+Three</text>
+      <sha1>erxz9mvygcezmxlpht37iiazxt6esyb</sha1>
     </revision>
   </page>
 </mediawiki>
