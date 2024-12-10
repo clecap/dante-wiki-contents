@@ -37,17 +37,49 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>MediaWiki:ParsifalTemplate/amsmath</title>
+    <title>MediaWiki:Sidebar</title>
     <ns>8</ns>
     <id>2</id>
     <revision>
       <id>2</id>
+      <timestamp>2024-12-10T15:39:57Z</timestamp>
+      <contributor>
+        <username>Maintenance script</username>
+        <id>3</id>
+      </contributor>
+      <comment>Imported by wiki-init.sh</comment>
+      <origin>2</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="112" sha1="47aneato1p0lg93mn0wlpml14z0ctor" xml:space="preserve">* Areas
+
+* catus
+
+* Navigation
+
+* UI
+
+* Social
+
+* SEARCH
+* TOOLBOX
+* LANGUAGES
+[[Category:DanteInitialContents]]</text>
+      <sha1>47aneato1p0lg93mn0wlpml14z0ctor</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalTemplate/amsmath</title>
+    <ns>8</ns>
+    <id>4</id>
+    <revision>
+      <id>6</id>
       <timestamp>2024-04-06T14:21:54Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>2</origin>
+      <origin>6</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="14649" sha1="sy5729lg11n83ef841iu3ygd75j8yqr" xml:space="preserve">&lt;pre&gt;
@@ -577,16 +609,16 @@ magic-line-identifier-for-inclusion
   <page>
     <title>MediaWiki:ParsifalTemplate/beamer</title>
     <ns>8</ns>
-    <id>3</id>
+    <id>5</id>
     <revision>
-      <id>3</id>
+      <id>7</id>
       <timestamp>2023-11-11T16:25:32Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>3</origin>
+      <origin>7</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="315" sha1="77wde66imt8rtc83tqj7s55ib59bwb3" xml:space="preserve">&lt;pre&gt;
@@ -612,15 +644,15 @@ magic-line-identifier-for-inclusion
   <page>
     <title>MediaWiki:Sidebar/Social</title>
     <ns>8</ns>
-    <id>4</id>
+    <id>6</id>
     <revision>
-      <id>4</id>
+      <id>8</id>
       <timestamp>2023-11-08T11:36:05Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
         <id>0</id>
       </contributor>
-      <origin>4</origin>
+      <origin>8</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="371" sha1="ie7xpnedmhgi6axvwbqa6rrmblmuuz3" xml:space="preserve">&lt;pre&gt;
@@ -640,15 +672,15 @@ magic-line-identifier-for-inclusion
   <page>
     <title>MediaWiki:Sidebar/Categories</title>
     <ns>8</ns>
-    <id>5</id>
+    <id>7</id>
     <revision>
-      <id>5</id>
+      <id>9</id>
       <timestamp>2024-07-28T10:19:03Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>5</origin>
+      <origin>9</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="820" sha1="kz2ne280xhoypolclxrcgbfmt6uzwot" xml:space="preserve">This page is a system page. It controls what is shown in the
@@ -679,18 +711,19 @@ The contents of this page must conform to the following rules:
   <page>
     <title>MediaWiki:Sidebar/Navigation</title>
     <ns>8</ns>
-    <id>6</id>
+    <id>8</id>
     <revision>
-      <id>6</id>
-      <timestamp>2024-08-22T17:57:40Z</timestamp>
+      <id>135</id>
+      <parentid>133</parentid>
+      <timestamp>2024-12-10T23:00:14Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>6</origin>
+      <origin>135</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3813" sha1="667pkvx0lpg63c4s85k2cgdb7i2uldz" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3859" sha1="jzo9pbbj9oan5guxn7zam3yr9bzf01c" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -749,6 +782,7 @@ The contents of this page must conform to the following rules:
 ** [[Help:Tests for Drawio|Drawio]]
 ** Parsifal Tests
 *** [[Test/Parsifal Links]]
+*** [[Test:Vertical Tests | Vertical Tests]] 
 *** [[Test/Parsifal Long Page Scroll Test]]
 *** [[Help:Parsifal Internal Links]]
 *** [[Help:Demo for DanteLinks | Dante-Links]]
@@ -775,21 +809,21 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>667pkvx0lpg63c4s85k2cgdb7i2uldz</sha1>
+      <sha1>jzo9pbbj9oan5guxn7zam3yr9bzf01c</sha1>
     </revision>
   </page>
   <page>
     <title>MediaWiki:Sidebar/UI</title>
     <ns>8</ns>
-    <id>7</id>
+    <id>9</id>
     <revision>
-      <id>7</id>
+      <id>11</id>
       <timestamp>2023-11-10T19:16:21Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>7</origin>
+      <origin>11</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="407" sha1="2wibqj59ggxdcdujsaqve3bzvaltwg5" xml:space="preserve">&lt;pre&gt;
@@ -807,15 +841,15 @@ The contents of this page must conform to the following rules:
   <page>
     <title>MediaWiki:Copyrightwarning</title>
     <ns>8</ns>
-    <id>8</id>
+    <id>10</id>
     <revision>
-      <id>8</id>
+      <id>12</id>
       <timestamp>2024-07-29T18:35:24Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>8</origin>
+      <origin>12</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="106" sha1="khyn2j5pck39h0e3hm0fmxuh1ozr8tg" xml:space="preserve">Please note: All contributions to this system are subject to copyright.
@@ -827,16 +861,16 @@ The contents of this page must conform to the following rules:
   <page>
     <title>MediaWiki:Copyrightwarning2</title>
     <ns>8</ns>
-    <id>9</id>
+    <id>11</id>
     <revision>
-      <id>9</id>
+      <id>13</id>
       <timestamp>2024-07-27T19:23:52Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>9</origin>
+      <origin>13</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="110" sha1="m2kx6smcx3b6h3d718rp8nc2zq8if10" xml:space="preserve">Please note that all contributions to 
@@ -848,15 +882,15 @@ this system are subject to copyright.
   <page>
     <title>MediaWiki:CreatePage</title>
     <ns>8</ns>
-    <id>10</id>
+    <id>12</id>
     <revision>
-      <id>10</id>
+      <id>14</id>
       <timestamp>2024-07-29T18:42:41Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>10</origin>
+      <origin>14</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="199" sha1="mefz1vjair2eh6idbwrzjv4wymcg5uw" xml:space="preserve">&lt;div style="float:left;"&gt;
@@ -878,17 +912,143 @@ buttonlabel=Create new article with this title
     </revision>
   </page>
   <page>
+    <title>MediaWiki:DanteInitialContents</title>
+    <ns>8</ns>
+    <id>13</id>
+    <revision>
+      <id>16</id>
+      <timestamp>2024-08-25T17:51:11Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <origin>16</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="825" sha1="7gqhe16e8cu0pjjiba25oiherpf7il7" xml:space="preserve">
+
+&lt;pre&gt;
+File:Dblp.png
+File:Example.svg
+File:Flex.svg
+File:T-diagram.svg
+File:Compiler-abstraktion.svg
+File:Compiler-und-interpreter.svg
+MediaWiki:AboutPage
+MediaWiki:Aboutsite
+MediaWiki:Backupcategories
+MediaWiki_Backupfiles
+MediaWiki:CategoryCloud
+MediaWiki:CategoryTree
+MediaWiki:Common.js
+MediaWiki:Copyrightwarning
+MediaWiki:Copyrightwarning2
+MediaWiki:CreatePage
+MediaWiki:Deletereason-dropdown
+MediaWiki:Disclaimerpage
+MediaWiki:Gadget-danteDump1.js
+MediaWiki:Gadget-danteGadgetTest.js
+MediaWiki:Gadgets-definition
+MediaWiki:Privacy
+MediaWiki:Privacypage
+MediaWiki:Sidebar
+MediaWiki:Sidebar/Areas
+MediaWiki:Sidebar/Categories
+MediaWiki:Sidebar/Navigation
+MediaWiki:Sidebar/Social
+MediaWiki:Sidebar/UI
+MediaWiki:Transitivebackupcategories
+Template:Extension DPL
+Template:Subpages
+&lt;/pre&gt;
+[[Category:DanteInitialContents]]</text>
+      <sha1>7gqhe16e8cu0pjjiba25oiherpf7il7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalTemplate</title>
+    <ns>8</ns>
+    <id>14</id>
+    <revision>
+      <id>17</id>
+      <timestamp>2024-08-25T09:27:15Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>17</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="226" sha1="4mw02hc7pwab67qqr5nqsyim9gjbb4e" xml:space="preserve">Subpages of MediaWiki:ParsifalTemplate are templates for use with Parsifal.
+
+== List of Parsifal Templates ==
+
+{{Special:PrefixIndex/MediaWiki:ParsifalTemplate/}}
+[[Category:ParsifalTemplate]]
+[[Category:DanteInitialContents]]</text>
+      <sha1>4mw02hc7pwab67qqr5nqsyim9gjbb4e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalTemplate/PreambleTest</title>
+    <ns>8</ns>
+    <id>15</id>
+    <revision>
+      <id>18</id>
+      <timestamp>2024-08-25T09:40:37Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>18</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="155" sha1="d09uii42zgk6fumwjcckdlbbkuxhhs5" xml:space="preserve">&lt;pre&gt;
+\def\iamapreamble{I am a test of the preamble feature}
+
+
+&lt;/pre&gt;
+[[Category:ParsifalTemplate]]
+[[Category:DanteInitialContents]]
+[[Category:Testpage]]</text>
+      <sha1>d09uii42zgk6fumwjcckdlbbkuxhhs5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalTemplate/tex</title>
+    <ns>8</ns>
+    <id>16</id>
+    <revision>
+      <id>19</id>
+      <timestamp>2024-08-25T09:41:22Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>19</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="99" sha1="ocm8rwc2tld1k67gd8q12u94ovx7ujy" xml:space="preserve">magic-line-identifier-for-inclusion
+[[Category:ParsifalTemplate]]
+[[Category:DanteInitialContents]]</text>
+      <sha1>ocm8rwc2tld1k67gd8q12u94ovx7ujy</sha1>
+    </revision>
+  </page>
+  <page>
     <title>Help:Parsifal Cheat</title>
     <ns>12</ns>
-    <id>11</id>
+    <id>17</id>
     <revision>
-      <id>11</id>
+      <id>20</id>
       <timestamp>2024-07-27T20:41:58Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>11</origin>
+      <origin>20</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="965" sha1="gdcprgdvy3nythbwzdrp8i2o3x9afsr" xml:space="preserve">
@@ -928,16 +1088,16 @@ two parts.
   <page>
     <title>Help:Dante Cheat</title>
     <ns>12</ns>
-    <id>12</id>
+    <id>18</id>
     <revision>
-      <id>12</id>
+      <id>21</id>
       <timestamp>2023-11-08T12:13:11Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
         <id>0</id>
       </contributor>
       <comment>/* Dante Tree */</comment>
-      <origin>12</origin>
+      <origin>21</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="747" sha1="icte5f0n2iwvoxxckdccto4sdov4q66" xml:space="preserve">
@@ -966,16 +1126,16 @@ as opposed to [https://www.w3c.org W3C]
   <page>
     <title>Help:Sidebar</title>
     <ns>12</ns>
-    <id>13</id>
+    <id>19</id>
     <revision>
-      <id>13</id>
+      <id>22</id>
       <timestamp>2024-07-27T20:17:01Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>13</origin>
+      <origin>22</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="257" sha1="mhrzfonpkrkm0m2l8yxgdbx5yf6pqc2" xml:space="preserve">
@@ -993,9 +1153,9 @@ as opposed to [https://www.w3c.org W3C]
   <page>
     <title>Test:Parsifal</title>
     <ns>3000</ns>
-    <id>14</id>
+    <id>20</id>
     <revision>
-      <id>14</id>
+      <id>23</id>
       <timestamp>2024-08-22T14:35:17Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1003,7 +1163,7 @@ as opposed to [https://www.w3c.org W3C]
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal]] to [[Test:Parsifal]] without leaving a redirect</comment>
-      <origin>14</origin>
+      <origin>23</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1686" sha1="t3fvak519zx2qalio9dgslydkeejsfv" xml:space="preserve">asdaa
@@ -1115,9 +1275,9 @@ might have additional properties as well (The color red is an insufficient chara
   <page>
     <title>Test:Parsifal/Syntax Highlighting</title>
     <ns>3000</ns>
-    <id>15</id>
+    <id>21</id>
     <revision>
-      <id>15</id>
+      <id>24</id>
       <timestamp>2024-08-22T14:38:05Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1125,7 +1285,7 @@ might have additional properties as well (The color red is an insufficient chara
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal/Syntax Highlighting]] to [[Test:Parsifal/Syntax Highlighting]] without leaving a redirect</comment>
-      <origin>15</origin>
+      <origin>24</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="299" sha1="pg3c6yti2vwimlshsj3jxqa30f79bbh" xml:space="preserve">
@@ -1153,16 +1313,16 @@ def quick_sort(arr):
   <page>
     <title>Help:DanteLinks</title>
     <ns>12</ns>
-    <id>16</id>
+    <id>22</id>
     <revision>
-      <id>16</id>
+      <id>25</id>
       <timestamp>2024-07-27T20:10:00Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>16</origin>
+      <origin>25</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2710" sha1="e4kx4rvrm7puj6vxatjdbhi7j4bhwv1" xml:space="preserve">
@@ -1255,9 +1415,9 @@ rendering in text.
   <page>
     <title>Test:DanteLinks</title>
     <ns>3000</ns>
-    <id>17</id>
+    <id>23</id>
     <revision>
-      <id>17</id>
+      <id>26</id>
       <timestamp>2024-08-22T14:33:52Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1265,7 +1425,7 @@ rendering in text.
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/DanteLinks]] to [[Test:DanteLinks]] without leaving a redirect</comment>
-      <origin>17</origin>
+      <origin>26</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="211" sha1="fw0c8e9nzmfd59pje2c5mqcx0mhb4h0" xml:space="preserve">* Broken pipes for the internal links do not yet work.
@@ -1280,9 +1440,9 @@ rendering in text.
   <page>
     <title>Test:Reveal</title>
     <ns>3000</ns>
-    <id>18</id>
+    <id>24</id>
     <revision>
-      <id>18</id>
+      <id>27</id>
       <timestamp>2024-08-22T14:39:07Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1290,7 +1450,7 @@ rendering in text.
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Reveal]] to [[Test:Reveal]] without leaving a redirect</comment>
-      <origin>18</origin>
+      <origin>27</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="229" sha1="79r3kudp4povk94cubqufqs1b669x7c" xml:space="preserve">
@@ -1332,9 +1492,9 @@ asd asdv
   <page>
     <title>Test:Drawio</title>
     <ns>3000</ns>
-    <id>19</id>
+    <id>25</id>
     <revision>
-      <id>19</id>
+      <id>28</id>
       <timestamp>2024-08-22T14:34:25Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1342,7 +1502,7 @@ asd asdv
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Drawio]] to [[Test:Drawio]] without leaving a redirect</comment>
-      <origin>19</origin>
+      <origin>28</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="79" sha1="9v475rtow0pgp053k5j7x18mq8rdik9" xml:space="preserve">
@@ -1355,9 +1515,9 @@ asd asdv
   <page>
     <title>Test:Parsifal/Page Width</title>
     <ns>3000</ns>
-    <id>20</id>
+    <id>26</id>
     <revision>
-      <id>20</id>
+      <id>29</id>
       <timestamp>2024-08-22T14:36:09Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1365,7 +1525,7 @@ asd asdv
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal/Page Width]] to [[Test:Parsifal/Page Width]] without leaving a redirect</comment>
-      <origin>20</origin>
+      <origin>29</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1655" sha1="5vaha1o65xgx6oyx8j3hrxh7xuip9sz" xml:space="preserve">== Test for Parsifal Page Width ==
@@ -1487,43 +1647,11 @@ Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
     </revision>
   </page>
   <page>
-    <title>MediaWiki:Sidebar</title>
-    <ns>8</ns>
-    <id>28</id>
-    <revision>
-      <id>28</id>
-      <timestamp>2024-08-24T14:14:04Z</timestamp>
-      <contributor>
-        <username>Maintenance script</username>
-        <id>3</id>
-      </contributor>
-      <comment>Imported by wiki-init.sh</comment>
-      <origin>28</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="112" sha1="47aneato1p0lg93mn0wlpml14z0ctor" xml:space="preserve">* Areas
-
-* catus
-
-* Navigation
-
-* UI
-
-* Social
-
-* SEARCH
-* TOOLBOX
-* LANGUAGES
-[[Category:DanteInitialContents]]</text>
-      <sha1>47aneato1p0lg93mn0wlpml14z0ctor</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Test:Parsifal/Attribute test</title>
     <ns>3000</ns>
-    <id>60</id>
+    <id>27</id>
     <revision>
-      <id>70</id>
+      <id>30</id>
       <timestamp>2024-08-24T12:58:04Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1531,7 +1659,7 @@ Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Parsifal Diverse Demo]] to [[Test:Parsifal/Attribute test]] without leaving a redirect</comment>
-      <origin>70</origin>
+      <origin>30</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="3530" sha1="4bi88bcjos7hxrcg7d64zgxw5wl87f0" xml:space="preserve">&lt;amsmath style="border:10px solid green;"&gt;
@@ -1588,9 +1716,9 @@ Ve ry s  m a ll k
   <page>
     <title>Help:Parsifal</title>
     <ns>12</ns>
-    <id>77</id>
+    <id>28</id>
     <revision>
-      <id>92</id>
+      <id>31</id>
       <timestamp>2024-07-27T20:10:23Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1598,7 +1726,7 @@ Ve ry s  m a ll k
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Demo for Parsifal]] to [[Help:Parsifal]] without leaving a redirect</comment>
-      <origin>92</origin>
+      <origin>31</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="409" sha1="jwjxhzvm44czwu5zzqvsmapv9ue2z1q" xml:space="preserve">
@@ -1637,9 +1765,9 @@ a
   <page>
     <title>Test:Diverse</title>
     <ns>3000</ns>
-    <id>78</id>
+    <id>29</id>
     <revision>
-      <id>93</id>
+      <id>32</id>
       <timestamp>2024-08-24T12:49:17Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1647,7 +1775,7 @@ a
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Diverse]] to [[Test:Diverse]] without leaving a redirect</comment>
-      <origin>93</origin>
+      <origin>32</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2486" sha1="j4vs56yassv6p0an5onvidty8b3360w" xml:space="preserve">
@@ -1786,9 +1914,9 @@ scheduling dessen, was wir im backendsehen. hjkjhj
   <page>
     <title>Test:Transclusion</title>
     <ns>3000</ns>
-    <id>79</id>
+    <id>30</id>
     <revision>
-      <id>94</id>
+      <id>33</id>
       <timestamp>2024-08-24T12:52:18Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1796,7 +1924,7 @@ scheduling dessen, was wir im backendsehen. hjkjhj
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Transclusion]] to [[Test:Transclusion]] without leaving a redirect</comment>
-      <origin>94</origin>
+      <origin>33</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="34" sha1="db9o00csmtk4plmwiuw9qncfsje0tjv" xml:space="preserve">
@@ -1807,9 +1935,9 @@ scheduling dessen, was wir im backendsehen. hjkjhj
   <page>
     <title>Test:Parsifal/Internal Links</title>
     <ns>3000</ns>
-    <id>83</id>
+    <id>31</id>
     <revision>
-      <id>98</id>
+      <id>34</id>
       <timestamp>2024-08-24T12:55:10Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1817,7 +1945,7 @@ scheduling dessen, was wir im backendsehen. hjkjhj
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal/Internal Links]] to [[Test:Parsifal/Internal Links]] without leaving a redirect</comment>
-      <origin>98</origin>
+      <origin>34</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="140" sha1="ac0wu41f5hi6ofn7putyvs347h9lnps" xml:space="preserve">
@@ -1835,17 +1963,16 @@ scheduling dessen, was wir im backendsehen. hjkjhj
   <page>
     <title>Category:DanteInitialCustomize</title>
     <ns>14</ns>
-    <id>87</id>
+    <id>32</id>
     <revision>
-      <id>125</id>
-      <parentid>117</parentid>
+      <id>35</id>
       <timestamp>2024-08-24T17:00:12Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>125</origin>
+      <origin>35</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="167" sha1="9wa4rf2ocqixm5565cla6k39adbx2xa" xml:space="preserve">This category is for initial contents pages of dantewiki which should be
@@ -1860,17 +1987,17 @@ customized by the user.
   <page>
     <title>File:Dblp.png</title>
     <ns>6</ns>
-    <id>89</id>
+    <id>33</id>
     <revision>
-      <id>105</id>
-      <parentid>104</parentid>
-      <timestamp>2024-08-24T16:44:45Z</timestamp>
+      <id>37</id>
+      <parentid>36</parentid>
+      <timestamp>2024-12-10T15:43:26Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Admin uploaded [[File:Dblp.png]]</comment>
-      <origin>104</origin>
+      <origin>36</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="33" sha1="gvq6ut7lznild28cxvcvjb8qvitopum" xml:space="preserve">[[Category:DanteInitialContents]]</text>
@@ -1951,15 +2078,15 @@ kSJFbPg/Dn5P3/y8PTwAAAAASUVORK5CYII=
   <page>
     <title>Help:DanteWiki Concepts</title>
     <ns>12</ns>
-    <id>98</id>
+    <id>34</id>
     <revision>
-      <id>114</id>
+      <id>38</id>
       <timestamp>2024-08-24T12:09:10Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>114</origin>
+      <origin>38</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="942" sha1="7jwip36kzed153swy9zb8eueguz92da" xml:space="preserve">
@@ -1991,9 +2118,9 @@ avoids the usual distance between developers and users.
   <page>
     <title>Test:Parsifal/Raw Test</title>
     <ns>3000</ns>
-    <id>21</id>
+    <id>35</id>
     <revision>
-      <id>21</id>
+      <id>39</id>
       <timestamp>2024-08-22T14:38:45Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -2001,7 +2128,7 @@ avoids the usual distance between developers and users.
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal Raw Test]] to [[Test:Parsifal/Raw Test]] without leaving a redirect</comment>
-      <origin>21</origin>
+      <origin>39</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="170" sha1="jou9ssba6i4y1511d49ctg6k8agml6t" xml:space="preserve">This is a test for the raw parsifal tag tex.
@@ -2018,74 +2145,18 @@ asd khjks
     </revision>
   </page>
   <page>
-    <title>MediaWiki:DanteInitialContents</title>
-    <ns>8</ns>
-    <id>31</id>
-    <revision>
-      <id>161</id>
-      <parentid>159</parentid>
-      <timestamp>2024-08-25T17:51:11Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>161</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="825" sha1="7gqhe16e8cu0pjjiba25oiherpf7il7" xml:space="preserve">
-
-&lt;pre&gt;
-File:Dblp.png
-File:Example.svg
-File:Flex.svg
-File:T-diagram.svg
-File:Compiler-abstraktion.svg
-File:Compiler-und-interpreter.svg
-MediaWiki:AboutPage
-MediaWiki:Aboutsite
-MediaWiki:Backupcategories
-MediaWiki_Backupfiles
-MediaWiki:CategoryCloud
-MediaWiki:CategoryTree
-MediaWiki:Common.js
-MediaWiki:Copyrightwarning
-MediaWiki:Copyrightwarning2
-MediaWiki:CreatePage
-MediaWiki:Deletereason-dropdown
-MediaWiki:Disclaimerpage
-MediaWiki:Gadget-danteDump1.js
-MediaWiki:Gadget-danteGadgetTest.js
-MediaWiki:Gadgets-definition
-MediaWiki:Privacy
-MediaWiki:Privacypage
-MediaWiki:Sidebar
-MediaWiki:Sidebar/Areas
-MediaWiki:Sidebar/Categories
-MediaWiki:Sidebar/Navigation
-MediaWiki:Sidebar/Social
-MediaWiki:Sidebar/UI
-MediaWiki:Transitivebackupcategories
-Template:Extension DPL
-Template:Subpages
-&lt;/pre&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>7gqhe16e8cu0pjjiba25oiherpf7il7</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Help:DanteWiki FAQ</title>
     <ns>12</ns>
-    <id>53</id>
+    <id>36</id>
     <revision>
-      <id>135</id>
-      <parentid>134</parentid>
+      <id>40</id>
       <timestamp>2024-08-24T17:03:25Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>135</origin>
+      <origin>40</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2613" sha1="9j85j3byolcgtfn0ued2b21kozhrdwp" xml:space="preserve">
@@ -2165,17 +2236,16 @@ DanteWiki follows different goals and guidelines.
   <page>
     <title>Help:Customize</title>
     <ns>12</ns>
-    <id>85</id>
+    <id>37</id>
     <revision>
-      <id>136</id>
-      <parentid>100</parentid>
+      <id>41</id>
       <timestamp>2024-08-24T17:03:50Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>136</origin>
+      <origin>41</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1736" sha1="030wa6ty32bq5xhr23o8krpnhuryelp" xml:space="preserve">You might want to customize the following pages:
@@ -2228,17 +2298,16 @@ More information: https://www.mediawiki.org/wiki/Manual:Footer
   <page>
     <title>Help:Operational Modes</title>
     <ns>12</ns>
-    <id>30</id>
+    <id>38</id>
     <revision>
-      <id>137</id>
-      <parentid>34</parentid>
+      <id>42</id>
       <timestamp>2024-08-24T17:04:00Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>137</origin>
+      <origin>42</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="891" sha1="763pwjqhdeh6mjtc4djdxeaor0v3p6k" xml:space="preserve">A MediaWiki has to load and compile are large number of PHP files. This takes time, so during normal operations this process usually is cached, which saves a lot of time for loading and compilation. However, during development you do not want the files to be cached but you always want the most recent changes in the source code to be used. Thus, all files have to be loaded, check and, if necessary, recompiled. Also, you might want to see warning notices about 
@@ -2250,93 +2319,17 @@ In a Wikipedia installation the respective settings usually are done as part of 
     </revision>
   </page>
   <page>
-    <title>MediaWiki:ParsifalTemplate</title>
-    <ns>8</ns>
-    <id>51</id>
-    <revision>
-      <id>144</id>
-      <parentid>139</parentid>
-      <timestamp>2024-08-25T09:27:15Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>144</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="226" sha1="4mw02hc7pwab67qqr5nqsyim9gjbb4e" xml:space="preserve">Subpages of MediaWiki:ParsifalTemplate are templates for use with Parsifal.
-
-== List of Parsifal Templates ==
-
-{{Special:PrefixIndex/MediaWiki:ParsifalTemplate/}}
-[[Category:ParsifalTemplate]]
-[[Category:DanteInitialContents]]</text>
-      <sha1>4mw02hc7pwab67qqr5nqsyim9gjbb4e</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>MediaWiki:ParsifalTemplate/PreambleTest</title>
-    <ns>8</ns>
-    <id>52</id>
-    <revision>
-      <id>147</id>
-      <parentid>146</parentid>
-      <timestamp>2024-08-25T09:40:37Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>147</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="155" sha1="d09uii42zgk6fumwjcckdlbbkuxhhs5" xml:space="preserve">&lt;pre&gt;
-\def\iamapreamble{I am a test of the preamble feature}
-
-
-&lt;/pre&gt;
-[[Category:ParsifalTemplate]]
-[[Category:DanteInitialContents]]
-[[Category:Testpage]]</text>
-      <sha1>d09uii42zgk6fumwjcckdlbbkuxhhs5</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>MediaWiki:ParsifalTemplate/tex</title>
-    <ns>8</ns>
-    <id>46</id>
-    <revision>
-      <id>149</id>
-      <parentid>148</parentid>
-      <timestamp>2024-08-25T09:41:22Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>149</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="99" sha1="ocm8rwc2tld1k67gd8q12u94ovx7ujy" xml:space="preserve">magic-line-identifier-for-inclusion
-[[Category:ParsifalTemplate]]
-[[Category:DanteInitialContents]]</text>
-      <sha1>ocm8rwc2tld1k67gd8q12u94ovx7ujy</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Category:Todo</title>
     <ns>14</ns>
-    <id>103</id>
+    <id>39</id>
     <revision>
-      <id>163</id>
-      <parentid>162</parentid>
+      <id>43</id>
       <timestamp>2024-08-25T17:53:50Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>163</origin>
+      <origin>43</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="70" sha1="pcvck8pxxomzef3j7mfd6edyvfzhj66" xml:space="preserve">Pages on which we have to work on.
