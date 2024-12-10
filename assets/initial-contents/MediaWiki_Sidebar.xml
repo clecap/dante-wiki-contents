@@ -39,16 +39,16 @@
   <page>
     <title>MediaWiki:Sidebar</title>
     <ns>8</ns>
-    <id>28</id>
+    <id>2</id>
     <revision>
-      <id>28</id>
-      <timestamp>2024-08-24T14:14:04Z</timestamp>
+      <id>2</id>
+      <timestamp>2024-12-10T15:39:57Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
       </contributor>
       <comment>Imported by wiki-init.sh</comment>
-      <origin>28</origin>
+      <origin>2</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="112" sha1="47aneato1p0lg93mn0wlpml14z0ctor" xml:space="preserve">* Areas
