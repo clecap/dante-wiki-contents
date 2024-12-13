@@ -73,16 +73,17 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>6</id>
-      <timestamp>2024-04-06T14:21:54Z</timestamp>
+      <id>140</id>
+      <parentid>6</parentid>
+      <timestamp>2024-12-11T16:24:21Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>6</origin>
+      <origin>140</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="14649" sha1="sy5729lg11n83ef841iu3ygd75j8yqr" xml:space="preserve">&lt;pre&gt;
+      <text bytes="14517" sha1="718fhdc4jq2kjcjsj5dnek9ssapex0k" xml:space="preserve">&lt;pre&gt;
 \documentclass[varwidth=15cm,margin=0.07cm]{standalone} 
 
 %%
@@ -288,8 +289,6 @@
 %%
 %% LOCALIZATION
 %%  
-\usepackage[shorthands=off,german]{babel}%  localization; MUST turn off shorthands due to an interference with some xypic features
-
 
 
 %%
@@ -603,7 +602,7 @@ magic-line-identifier-for-inclusion
 
 [[Category:DanteInitialContents]]
 [[Category:ParsifalTemplate]]</text>
-      <sha1>sy5729lg11n83ef841iu3ygd75j8yqr</sha1>
+      <sha1>718fhdc4jq2kjcjsj5dnek9ssapex0k</sha1>
     </revision>
   </page>
   <page>
@@ -713,17 +712,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>135</id>
-      <parentid>133</parentid>
-      <timestamp>2024-12-10T23:00:14Z</timestamp>
+      <id>163</id>
+      <parentid>135</parentid>
+      <timestamp>2024-12-13T11:26:24Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>135</origin>
+      <origin>163</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3859" sha1="jzo9pbbj9oan5guxn7zam3yr9bzf01c" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3295" sha1="qyanmnwrznato5pkdl93y6mxo78qv77" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -781,19 +780,6 @@ The contents of this page must conform to the following rules:
 *** &lt;b&gt;[javascript:Dante.testDump(); Dante.testDump]&lt;/b&gt;
 ** [[Help:Tests for Drawio|Drawio]]
 ** Parsifal Tests
-*** [[Test/Parsifal Links]]
-*** [[Test:Vertical Tests | Vertical Tests]] 
-*** [[Test/Parsifal Long Page Scroll Test]]
-*** [[Help:Parsifal Internal Links]]
-*** [[Help:Demo for DanteLinks | Dante-Links]]
-*** [[Help:Demo for Parsifal | Parsifal]]
-*** [[Help:Diverse Tests]]
-*** [[Test/Parsifal Section Heading Style]]
-*** [[Help:Parsifal Diverse Demo|Diverse Parsifal]]
-*** [[Help:Test for DanteLinks|DanteLinks]]
-*** [[Help:Parsifal Test|Parsifal General Tests]]
-*** [[Help:Parsifal Raw Test|Parsifal Raw Tests]]
-*** [[Help:Parsifal Page Width|Parsifal Page Width]]
 *** [[Help:Slides Test Reveal|Slides Reveal]]
 * [[Special:Upload| Upload file]]
 * [[Special:SpecialPages| Special pages]]
@@ -809,7 +795,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>jzo9pbbj9oan5guxn7zam3yr9bzf01c</sha1>
+      <sha1>qyanmnwrznato5pkdl93y6mxo78qv77</sha1>
     </revision>
   </page>
   <page>
@@ -817,25 +803,27 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>11</id>
-      <timestamp>2023-11-10T19:16:21Z</timestamp>
+      <id>162</id>
+      <parentid>11</parentid>
+      <timestamp>2024-12-12T23:12:56Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>11</origin>
+      <origin>162</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="407" sha1="2wibqj59ggxdcdujsaqve3bzvaltwg5" xml:space="preserve">&lt;pre&gt;
+      <text bytes="554" sha1="h6ftj2hwx01hf7ss6iklc8e92p6u7wo" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b id="limitSize" title="Change setting: Limit automagic growth of TeX areas."&gt;[javascript:PRT.toggleLimitSize() Limit Size:]&lt;/b&gt;
+* &lt;b id="editHandles" title="Change setting: Show separate edit handles for all TeX areas."&gt;[javascript:PRT.toggleEditHandles() Edit Handles:]&lt;/b&gt;
 * &lt;b id="variantShow" title="Change setting: Show variants of pages."&gt;[javascript:PRT.toggleVariants() Show Variants:]&lt;/b&gt;
 * &lt;b&gt;[javascript:window.persistCatWindow() Persist Cat Window]&lt;/b&gt;
 }}
 &lt;/pre&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>2wibqj59ggxdcdujsaqve3bzvaltwg5</sha1>
+      <sha1>h6ftj2hwx01hf7ss6iklc8e92p6u7wo</sha1>
     </revision>
   </page>
   <page>
@@ -2015,63 +2003,7 @@ customized by the user.
       <size>3218</size>
       <sha1base36>28uiews9ny3x2y96fvloeiq0s10e74l</sha1base36>
       <rel>2/2c/Dblp.png</rel>
-      <contents encoding="base64">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
-kSJFbPg/Dn5P3/y8PTwAAAAASUVORK5CYII=
+      <contents encoding="base64">
       </contents>
     </upload>
   </page>
