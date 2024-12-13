@@ -42,7 +42,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-10T15:39:57Z</timestamp>
+      <timestamp>2024-12-13T18:16:41Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -73,14 +73,13 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>140</id>
-      <parentid>6</parentid>
+      <id>7</id>
       <timestamp>2024-12-11T16:24:21Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>140</origin>
+      <origin>7</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="14517" sha1="718fhdc4jq2kjcjsj5dnek9ssapex0k" xml:space="preserve">&lt;pre&gt;
@@ -610,14 +609,14 @@ magic-line-identifier-for-inclusion
     <ns>8</ns>
     <id>5</id>
     <revision>
-      <id>7</id>
+      <id>8</id>
       <timestamp>2023-11-11T16:25:32Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>7</origin>
+      <origin>8</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="315" sha1="77wde66imt8rtc83tqj7s55ib59bwb3" xml:space="preserve">&lt;pre&gt;
@@ -645,13 +644,13 @@ magic-line-identifier-for-inclusion
     <ns>8</ns>
     <id>6</id>
     <revision>
-      <id>8</id>
+      <id>9</id>
       <timestamp>2023-11-08T11:36:05Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
         <id>0</id>
       </contributor>
-      <origin>8</origin>
+      <origin>9</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="371" sha1="ie7xpnedmhgi6axvwbqa6rrmblmuuz3" xml:space="preserve">&lt;pre&gt;
@@ -673,13 +672,13 @@ magic-line-identifier-for-inclusion
     <ns>8</ns>
     <id>7</id>
     <revision>
-      <id>9</id>
+      <id>10</id>
       <timestamp>2024-07-28T10:19:03Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>9</origin>
+      <origin>10</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="820" sha1="kz2ne280xhoypolclxrcgbfmt6uzwot" xml:space="preserve">This page is a system page. It controls what is shown in the
@@ -712,14 +711,13 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>163</id>
-      <parentid>135</parentid>
+      <id>11</id>
       <timestamp>2024-12-13T11:26:24Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>163</origin>
+      <origin>11</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="3295" sha1="qyanmnwrznato5pkdl93y6mxo78qv77" xml:space="preserve">&lt;pre&gt;
@@ -803,14 +801,13 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>162</id>
-      <parentid>11</parentid>
+      <id>12</id>
       <timestamp>2024-12-12T23:12:56Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>162</origin>
+      <origin>12</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="554" sha1="h6ftj2hwx01hf7ss6iklc8e92p6u7wo" xml:space="preserve">&lt;pre&gt;
@@ -831,13 +828,13 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>10</id>
     <revision>
-      <id>12</id>
+      <id>13</id>
       <timestamp>2024-07-29T18:35:24Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>12</origin>
+      <origin>13</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="106" sha1="khyn2j5pck39h0e3hm0fmxuh1ozr8tg" xml:space="preserve">Please note: All contributions to this system are subject to copyright.
@@ -851,14 +848,14 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>11</id>
     <revision>
-      <id>13</id>
+      <id>14</id>
       <timestamp>2024-07-27T19:23:52Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>13</origin>
+      <origin>14</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="110" sha1="m2kx6smcx3b6h3d718rp8nc2zq8if10" xml:space="preserve">Please note that all contributions to 
@@ -872,13 +869,13 @@ this system are subject to copyright.
     <ns>8</ns>
     <id>12</id>
     <revision>
-      <id>14</id>
+      <id>15</id>
       <timestamp>2024-07-29T18:42:41Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>14</origin>
+      <origin>15</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="199" sha1="mefz1vjair2eh6idbwrzjv4wymcg5uw" xml:space="preserve">&lt;div style="float:left;"&gt;
@@ -1977,8 +1974,7 @@ customized by the user.
     <ns>6</ns>
     <id>33</id>
     <revision>
-      <id>37</id>
-      <parentid>36</parentid>
+      <id>36</id>
       <timestamp>2024-12-10T15:43:26Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
@@ -1991,34 +1987,19 @@ customized by the user.
       <text bytes="33" sha1="gvq6ut7lznild28cxvcvjb8qvitopum" xml:space="preserve">[[Category:DanteInitialContents]]</text>
       <sha1>gvq6ut7lznild28cxvcvjb8qvitopum</sha1>
     </revision>
-    <upload>
-      <timestamp>2024-07-29T11:44:25Z</timestamp>
-      <contributor>
-        <username>Imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment deleted="deleted" />
-      <filename>Dblp.png</filename>
-      <src>https://localhost:4443/wiki-dir/images/2/2c/Dblp.png</src>
-      <size>3218</size>
-      <sha1base36>28uiews9ny3x2y96fvloeiq0s10e74l</sha1base36>
-      <rel>2/2c/Dblp.png</rel>
-      <contents encoding="base64">
-      </contents>
-    </upload>
   </page>
   <page>
     <title>Help:DanteWiki Concepts</title>
     <ns>12</ns>
     <id>34</id>
     <revision>
-      <id>38</id>
+      <id>37</id>
       <timestamp>2024-08-24T12:09:10Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>38</origin>
+      <origin>37</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="942" sha1="7jwip36kzed153swy9zb8eueguz92da" xml:space="preserve">
@@ -2052,7 +2033,7 @@ avoids the usual distance between developers and users.
     <ns>3000</ns>
     <id>35</id>
     <revision>
-      <id>39</id>
+      <id>38</id>
       <timestamp>2024-08-22T14:38:45Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -2060,7 +2041,7 @@ avoids the usual distance between developers and users.
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Parsifal Raw Test]] to [[Test:Parsifal/Raw Test]] without leaving a redirect</comment>
-      <origin>39</origin>
+      <origin>38</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="170" sha1="jou9ssba6i4y1511d49ctg6k8agml6t" xml:space="preserve">This is a test for the raw parsifal tag tex.
@@ -2081,14 +2062,14 @@ asd khjks
     <ns>12</ns>
     <id>36</id>
     <revision>
-      <id>40</id>
+      <id>39</id>
       <timestamp>2024-08-24T17:03:25Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>40</origin>
+      <origin>39</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2613" sha1="9j85j3byolcgtfn0ued2b21kozhrdwp" xml:space="preserve">
@@ -2170,14 +2151,14 @@ DanteWiki follows different goals and guidelines.
     <ns>12</ns>
     <id>37</id>
     <revision>
-      <id>41</id>
+      <id>40</id>
       <timestamp>2024-08-24T17:03:50Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>41</origin>
+      <origin>40</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1736" sha1="030wa6ty32bq5xhr23o8krpnhuryelp" xml:space="preserve">You might want to customize the following pages:
@@ -2232,14 +2213,14 @@ More information: https://www.mediawiki.org/wiki/Manual:Footer
     <ns>12</ns>
     <id>38</id>
     <revision>
-      <id>42</id>
+      <id>41</id>
       <timestamp>2024-08-24T17:04:00Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>42</origin>
+      <origin>41</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="891" sha1="763pwjqhdeh6mjtc4djdxeaor0v3p6k" xml:space="preserve">A MediaWiki has to load and compile are large number of PHP files. This takes time, so during normal operations this process usually is cached, which saves a lot of time for loading and compilation. However, during development you do not want the files to be cached but you always want the most recent changes in the source code to be used. Thus, all files have to be loaded, check and, if necessary, recompiled. Also, you might want to see warning notices about 
@@ -2255,13 +2236,13 @@ In a Wikipedia installation the respective settings usually are done as part of 
     <ns>14</ns>
     <id>39</id>
     <revision>
-      <id>43</id>
+      <id>42</id>
       <timestamp>2024-08-25T17:53:50Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>43</origin>
+      <origin>42</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="70" sha1="pcvck8pxxomzef3j7mfd6edyvfzhj66" xml:space="preserve">Pages on which we have to work on.
@@ -2269,6 +2250,186 @@ In a Wikipedia installation the respective settings usually are done as part of 
 
 [[Category:DanteInitialContents]]</text>
       <sha1>pcvck8pxxomzef3j7mfd6edyvfzhj66</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Graphviz</title>
+    <ns>3000</ns>
+    <id>73</id>
+    <revision>
+      <id>80</id>
+      <parentid>79</parentid>
+      <timestamp>2024-12-13T19:19:26Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>80</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2501" sha1="1umdtw3xfeok4j1h6dthsb4843maoic" xml:space="preserve">
+== Graph 1 ==
+&lt;graphviz&gt;
+graph {
+    a -- b;
+    b -- c;
+    a -- c;
+    d -- c;
+    e -- c;
+    e -- a;
+}
+&lt;/graphviz&gt;
+
+== Graph 2 ==
+&lt;graphviz&gt;
+graph {
+    a -- b;
+    b -- c;
+    c -- d;
+    d -- e;
+    e -- f;
+    a -- f;
+    a -- c;
+    a -- d;
+    a -- e;
+    b -- d;
+    b -- e;
+    b -- f;
+    c -- e;
+    c -- f;
+    d -- f;
+}
+&lt;/graphviz&gt;
+
+== Graph 3 ==
+
+&lt;graphviz&gt;
+digraph {
+    a -&gt; b;
+    b -&gt; c;
+    c -&gt; d;
+    d -&gt; a;
+}
+&lt;/graphviz&gt;
+
+== Graph 4 ==
+
+&lt;graphviz&gt;
+digraph {
+    a -&gt; b[label="0.2",weight="0.2"];
+    a -&gt; c[label="0.4",weight="0.4"];
+    c -&gt; b[label="0.6",weight="0.6"];
+    c -&gt; e[label="0.6",weight="0.6"];
+    e -&gt; e[label="0.1",weight="0.1"];
+    e -&gt; b[label="0.7",weight="0.7"];
+}
+&lt;/graphviz&gt;
+
+== Graph 5 ==
+
+&lt;graphviz&gt;
+graph {
+    a -- b[color=red,penwidth=3.0];
+    b -- c;
+    c -- d[color=red,penwidth=3.0];
+    d -- e;
+    e -- f;
+    a -- d;
+    b -- d[color=red,penwidth=3.0];
+    c -- f[color=red,penwidth=3.0];
+}
+&lt;/graphviz&gt;
+
+== Graph 6 ==
+
+&lt;graphviz&gt;
+digraph {
+    subgraph cluster_0 {
+        label="Subgraph A";
+        a -&gt; b;
+        b -&gt; c;
+        c -&gt; d;
+    }
+
+    subgraph cluster_1 {
+        label="Subgraph B";
+        a -&gt; f;
+        f -&gt; c;
+    }
+}
+&lt;/graphviz&gt;
+
+== Graph 7 ==
+
+&lt;graphviz&gt;
+graph {
+    splines=line;
+    subgraph cluster_0 {
+        label="Subgraph A";
+        a; b; c
+    }
+
+    subgraph cluster_1 {
+        label="Subgraph B";
+        d; e;
+    }
+
+    a -- e;
+    a -- d;
+    b -- d;
+    b -- e;
+    c -- d;
+    c -- e;
+}
+&lt;/graphviz&gt;
+
+== Graph 8 ==
+&lt;graphviz&gt;
+graph {
+    rankdir=LR; // Left to Right, instead of Top to Bottom
+    a -- { b c d };
+    b -- { c e };
+    c -- { e f };
+    d -- { f g };
+    e -- h;
+    f -- { h i j g };
+    g -- k;
+    h -- { o l };
+    i -- { l m j };
+    j -- { m n k };
+    k -- { n r };
+    l -- { o m };
+    m -- { o p n };
+    n -- { q r };
+    o -- { s p };
+    p -- { s t q };
+    q -- { t r };
+    r -- t;
+    s -- z;
+    t -- z;
+}
+&lt;/graphviz&gt;
+
+
+== Graph 9 ==
+&lt;graohviz&gt;
+graph {
+    rankdir=LR;
+    a -- { b c d }; b -- { c e }; c -- { e f }; d -- { f g }; e -- h;
+    f -- { h i j g }; g -- k; h -- { o l }; i -- { l m j }; j -- { m n k };
+    k -- { n r }; l -- { o m }; m -- { o p n }; n -- { q r };
+    o -- { s p }; p -- { s t q }; q -- { t r }; r -- t; s -- z; t -- z;
+    { rank=same; b, c, d }
+    { rank=same; e, f, g }
+    { rank=same; h, i, j, k }
+    { rank=same; l, m, n }
+    { rank=same; o, p, q, r }
+    { rank=same; s, t }
+}
+&lt;/graphviz&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>1umdtw3xfeok4j1h6dthsb4843maoic</sha1>
     </revision>
   </page>
 </mediawiki>
