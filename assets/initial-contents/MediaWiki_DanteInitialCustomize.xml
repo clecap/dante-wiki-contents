@@ -41,13 +41,13 @@
     <ns>8</ns>
     <id>71</id>
     <revision>
-      <id>81</id>
+      <id>75</id>
       <timestamp>2024-07-29T18:38:33Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>81</origin>
+      <origin>75</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="56" sha1="76wisucdgp4wi5ic2wv66ythkpfd76q" xml:space="preserve">Content is subject to copyright, unless otherwise noted.</text>
@@ -59,13 +59,13 @@
     <ns>8</ns>
     <id>72</id>
     <revision>
-      <id>82</id>
+      <id>76</id>
       <timestamp>2024-08-20T20:35:37Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>82</origin>
+      <origin>76</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="207" sha1="cujgv9it9b79lx8hpi6rd7ulyob1a15" xml:space="preserve">This is a Dante-Wiki. This is not Mediawiki and not Wikipedia.
@@ -80,13 +80,13 @@ site may adapt the copyright rules as necessary by editing this page.</text>
     <ns>4</ns>
     <id>41</id>
     <revision>
-      <id>45</id>
+      <id>44</id>
       <timestamp>2024-08-24T16:56:18Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>45</origin>
+      <origin>44</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="107" sha1="nozbgwh1pewr8gqibkbqxent99cylo7" xml:space="preserve">This page must be customized to describe the purpose of this DanteWiki.
@@ -100,13 +100,13 @@ site may adapt the copyright rules as necessary by editing this page.</text>
     <ns>4</ns>
     <id>42</id>
     <revision>
-      <id>46</id>
+      <id>45</id>
       <timestamp>2024-08-24T16:56:32Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>46</origin>
+      <origin>45</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="152" sha1="4iaz5lslraa0mbs0wc1p80p3bkqectc" xml:space="preserve">This page must be customized to describe the disclaimers, terms of services and conditions of use for this DanteWiki.
@@ -119,13 +119,13 @@ site may adapt the copyright rules as necessary by editing this page.</text>
     <ns>4</ns>
     <id>45</id>
     <revision>
-      <id>49</id>
+      <id>48</id>
       <timestamp>2024-08-24T16:57:13Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>49</origin>
+      <origin>48</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="331" sha1="cy8oq4ejsa88qv1vuxmllrenz1om6wx" xml:space="preserve">A Dantewiki is intended for the use of a single person or a very small number
