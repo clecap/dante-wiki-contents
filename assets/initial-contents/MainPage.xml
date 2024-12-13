@@ -41,25 +41,28 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>138</id>
-      <parentid>130</parentid>
-      <timestamp>2024-12-10T23:10:49Z</timestamp>
+      <id>165</id>
+      <parentid>164</parentid>
+      <timestamp>2024-12-13T12:12:05Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <comment>Replaced content with "  This is a &lt;br&gt;&lt;br&gt;fres hly i nst alled Dante Wiki.  One Two Three"</comment>
-      <origin>138</origin>
+      <origin>165</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="67" sha1="erxz9mvygcezmxlpht37iiazxt6esyb" xml:space="preserve">
+      <text bytes="104" sha1="e7p66yaasv5icj30hcw4i93e9bmyt2x" xml:space="preserve">
 
 This is a &lt;br&gt;&lt;br&gt;fres hly i nst alled Dante Wiki.
 
 One
 Two
-Three</text>
-      <sha1>erxz9mvygcezmxlpht37iiazxt6esyb</sha1>
+Three
+
+{{#dpl:
+|titlematch=Parsifal/D.*
+}}</text>
+      <sha1>e7p66yaasv5icj30hcw4i93e9bmyt2x</sha1>
     </revision>
   </page>
 </mediawiki>
