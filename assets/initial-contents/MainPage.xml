@@ -41,28 +41,21 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>165</id>
-      <parentid>164</parentid>
-      <timestamp>2024-12-13T12:12:05Z</timestamp>
+      <id>3</id>
+      <parentid>1</parentid>
+      <timestamp>2024-12-13T18:16:42Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>Maintenance script</username>
+        <id>3</id>
       </contributor>
-      <origin>165</origin>
+      <comment>Imported by wiki-init.sh</comment>
+      <origin>3</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="104" sha1="e7p66yaasv5icj30hcw4i93e9bmyt2x" xml:space="preserve">
+      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
 
-This is a &lt;br&gt;&lt;br&gt;fres hly i nst alled Dante Wiki.
-
-One
-Two
-Three
-
-{{#dpl:
-|titlematch=Parsifal/D.*
-}}</text>
-      <sha1>e7p66yaasv5icj30hcw4i93e9bmyt2x</sha1>
+This is a freshly installed Dante Wiki.</text>
+      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
     </revision>
   </page>
 </mediawiki>
