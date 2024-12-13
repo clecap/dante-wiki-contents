@@ -2432,4 +2432,108 @@ graph {
       <sha1>1umdtw3xfeok4j1h6dthsb4843maoic</sha1>
     </revision>
   </page>
+  <page>
+    <title>Test:Mermaid</title>
+    <ns>3000</ns>
+    <id>75</id>
+    <revision>
+      <id>82</id>
+      <timestamp>2024-12-13T19:35:54Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with " == Mermaid == &lt;mermaid&gt; mm(""" graph LR;     A--&gt; B &amp; C &amp; D;     B--&gt; A &amp; E;     C--&gt; A &amp; E;     D--&gt; A &amp; E;     E--&gt; B &amp; C &amp; D; """) &lt;/mermaid&gt;  == Mermaid 2 == &lt;mermaid&gt; mindmap Root     A       B       C &lt;/mermaid&gt;  [[Category:DanteInitialContents]]"</comment>
+      <origin>82</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="253" sha1="6x7b0vfrebh5nxw7p1umipj559mudth" xml:space="preserve">
+== Mermaid ==
+&lt;mermaid&gt;
+mm("""
+graph LR;
+    A--&gt; B &amp; C &amp; D;
+    B--&gt; A &amp; E;
+    C--&gt; A &amp; E;
+    D--&gt; A &amp; E;
+    E--&gt; B &amp; C &amp; D;
+""")
+&lt;/mermaid&gt;
+
+== Mermaid 2 ==
+&lt;mermaid&gt;
+mindmap
+Root
+    A
+      B
+      C
+&lt;/mermaid&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>6x7b0vfrebh5nxw7p1umipj559mudth</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Mscgen</title>
+    <ns>3000</ns>
+    <id>74</id>
+    <revision>
+      <id>83</id>
+      <parentid>81</parentid>
+      <timestamp>2024-12-13T19:36:27Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>83</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="845" sha1="49zsa7y9s5nu5gbh5wkhw0cnsss9m85" xml:space="preserve">
+== Message Sequence Chart 1 ==
+&lt;mscgen&gt;
+msc {
+  hscale = "2";
+
+  a,b,c;
+
+  a-&gt;b [ label = "ab()" ] ;
+  b-&gt;c [ label = "bc(TRUE)"];
+  c=&gt;c [ label = "process(1)" ];
+  c=&gt;c [ label = "process(2)" ];
+  ...;
+  c=&gt;c [ label = "process(n)" ];
+  c=&gt;c [ label = "process(END)" ];
+  a&lt;&lt;=c [ label = "callback()"];
+  ---  [ label = "If more to run", ID="*" ];
+  a-&gt;a [ label = "next()"];
+  a-&gt;c [ label = "ac1()\nac2()"];
+  b&lt;-c [ label = "cb(TRUE)"];
+  b-&gt;b [ label = "stalled(...)"];
+  a&lt;-b [ label = "ab() = FALSE"];
+}
+&lt;/mscgen&gt;
+
+== Message Sequence Chart 1 ==
+&lt;mscgen&gt;
+msc {
+ arcgradient = 8;
+
+ a [label="Client"],b [label="Server"];
+
+ a=&gt;b [label="data1"];
+ a-xb [label="data2"];
+ a=&gt;b [label="data3"];
+ a&lt;=b [label="ack1, nack2"];
+ a=&gt;b [label="data2", arcskip="1"];
+ |||;
+ a&lt;=b [label="ack3"];
+ |||;
+}
+&lt;/mscgen&gt;
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>49zsa7y9s5nu5gbh5wkhw0cnsss9m85</sha1>
+    </revision>
+  </page>
 </mediawiki>
