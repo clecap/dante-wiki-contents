@@ -1,13 +1,13 @@
-cloc|github.com/AlDanial/cloc v 1.98  T=0.05 s (247.5 files/s, 342963.7 lines/s)
+cloc|github.com/AlDanial/cloc v 1.98  T=0.05 s (256.9 files/s, 332826.6 lines/s)
 --- | ---
 
 Language|files|blank|comment|code
 :-------|-------:|-------:|-------:|-------:
 SQL|1|239|1578|9580
-XML|7|534|0|4586
+XML|7|559|0|3479
 YAML|1|12|3|44
 JSON|1|0|0|38
 Text|1|0|0|12
 Markdown|1|1|0|3
 --------|--------|--------|--------|--------
-SUM:|12|786|1581|14263
+SUM:|12|811|1581|13156
