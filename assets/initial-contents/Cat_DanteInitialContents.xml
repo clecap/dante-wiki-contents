@@ -42,7 +42,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-13T18:16:41Z</timestamp>
+      <timestamp>2024-12-18T13:08:01Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -711,16 +711,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>11</id>
-      <timestamp>2024-12-13T11:26:24Z</timestamp>
+      <id>85</id>
+      <parentid>11</parentid>
+      <timestamp>2024-12-18T18:01:27Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>11</origin>
+      <origin>85</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3295" sha1="qyanmnwrznato5pkdl93y6mxo78qv77" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -767,6 +768,10 @@ The contents of this page must conform to the following rules:
 ** [[Special:UncategorizedPages | Uncat Pages]]
 ** [[Special:WantedPages | Missing Pages]]
 
+* &lt;b title="Links supporting further development"&gt;Development&lt;/b&gt;
+** [[Special:DanteInitialLoad | Load Initial Pages]]
+** [[Special:DanteInitialStore | Store Initial Pages]]
+
 * &lt;b&gt;Demos &amp; Tests&lt;/b&gt;
 ** Javascript Gadget Tests
 *** &lt;b&gt;[javascript:window.DANTE.testConsole() window.DANTE.testConsole()]&lt;/b&gt;
@@ -793,7 +798,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>qyanmnwrznato5pkdl93y6mxo78qv77</sha1>
+      <sha1>45plr2mn9shvwcx1xsc6cnz18untrp1</sha1>
     </revision>
   </page>
   <page>
@@ -1402,24 +1407,39 @@ rendering in text.
     <ns>3000</ns>
     <id>23</id>
     <revision>
-      <id>26</id>
-      <timestamp>2024-08-22T14:33:52Z</timestamp>
+      <id>84</id>
+      <parentid>83</parentid>
+      <timestamp>2024-12-18T17:48:55Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/DanteLinks]] to [[Test:DanteLinks]] without leaving a redirect</comment>
-      <origin>26</origin>
+      <comment>/* Test for setting target */</comment>
+      <origin>84</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="211" sha1="fw0c8e9nzmfd59pje2c5mqcx0mhb4h0" xml:space="preserve">* Broken pipes for the internal links do not yet work.
+      <text bytes="885" sha1="9ca5eaht8b73tbhj1ih1ull1naho4t2" xml:space="preserve">* Broken pipes for the internal links do not yet work.
 [[Main Page ¦ style=color:green;]]
 
 == Test for setting target ==
 * [https://www.mediawiki.org/ olgana ¦ target=_blank ]
+
+
+
+* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
+
+* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
+
+* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
+
+* [https://www.mediawiki.org/ Test link (should open in small side) ending in backslash s shorthand \s]
+
+* [https://www.mediawiki.org/ Test link (should open in large side) ending in backslash S shorthand \S]
+
+* [https://www.mediawiki.org/ Test link (should open in window) ending in backslash w shorthand \w]
+
 [[Category:DanteInitialContents]]</text>
-      <sha1>fw0c8e9nzmfd59pje2c5mqcx0mhb4h0</sha1>
+      <sha1>9ca5eaht8b73tbhj1ih1ull1naho4t2</sha1>
     </revision>
   </page>
   <page>
@@ -2255,16 +2275,15 @@ In a Wikipedia installation the respective settings usually are done as part of 
   <page>
     <title>Test:Graphviz</title>
     <ns>3000</ns>
-    <id>73</id>
+    <id>40</id>
     <revision>
-      <id>80</id>
-      <parentid>79</parentid>
+      <id>43</id>
       <timestamp>2024-12-13T19:19:26Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>80</origin>
+      <origin>43</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2501" sha1="1umdtw3xfeok4j1h6dthsb4843maoic" xml:space="preserve">
@@ -2435,16 +2454,16 @@ graph {
   <page>
     <title>Test:Mermaid</title>
     <ns>3000</ns>
-    <id>75</id>
+    <id>41</id>
     <revision>
-      <id>82</id>
+      <id>44</id>
       <timestamp>2024-12-13T19:35:54Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Created page with " == Mermaid == &lt;mermaid&gt; mm(""" graph LR;     A--&gt; B &amp; C &amp; D;     B--&gt; A &amp; E;     C--&gt; A &amp; E;     D--&gt; A &amp; E;     E--&gt; B &amp; C &amp; D; """) &lt;/mermaid&gt;  == Mermaid 2 == &lt;mermaid&gt; mindmap Root     A       B       C &lt;/mermaid&gt;  [[Category:DanteInitialContents]]"</comment>
-      <origin>82</origin>
+      <origin>44</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="253" sha1="6x7b0vfrebh5nxw7p1umipj559mudth" xml:space="preserve">
@@ -2476,16 +2495,15 @@ Root
   <page>
     <title>Test:Mscgen</title>
     <ns>3000</ns>
-    <id>74</id>
+    <id>42</id>
     <revision>
-      <id>83</id>
-      <parentid>81</parentid>
+      <id>45</id>
       <timestamp>2024-12-13T19:36:27Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>83</origin>
+      <origin>45</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="845" sha1="49zsa7y9s5nu5gbh5wkhw0cnsss9m85" xml:space="preserve">
