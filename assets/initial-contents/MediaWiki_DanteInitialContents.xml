@@ -58,16 +58,16 @@
   <page>
     <title>File:Example.svg</title>
     <ns>6</ns>
-    <id>66</id>
+    <id>69</id>
     <revision>
-      <id>70</id>
+      <id>73</id>
       <timestamp>2024-12-10T15:43:45Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Admin uploaded [[File:Example.svg]]</comment>
-      <origin>70</origin>
+      <origin>73</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
@@ -77,16 +77,16 @@
   <page>
     <title>File:Flex.svg</title>
     <ns>6</ns>
-    <id>67</id>
+    <id>70</id>
     <revision>
-      <id>71</id>
+      <id>74</id>
       <timestamp>2024-12-10T15:43:45Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Admin uploaded [[File:Flex.svg]]</comment>
-      <origin>71</origin>
+      <origin>74</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
@@ -96,16 +96,16 @@
   <page>
     <title>File:T-diagram.svg</title>
     <ns>6</ns>
-    <id>68</id>
+    <id>71</id>
     <revision>
-      <id>72</id>
+      <id>75</id>
       <timestamp>2024-12-10T15:43:45Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Admin uploaded [[File:T-diagram.svg]]</comment>
-      <origin>72</origin>
+      <origin>75</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
@@ -115,16 +115,16 @@
   <page>
     <title>File:Compiler-abstraktion.svg</title>
     <ns>6</ns>
-    <id>69</id>
+    <id>72</id>
     <revision>
-      <id>73</id>
+      <id>76</id>
       <timestamp>2024-12-10T15:43:45Z</timestamp>
       <contributor>
         <username>Imported&gt;Dir</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Dir uploaded [[File:Compiler-abstraktion.svg]]</comment>
-      <origin>73</origin>
+      <origin>76</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
@@ -134,16 +134,16 @@
   <page>
     <title>File:Compiler-und-interpreter.svg</title>
     <ns>6</ns>
-    <id>70</id>
+    <id>73</id>
     <revision>
-      <id>74</id>
+      <id>77</id>
       <timestamp>2024-12-10T15:43:45Z</timestamp>
       <contributor>
         <username>Imported&gt;Dir</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Dir uploaded [[File:Compiler-und-interpreter.svg]]</comment>
-      <origin>74</origin>
+      <origin>77</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
@@ -153,15 +153,15 @@
   <page>
     <title>MediaWiki:Aboutsite</title>
     <ns>8</ns>
-    <id>51</id>
+    <id>54</id>
     <revision>
-      <id>54</id>
+      <id>57</id>
       <timestamp>2024-07-29T12:21:55Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>54</origin>
+      <origin>57</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="5" sha1="ciij5nit0pwhlb28jni0sl22sja9u7m" xml:space="preserve">About</text>
@@ -171,15 +171,15 @@
   <page>
     <title>MediaWiki:Backupcategories</title>
     <ns>8</ns>
-    <id>52</id>
+    <id>55</id>
     <revision>
-      <id>55</id>
+      <id>58</id>
       <timestamp>2024-08-25T16:11:26Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>55</origin>
+      <origin>58</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="41" sha1="axdif1yjxju3r75lrxb1ly10m5ho2od" xml:space="preserve">Enter one category per line.
@@ -191,15 +191,15 @@
   <page>
     <title>MediaWiki:CategoryCloud</title>
     <ns>8</ns>
-    <id>53</id>
+    <id>56</id>
     <revision>
-      <id>56</id>
+      <id>59</id>
       <timestamp>2024-08-20T20:39:05Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>56</origin>
+      <origin>59</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="252" sha1="4s3b8qq4erlpgv9fygl7gukhdvqnwam" xml:space="preserve">&lt;tagcloud&gt;&lt;/tagcloud&gt;
@@ -214,15 +214,15 @@ You can customize it according to your needs, as described in https://www.mediaw
   <page>
     <title>MediaWiki:CategoryTree</title>
     <ns>8</ns>
-    <id>54</id>
+    <id>57</id>
     <revision>
-      <id>57</id>
+      <id>60</id>
       <timestamp>2024-08-20T20:35:08Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>57</origin>
+      <origin>60</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="400" sha1="cfjnbgli98hkfruru7hwxrchnkj20a3" xml:space="preserve">== DanteInitialContents ==
@@ -241,15 +241,15 @@ https://www.mediawiki.org/wiki/Extension:CategoryTree.</text>
   <page>
     <title>MediaWiki:Common.js</title>
     <ns>8</ns>
-    <id>55</id>
+    <id>58</id>
     <revision>
-      <id>58</id>
+      <id>61</id>
       <timestamp>2024-07-27T19:25:08Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>58</origin>
+      <origin>61</origin>
       <model>javascript</model>
       <format>text/javascript</format>
       <text bytes="405" sha1="cupt0yavm500nuhqe7phw79rju72kt6" xml:space="preserve">/* Any JavaScript here will be loaded for all users on every page load. */
@@ -351,9 +351,9 @@ buttonlabel=Create new article with this title
   <page>
     <title>MediaWiki:Deletereason-dropdown</title>
     <ns>8</ns>
-    <id>56</id>
+    <id>59</id>
     <revision>
-      <id>59</id>
+      <id>62</id>
       <timestamp>2023-06-04T19:54:48Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
@@ -361,7 +361,7 @@ buttonlabel=Create new article with this title
       </contributor>
       <minor/>
       <comment>1 revision imported</comment>
-      <origin>59</origin>
+      <origin>62</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="104" sha1="nibcuv4myt6ub1l5h7vu1uysidqn80q" xml:space="preserve">* Common delete reasons
@@ -376,15 +376,15 @@ buttonlabel=Create new article with this title
   <page>
     <title>MediaWiki:Disclaimerpage</title>
     <ns>8</ns>
-    <id>57</id>
+    <id>60</id>
     <revision>
-      <id>60</id>
+      <id>63</id>
       <timestamp>2024-07-29T12:43:41Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>60</origin>
+      <origin>63</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="18" sha1="r8bftppky4d71xmd6611zovab7xnn6e" xml:space="preserve">Project:Disclaimer</text>
@@ -394,9 +394,9 @@ buttonlabel=Create new article with this title
   <page>
     <title>MediaWiki:Gadget-danteDump1.js</title>
     <ns>8</ns>
-    <id>58</id>
+    <id>61</id>
     <revision>
-      <id>61</id>
+      <id>64</id>
       <timestamp>2023-06-04T19:54:50Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
@@ -404,7 +404,7 @@ buttonlabel=Create new article with this title
       </contributor>
       <minor/>
       <comment>1 revision imported</comment>
-      <origin>61</origin>
+      <origin>64</origin>
       <model>javascript</model>
       <format>text/javascript</format>
       <text bytes="1080" sha1="epujlwy6slmgda06lpeaefxsn1lhi8z" xml:space="preserve">window.Dante=window.Dante || {};
@@ -454,9 +454,9 @@ window.Dante.testDump=function(){
   <page>
     <title>MediaWiki:Gadget-danteGadgetTest.js</title>
     <ns>8</ns>
-    <id>59</id>
+    <id>62</id>
     <revision>
-      <id>62</id>
+      <id>65</id>
       <timestamp>2023-06-04T19:54:49Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
@@ -464,7 +464,7 @@ window.Dante.testDump=function(){
       </contributor>
       <minor/>
       <comment>1 revision imported</comment>
-      <origin>62</origin>
+      <origin>65</origin>
       <model>javascript</model>
       <format>text/javascript</format>
       <text bytes="187" sha1="0ek8xmfckm3ouywxtkxf5k45ka3odq9" xml:space="preserve">window.Dante=window.Dante || {};
@@ -483,9 +483,9 @@ console.log ("*** inside dante gadget", window.Dante);
   <page>
     <title>MediaWiki:Gadgets-definition</title>
     <ns>8</ns>
-    <id>60</id>
+    <id>63</id>
     <revision>
-      <id>63</id>
+      <id>66</id>
       <timestamp>2023-06-04T19:54:49Z</timestamp>
       <contributor>
         <username>imported&gt;Dir</username>
@@ -493,7 +493,7 @@ console.log ("*** inside dante gadget", window.Dante);
       </contributor>
       <minor/>
       <comment>1 revision imported</comment>
-      <origin>63</origin>
+      <origin>66</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="146" sha1="619q71sg2v39xymslvtl6l3pt98ia68" xml:space="preserve">
@@ -509,16 +509,16 @@ console.log ("*** inside dante gadget", window.Dante);
   <page>
     <title>MediaWiki:Privacy</title>
     <ns>8</ns>
-    <id>61</id>
+    <id>64</id>
     <revision>
-      <id>64</id>
+      <id>67</id>
       <timestamp>2024-08-03T16:22:21Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Created page with "Privacy policy"</comment>
-      <origin>64</origin>
+      <origin>67</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="14" sha1="elavexk9q9vb5vypoqn1561i8wrbcuy" xml:space="preserve">Privacy policy</text>
@@ -528,15 +528,15 @@ console.log ("*** inside dante gadget", window.Dante);
   <page>
     <title>MediaWiki:Privacypage</title>
     <ns>8</ns>
-    <id>62</id>
+    <id>65</id>
     <revision>
-      <id>65</id>
+      <id>68</id>
       <timestamp>2024-07-28T10:41:03Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>65</origin>
+      <origin>68</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="27" sha1="40e5gfpzgo6iyoipy6ax696ry6fsntq" xml:space="preserve">Project:Privacy Information</text>
@@ -549,7 +549,7 @@ console.log ("*** inside dante gadget", window.Dante);
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-13T18:16:41Z</timestamp>
+      <timestamp>2024-12-18T13:08:01Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -578,15 +578,15 @@ console.log ("*** inside dante gadget", window.Dante);
   <page>
     <title>MediaWiki:Sidebar/Areas</title>
     <ns>8</ns>
-    <id>63</id>
+    <id>66</id>
     <revision>
-      <id>66</id>
+      <id>69</id>
       <timestamp>2024-07-29T10:52:40Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>66</origin>
+      <origin>69</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="71" sha1="mavgq3mq09wq6136ksibma5nsvbp6hr" xml:space="preserve">&lt;pre&gt;
@@ -641,16 +641,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>11</id>
-      <timestamp>2024-12-13T11:26:24Z</timestamp>
+      <id>85</id>
+      <parentid>11</parentid>
+      <timestamp>2024-12-18T18:01:27Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>11</origin>
+      <origin>85</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3295" sha1="qyanmnwrznato5pkdl93y6mxo78qv77" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -697,6 +698,10 @@ The contents of this page must conform to the following rules:
 ** [[Special:UncategorizedPages | Uncat Pages]]
 ** [[Special:WantedPages | Missing Pages]]
 
+* &lt;b title="Links supporting further development"&gt;Development&lt;/b&gt;
+** [[Special:DanteInitialLoad | Load Initial Pages]]
+** [[Special:DanteInitialStore | Store Initial Pages]]
+
 * &lt;b&gt;Demos &amp; Tests&lt;/b&gt;
 ** Javascript Gadget Tests
 *** &lt;b&gt;[javascript:window.DANTE.testConsole() window.DANTE.testConsole()]&lt;/b&gt;
@@ -723,7 +728,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>qyanmnwrznato5pkdl93y6mxo78qv77</sha1>
+      <sha1>45plr2mn9shvwcx1xsc6cnz18untrp1</sha1>
     </revision>
   </page>
   <page>
@@ -784,16 +789,16 @@ The contents of this page must conform to the following rules:
   <page>
     <title>MediaWiki:Transitivebackupcategories</title>
     <ns>8</ns>
-    <id>64</id>
+    <id>67</id>
     <revision>
-      <id>67</id>
+      <id>70</id>
       <timestamp>2024-08-25T16:15:07Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Created page with "One entry per line.  &lt;pre&gt; &lt;/pre&gt;"</comment>
-      <origin>67</origin>
+      <origin>70</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="33" sha1="0lop0rgm336nbbxxc7bxrs4o27wg8u6" xml:space="preserve">One entry per line.
@@ -809,7 +814,7 @@ The contents of this page must conform to the following rules:
     <id>3</id>
     <revision>
       <id>5</id>
-      <timestamp>2024-12-13T18:16:49Z</timestamp>
+      <timestamp>2024-12-18T13:08:10Z</timestamp>
       <contributor>
         <username>DynamicPageList3 extension</username>
         <id>4</id>
@@ -825,15 +830,15 @@ The contents of this page must conform to the following rules:
   <page>
     <title>Template:Subpages</title>
     <ns>10</ns>
-    <id>65</id>
+    <id>68</id>
     <revision>
-      <id>69</id>
+      <id>72</id>
       <timestamp>2024-07-31T16:15:23Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>69</origin>
+      <origin>72</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1795" sha1="tn0x3qo9g7yapckix8baapp695in82r" xml:space="preserve">&lt;div style="font-size:90%;"&gt;
