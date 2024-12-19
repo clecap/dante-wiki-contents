@@ -42,7 +42,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-18T13:08:01Z</timestamp>
+      <timestamp>2024-12-18T22:06:08Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -73,16 +73,17 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>7</id>
-      <timestamp>2024-12-11T16:24:21Z</timestamp>
+      <id>81</id>
+      <parentid>7</parentid>
+      <timestamp>2024-12-19T08:57:50Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>7</origin>
+      <origin>81</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="14517" sha1="718fhdc4jq2kjcjsj5dnek9ssapex0k" xml:space="preserve">&lt;pre&gt;
+      <text bytes="14656" sha1="7dd7397y952zoj42jcjmixq0mpzazjo" xml:space="preserve">&lt;pre&gt;
 \documentclass[varwidth=15cm,margin=0.07cm]{standalone} 
 
 %%
@@ -92,12 +93,14 @@
 \usepackage[T1]{fontenc}             % fontencoding - FIRST load fontencoding 
 \usepackage[utf8]{inputenc}          % and only THEN load UTF-8 see https://tex.stackexchange.com/questions/13067/
 \usepackage{ucs}                     % unicode support
-\usepackage{comment}                 %    allows to flag portions of the document using \begin{comment} ... \end{comment}
+\usepackage{comment}                 % allows to flag portions of the document using \begin{comment} ... \end{comment}
 
 \usepackage{csquotes}                % quotes
 \usepackage{tabto}                   % command \tabto{2cm}
 \usepackage[usenames]{color}         % Should load before tcolorbox                  
 \usepackage{tcolorbox}
+\usepackage{xstring}                 % provides string manipulation, needed for definition of \dref and \durl in TexProcessor.php           
+
 
 %% minted is included dynamically
 
@@ -601,7 +604,7 @@ magic-line-identifier-for-inclusion
 
 [[Category:DanteInitialContents]]
 [[Category:ParsifalTemplate]]</text>
-      <sha1>718fhdc4jq2kjcjsj5dnek9ssapex0k</sha1>
+      <sha1>7dd7397y952zoj42jcjmixq0mpzazjo</sha1>
     </revision>
   </page>
   <page>
@@ -711,15 +714,14 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>87</id>
-      <parentid>86</parentid>
+      <id>11</id>
       <timestamp>2024-12-18T18:34:03Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Undo revision 86 by [[Special:Contributions/Admin|Admin]] ([[User talk:Admin|talk]])</comment>
-      <origin>87</origin>
+      <origin>11</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
@@ -1408,15 +1410,14 @@ rendering in text.
     <ns>3000</ns>
     <id>23</id>
     <revision>
-      <id>84</id>
-      <parentid>83</parentid>
+      <id>26</id>
       <timestamp>2024-12-18T17:48:55Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>/* Test for setting target */</comment>
-      <origin>84</origin>
+      <origin>26</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="885" sha1="9ca5eaht8b73tbhj1ih1ull1naho4t2" xml:space="preserve">* Broken pipes for the internal links do not yet work.
@@ -1943,27 +1944,26 @@ scheduling dessen, was wir im backendsehen. hjkjhj
     <ns>3000</ns>
     <id>31</id>
     <revision>
-      <id>34</id>
-      <timestamp>2024-08-24T12:55:10Z</timestamp>
+      <id>80</id>
+      <parentid>34</parentid>
+      <timestamp>2024-12-19T08:46:52Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Parsifal/Internal Links]] to [[Test:Parsifal/Internal Links]] without leaving a redirect</comment>
-      <origin>34</origin>
+      <origin>80</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="140" sha1="ac0wu41f5hi6ofn7putyvs347h9lnps" xml:space="preserve">
+      <text bytes="141" sha1="steolfloy69nqe0gb44ivg4ztl2ufba" xml:space="preserve">
 &lt;amsmath&gt;
 
-\dref{Help:Demo for Parsifal}{asd} Just asdd
+\dref{Help:Demo for Parsifal}{asd} Just asd d
 
 \dref{Help:Demo für Parsifal}{qdqd}
 
 &lt;/amsmath&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>ac0wu41f5hi6ofn7putyvs347h9lnps</sha1>
+      <sha1>steolfloy69nqe0gb44ivg4ztl2ufba</sha1>
     </revision>
   </page>
   <page>
