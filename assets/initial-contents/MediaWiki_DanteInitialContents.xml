@@ -549,7 +549,7 @@ console.log ("*** inside dante gadget", window.Dante);
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-18T13:08:01Z</timestamp>
+      <timestamp>2024-12-18T22:06:08Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -641,15 +641,14 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>87</id>
-      <parentid>86</parentid>
+      <id>11</id>
       <timestamp>2024-12-18T18:34:03Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>Undo revision 86 by [[Special:Contributions/Admin|Admin]] ([[User talk:Admin|talk]])</comment>
-      <origin>87</origin>
+      <origin>11</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
@@ -815,7 +814,7 @@ The contents of this page must conform to the following rules:
     <id>3</id>
     <revision>
       <id>5</id>
-      <timestamp>2024-12-18T13:08:10Z</timestamp>
+      <timestamp>2024-12-18T22:06:15Z</timestamp>
       <contributor>
         <username>DynamicPageList3 extension</username>
         <id>4</id>
