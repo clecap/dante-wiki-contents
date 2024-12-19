@@ -73,17 +73,17 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>81</id>
-      <parentid>7</parentid>
-      <timestamp>2024-12-19T08:57:50Z</timestamp>
+      <id>142</id>
+      <parentid>138</parentid>
+      <timestamp>2024-12-19T14:38:36Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>81</origin>
+      <origin>142</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="14656" sha1="7dd7397y952zoj42jcjmixq0mpzazjo" xml:space="preserve">&lt;pre&gt;
+      <text bytes="15842" sha1="qx0ikbi07b6svdx6d9idfbwhjyw70dh" xml:space="preserve">&lt;pre&gt;
 \documentclass[varwidth=15cm,margin=0.07cm]{standalone} 
 
 %%
@@ -103,6 +103,35 @@
 
 
 %% minted is included dynamically
+
+%%
+%% Delayed minted initialization code
+%% * We do not load minted here as part of the normal preamble as it slows down normal latex compilation
+%% * we only load minted on demand using attribute minted
+%% * However we cannot execute this in situations where we do not load the minted package
+%% * Therefore we define a (delayed executing) macro \initializeMinted here
+%%   in case the user sets the minted
+%%   attribute in the Latex tag - inject this as part of the PHP code.
+%% * Still we have the code here and can edit it as part of Dantewiki :-)
+%%
+
+% boxsep value sequence is: top left bottom right
+\def\initMintedLinenos{
+  \tcbuselibrary{breakable}
+  \tcbuselibrary{minted}
+  \renewcommand\theFancyVerbLine{\footnotesize\arabic{FancyVerbLine}}
+  \setminted{linenos=true,numbersep=6pt}
+  \BeforeBeginEnvironment{minted}{\begin{tcolorbox}[top=0pt, left=12pt, bottom=0pt, right=0pt,boxrule=0pt]}
+  \AfterEndEnvironment{minted}{\end{tcolorbox}}
+}
+
+\def\initMintedBox{
+  \tcbuselibrary{breakable}
+  \tcbuselibrary{minted}
+  \BeforeBeginEnvironment{minted}{\begin{tcolorbox}[top=0pt, left=0pt, bottom=0pt, right=0pt,boxrule=1pt]}
+  \AfterEndEnvironment{minted}{\end{tcolorbox}}
+}
+
 
 %%
 %% DRAWING and GRAPHICS
@@ -604,7 +633,7 @@ magic-line-identifier-for-inclusion
 
 [[Category:DanteInitialContents]]
 [[Category:ParsifalTemplate]]</text>
-      <sha1>7dd7397y952zoj42jcjmixq0mpzazjo</sha1>
+      <sha1>qx0ikbi07b6svdx6d9idfbwhjyw70dh</sha1>
     </revision>
   </page>
   <page>
@@ -714,17 +743,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>11</id>
-      <timestamp>2024-12-18T18:34:03Z</timestamp>
+      <id>122</id>
+      <parentid>11</parentid>
+      <timestamp>2024-12-19T13:52:08Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>Undo revision 86 by [[Special:Contributions/Admin|Admin]] ([[User talk:Admin|talk]])</comment>
-      <origin>11</origin>
+      <origin>122</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3906" sha1="c2acfdnhyz71bd268xnq9sr76xy9xgp" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -732,7 +761,15 @@ The contents of this page must conform to the following rules:
 * &lt;b style='color:red !important;'&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 
 * &lt;b&gt;Help&lt;/b&gt;
-** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3]
+
+** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
+** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
+** [https://ctan.net/graphics/pictex/PiCTeX_manual.pdf PiCTeX \S]
+** [https://texdoc.org/serve/xyrefer.pdf/0 XY-Pic Reference \S]
+** [http://www.map.mpim-bonn.mpg.de/images/4/41/Xyguide.pdf XY-Pic Users \S]
+** [https://www.jmilne.org/not/Mxymatrix.pdf XY-Matrix \S]
+
+** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3 \S]
 ** [[Help:Sidebar | Sidebar]]
 ** [[Help:Parsifal Cheat| Parsifal Cheat]]
 ** [[Help:Dante Cheat| Dante Cheat]]
@@ -801,7 +838,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>45plr2mn9shvwcx1xsc6cnz18untrp1</sha1>
+      <sha1>c2acfdnhyz71bd268xnq9sr76xy9xgp</sha1>
     </revision>
   </page>
   <page>
@@ -1035,17 +1072,18 @@ Template:Subpages
     <ns>12</ns>
     <id>17</id>
     <revision>
-      <id>20</id>
-      <timestamp>2024-07-27T20:41:58Z</timestamp>
+      <id>95</id>
+      <parentid>82</parentid>
+      <timestamp>2024-12-19T12:17:40Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>20</origin>
+      <comment>/* Attributes */</comment>
+      <origin>95</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="965" sha1="gdcprgdvy3nythbwzdrp8i2o3x9afsr" xml:space="preserve">
-
+      <text bytes="4815" sha1="8r3az80d0n6e6vkpo4dkz5816k1wfbo" xml:space="preserve">
 == Parsifal Cheat Sheet ==
 
 == Editor ==
@@ -1057,6 +1095,74 @@ without resizing the rest of the browser.
 
 
 === Attributes ===
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;sans&lt;/code&gt;&lt;/td&gt;   &lt;td&gt;Switches default font family to sans serif&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=2&gt;&lt;b&gt;Localization&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;de&lt;/code&gt;&lt;/td&gt;     &lt;td&gt;Switches localization to German for the entire Parsifal tag&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;nde&lt;/code&gt;&lt;/td&gt;    &lt;td&gt;Switches localization to Post-reform ("new") German for the entire Parsifal tag&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;en&lt;/code&gt;&lt;/td&gt;     &lt;td&gt;Switches localization to English (this is the default)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;babel=&lt;/code&gt;&lt;/td&gt;  &lt;td&gt;Switches babel parameters to shorthand=off plus the value of the babel attribute&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=2&gt;&lt;b&gt;Code Highlighting (Minted)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;minted&lt;/code&gt;&lt;/td&gt;  &lt;td&gt;Activates minted using default style emacs&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;minted=&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Activates minted using given style if exists, else emacs style&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=2&gt;&lt;b&gt;Preamble&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+=== Available minted Styles ===
+Names obtained via &lt;code&gt;pygmentize -L styles&lt;/code&gt;
+* abap:
+* algol:
+* algol_nu:
+* arduino: The Arduino® language style. This style is designed to highlight the Arduino source code, so expect the best results with it.
+* autumn: A colorful style, inspired by the terminal highlighting style.
+* bw:
+* borland: Style similar to the style used in the borland IDEs.
+* coffee: A warm and cozy theme based off gruvbox
+* colorful: A colorful style, inspired by CodeRay.
+* default: The default style (inspired by Emacs 22).
+* dracula:
+* emacs: The default style (inspired by Emacs 22).
+* friendly_grayscale: A modern grayscale style based on the friendly style.
+* friendly: A modern style based on the VIM pyte theme.
+* fruity: Pygments version of the "native" vim theme.
+* github-dark: Github's Dark-Colorscheme based theme for Pygments
+* gruvbox-dark: Pygments version of the "gruvbox" dark vim theme.
+* gruvbox-light: Pygments version of the "gruvbox" Light vim theme.
+* igor: Pygments version of the official colors for Igor Pro procedures.
+* inkpot:
+* lightbulb: A minimal dark theme based on the Lightbulb theme for VSCode.
+* lilypond: Style for the LilyPond language.
+* lovelace: The style used in Lovelace interactive learning environment. Tries to avoid the "angry fruit salad" effect with desaturated and dim colours.
+* manni: A colorful style, inspired by the terminal highlighting style.
+* material: This style mimics the Material Theme color scheme.
+* monokai: This style mimics the Monokai color scheme.
+* murphy: Murphy's style from CodeRay.
+* native: Pygments version of the "native" vim theme.
+* nord-darker: Pygments version of a darker "nord" theme by Arctic Ice Studio
+* nord: Pygments version of the "nord" theme by Arctic Ice Studio.
+* one-dark: Theme inspired by One Dark Pro for Atom.
+* paraiso-dark:
+* paraiso-light:
+* pastie: Style similar to the pastie default style.
+* perldoc: Style similar to the style used in the perldoc code blocks.
+* rainbow_dash: A bright and colorful syntax highlighting theme.
+* rrt: Minimalistic "rrt" theme, based on Zap and Emacs defaults.
+* sas: Style inspired by SAS' enhanced program editor. Note This is not meant to be a complete style. It's merely meant to mimic SAS' program editor syntax highlighting.
+* solarized-dark: The solarized style, dark.
+* solarized-light: The solarized style, light.
+* staroffice: Style similar to StarOffice style, also in OpenOffice and LibreOffice.
+* stata-dark:
+* stata-light: Light mode style inspired by Stata's do-file editor. This is not meant to be a complete style, just for use with Stata.
+* tango: The Crunchy default Style inspired from the color palette from the Tango Icon Theme Guidelines.
+* trac: Port of the default trac highlighter design.
+* vim: Styles somewhat like vim 7.0
+* vs:
+* xcode: Style similar to the Xcode default colouring theme.
+* zenburn: Low contrast Zenburn style.
+
+
 
 ==== Collapse ====
 
@@ -1075,7 +1181,7 @@ first text. Nevertheless there should be a possibility for the reader to recogni
 two parts.
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>gdcprgdvy3nythbwzdrp8i2o3x9afsr</sha1>
+      <sha1>8r3az80d0n6e6vkpo4dkz5816k1wfbo</sha1>
     </revision>
   </page>
   <page>
@@ -1270,18 +1376,18 @@ might have additional properties as well (The color red is an insufficient chara
     <ns>3000</ns>
     <id>21</id>
     <revision>
-      <id>24</id>
-      <timestamp>2024-08-22T14:38:05Z</timestamp>
+      <id>83</id>
+      <parentid>24</parentid>
+      <timestamp>2024-12-19T09:53:38Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Parsifal/Syntax Highlighting]] to [[Test:Parsifal/Syntax Highlighting]] without leaving a redirect</comment>
-      <origin>24</origin>
+      <comment>/* More Complex Highlight */</comment>
+      <origin>83</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="299" sha1="pg3c6yti2vwimlshsj3jxqa30f79bbh" xml:space="preserve">
+      <text bytes="303" sha1="0nk4mbkcg5bsc06mbhfymw56rc5kfu5" xml:space="preserve">
 
 == Simple Highlight ==
 &lt;syntaxhighlight&gt;
@@ -1299,8 +1405,12 @@ def quick_sort(arr):
 	else:
 		pass
 ‎&lt;/syntaxhighlight&gt;
+
+
+
+
 [[Category:DanteInitialContents]]</text>
-      <sha1>pg3c6yti2vwimlshsj3jxqa30f79bbh</sha1>
+      <sha1>0nk4mbkcg5bsc06mbhfymw56rc5kfu5</sha1>
     </revision>
   </page>
   <page>
@@ -1944,26 +2054,26 @@ scheduling dessen, was wir im backendsehen. hjkjhj
     <ns>3000</ns>
     <id>31</id>
     <revision>
-      <id>80</id>
-      <parentid>34</parentid>
-      <timestamp>2024-12-19T08:46:52Z</timestamp>
+      <id>85</id>
+      <parentid>80</parentid>
+      <timestamp>2024-12-19T09:55:57Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>80</origin>
+      <origin>85</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="141" sha1="steolfloy69nqe0gb44ivg4ztl2ufba" xml:space="preserve">
+      <text bytes="142" sha1="91sqs5x7jrzfxj1ky23ksxfr6gwhqe8" xml:space="preserve">
 &lt;amsmath&gt;
 
-\dref{Help:Demo for Parsifal}{asd} Just asd d
+\dref{Help:Demo for Parsifal}{asd} Just asd d 
 
 \dref{Help:Demo für Parsifal}{qdqd}
 
 &lt;/amsmath&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>steolfloy69nqe0gb44ivg4ztl2ufba</sha1>
+      <sha1>91sqs5x7jrzfxj1ky23ksxfr6gwhqe8</sha1>
     </revision>
   </page>
   <page>
