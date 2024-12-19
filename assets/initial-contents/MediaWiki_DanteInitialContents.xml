@@ -641,17 +641,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>122</id>
-      <parentid>11</parentid>
-      <timestamp>2024-12-19T13:52:08Z</timestamp>
+      <id>154</id>
+      <parentid>153</parentid>
+      <timestamp>2024-12-19T22:51:00Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>122</origin>
+      <origin>154</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3906" sha1="c2acfdnhyz71bd268xnq9sr76xy9xgp" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3906" sha1="jgb38j5gsemhgl1f7icqgtnpuwl0ozn" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -695,10 +695,10 @@ The contents of this page must conform to the following rules:
 ** [{{fullurl:Special:ListFiles}} Files]
 
 * &lt;b title="Found a bug"&gt;Issue Reporting&lt;/b&gt;
-** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \s]
-** [https://github.com/clecap/dante-wiki/issues DanteWiki Issues \s]
-** [https://github.com/clecap/dante-wiki-production/issues DanteProduction Issues \s]
-** [https://github.com/clecap/Parsifal/issues Parsifal Issues \s]
+** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]
+** [https://github.com/clecap/dante-wiki/issues DanteWiki Issues \S]
+** [https://github.com/clecap/dante-wiki-production/issues DanteProduction Issues \S]
+** [https://github.com/clecap/Parsifal/issues Parsifal Issues \S]
 
 * &lt;b title="Check this regularly"&gt;Maintenance&lt;/b&gt;
 ** [[Special:BrokenRedirects | Broken Redirects]]
@@ -736,7 +736,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>c2acfdnhyz71bd268xnq9sr76xy9xgp</sha1>
+      <sha1>jgb38j5gsemhgl1f7icqgtnpuwl0ozn</sha1>
     </revision>
   </page>
   <page>
