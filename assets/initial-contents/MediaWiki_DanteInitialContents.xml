@@ -641,17 +641,17 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>11</id>
-      <timestamp>2024-12-18T18:34:03Z</timestamp>
+      <id>122</id>
+      <parentid>11</parentid>
+      <timestamp>2024-12-19T13:52:08Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>Undo revision 86 by [[Special:Contributions/Admin|Admin]] ([[User talk:Admin|talk]])</comment>
-      <origin>11</origin>
+      <origin>122</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3470" sha1="45plr2mn9shvwcx1xsc6cnz18untrp1" xml:space="preserve">&lt;pre&gt;
+      <text bytes="3906" sha1="c2acfdnhyz71bd268xnq9sr76xy9xgp" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
@@ -659,7 +659,15 @@ The contents of this page must conform to the following rules:
 * &lt;b style='color:red !important;'&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 
 * &lt;b&gt;Help&lt;/b&gt;
-** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3]
+
+** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
+** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
+** [https://ctan.net/graphics/pictex/PiCTeX_manual.pdf PiCTeX \S]
+** [https://texdoc.org/serve/xyrefer.pdf/0 XY-Pic Reference \S]
+** [http://www.map.mpim-bonn.mpg.de/images/4/41/Xyguide.pdf XY-Pic Users \S]
+** [https://www.jmilne.org/not/Mxymatrix.pdf XY-Matrix \S]
+
+** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3 \S]
 ** [[Help:Sidebar | Sidebar]]
 ** [[Help:Parsifal Cheat| Parsifal Cheat]]
 ** [[Help:Dante Cheat| Dante Cheat]]
@@ -728,7 +736,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>45plr2mn9shvwcx1xsc6cnz18untrp1</sha1>
+      <sha1>c2acfdnhyz71bd268xnq9sr76xy9xgp</sha1>
     </revision>
   </page>
   <page>
