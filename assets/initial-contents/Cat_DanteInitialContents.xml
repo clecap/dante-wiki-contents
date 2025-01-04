@@ -1189,20 +1189,22 @@ two parts.
     <ns>12</ns>
     <id>18</id>
     <revision>
-      <id>21</id>
-      <timestamp>2023-11-08T12:13:11Z</timestamp>
+      <id>156</id>
+      <parentid>21</parentid>
+      <timestamp>2025-01-04T13:18:46Z</timestamp>
       <contributor>
-        <username>imported&gt;Dir</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>/* Dante Tree */</comment>
-      <origin>21</origin>
+      <comment>/* Dante Links */</comment>
+      <origin>156</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="747" sha1="icte5f0n2iwvoxxckdccto4sdov4q66" xml:space="preserve">
+      <text bytes="869" sha1="07n67pogzhszdru7d2od7ilxec61ihc" xml:space="preserve">
 
 == Dante Links ==
-* Provides a possibility to add attributes to links.
+
+=== Provides a possibility to add attributes to links ===
 * Ensures that links (A-elements) with target 
 ** _window open in a separate window, next to the browser, of similar size
 ** _side open in an 800x800 window left on the screen.
@@ -1212,6 +1214,11 @@ two parts.
 as opposed to [https://www.w3c.org W3C]
 
 
+=== User can choose the mode in which links open ===
+
+
+
+=== Author can suggest the mode in which the links open ===
 
 == Dante Tree ==
 
@@ -1219,7 +1226,7 @@ as opposed to [https://www.w3c.org W3C]
 
 * A shift-click on a link into a portal heading opens an edit window for that portal content.
 [[Category:DanteInitialContents]]</text>
-      <sha1>icte5f0n2iwvoxxckdccto4sdov4q66</sha1>
+      <sha1>07n67pogzhszdru7d2od7ilxec61ihc</sha1>
     </revision>
   </page>
   <page>
@@ -1254,23 +1261,22 @@ as opposed to [https://www.w3c.org W3C]
     <ns>3000</ns>
     <id>20</id>
     <revision>
-      <id>23</id>
-      <timestamp>2024-08-22T14:35:17Z</timestamp>
+      <id>155</id>
+      <parentid>23</parentid>
+      <timestamp>2025-01-03T21:17:33Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Parsifal]] to [[Test:Parsifal]] without leaving a redirect</comment>
-      <origin>23</origin>
+      <origin>155</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1686" sha1="t3fvak519zx2qalio9dgslydkeejsfv" xml:space="preserve">asdaa
-
+      <text bytes="1702" sha1="gu88it90dxxeti5jzdedrcvc45om453" xml:space="preserve">asdaaj kh aal gjjjj
+q
 == Titel ==
 
 &lt;amsmath n="Myname"&gt;o f t  h is   d
-   qweq
+   qweqj
 \xcx
 
 Rule of 14cm  
@@ -1368,7 +1374,7 @@ might have additional properties as well (The color red is an insufficient chara
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>t3fvak519zx2qalio9dgslydkeejsfv</sha1>
+      <sha1>gu88it90dxxeti5jzdedrcvc45om453</sha1>
     </revision>
   </page>
   <page>
