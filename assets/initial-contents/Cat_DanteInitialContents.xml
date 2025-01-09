@@ -1189,22 +1189,21 @@ two parts.
     <ns>12</ns>
     <id>18</id>
     <revision>
-      <id>156</id>
-      <parentid>21</parentid>
-      <timestamp>2025-01-04T13:18:46Z</timestamp>
+      <id>175</id>
+      <parentid>170</parentid>
+      <timestamp>2025-01-08T10:54:41Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Dante Links */</comment>
-      <origin>156</origin>
+      <origin>175</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="869" sha1="07n67pogzhszdru7d2od7ilxec61ihc" xml:space="preserve">
+      <text bytes="2137" sha1="aqxki56u9ffe2xfq7j82vfeqp5kdwee" xml:space="preserve">
 
-== Dante Links ==
+= Dante Links =
 
-=== Provides a possibility to add attributes to links ===
+== Provides a possibility to add attributes to links ==
 * Ensures that links (A-elements) with target 
 ** _window open in a separate window, next to the browser, of similar size
 ** _side open in an 800x800 window left on the screen.
@@ -1214,19 +1213,53 @@ two parts.
 as opposed to [https://www.w3c.org W3C]
 
 
-=== User can choose the mode in which links open ===
+== Open Modes ==
+* Open as '''replaced tab'''
+* Open as '''new tab'''
+* Open as '''new window'''
+* Open as '''side-window''' (same monitor)
+* Open as '''side-window''' (different monitor)
+* Open as '''hoover window'''
 
+== Content Modes ==
+* Open as '''complete''' view: Entire DanteWiki page.
+* Open as '''content''' view: Only the specific article page.
+* Open as '''snippet''' view: Only the snippet of the article (if available)
 
+== Combinations ==
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Complete&lt;/td&gt;&lt;td&gt;Content&lt;/td&gt;&lt;td&gt;Snippet&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Replace tab&lt;/td&gt;&lt;td&gt;Left click&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;New tab&lt;/td&gt;&lt;td&gt;Context menu&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;New window&lt;/td&gt;&lt;td&gt;Context menu&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Side-window same&lt;/td&gt;&lt;td&gt;N/A(1)&lt;/td&gt;&lt;td&gt;Small drag left/right&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Side-window different&lt;/td&gt;&lt;td&gt;NA(2)&lt;/td&gt;&lt;td&gt;Large drag left/right&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Hoover window&lt;/td&gt;&lt;td&gt;NA(3)&lt;/td&gt;&lt;td&gt;NA(3)&lt;/td&gt;&lt;td&gt;Drag down&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 
-=== Author can suggest the mode in which the links open ===
+== User can choose the mode in which links open ==
+Available gestures:
+* Button clicked
+** Left-click
+** Right-click
+* Duration
+** Short-click
+** Long-click
+* Drag gesture
+* Click place (on the left or the right side of the anchor)
 
-== Dante Tree ==
+Notes:
+* Middle-click: Does not seem to exist naturally on Apple Trackpads.
+
+== Author can suggest the mode in which the links open ==
+
+= Dante Tree =
 
 * A shift-click on to a Category link opens the category window as seperate popup window in small size and on the left of the screen. This proved helpful for quick deploy of a category window as an overview.
 
 * A shift-click on a link into a portal heading opens an edit window for that portal content.
 [[Category:DanteInitialContents]]</text>
-      <sha1>07n67pogzhszdru7d2od7ilxec61ihc</sha1>
+      <sha1>aqxki56u9ffe2xfq7j82vfeqp5kdwee</sha1>
     </revision>
   </page>
   <page>
@@ -1261,25 +1294,26 @@ as opposed to [https://www.w3c.org W3C]
     <ns>3000</ns>
     <id>20</id>
     <revision>
-      <id>155</id>
-      <parentid>23</parentid>
-      <timestamp>2025-01-03T21:17:33Z</timestamp>
+      <id>185</id>
+      <parentid>184</parentid>
+      <timestamp>2025-01-09T20:42:28Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>155</origin>
+      <comment>/* Titel */</comment>
+      <origin>185</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1702" sha1="gu88it90dxxeti5jzdedrcvc45om453" xml:space="preserve">asdaaj kh aal gjjjj
+      <text bytes="1681" sha1="pz8yd8jwalbqjedgo9l5l8iiijh3ru2" xml:space="preserve">asdaaj kh aal gjjjj
 q
-== Titel ==
+= Titel =
 
-&lt;amsmath n="Myname"&gt;o f t  h is   d
-   qweqj
-\xcx
+&lt;amsmath n="Myname"&gt;o f t  h is jk  sds
+   q we qj 
+xc x
 
-Rule of 14cm  
+Rule of 14cm   
 \hrule height 1px depth 1px width 14cm \relax         
 
 Rule  of 14.2cm  
@@ -1291,33 +1325,30 @@ Rule of s 15cm
 Rule of 16cm
 \hrule height 1px depth 1px width 16cm \relax
 &lt;/amsmath&gt;
-   
-&lt;hide&gt;
 
-== Part 2 ==
+= Part 2 =
 &lt;amsmath&gt;
-b ja q q io qw qw   fje ssqa aa sj jhgjhg jhgssssssss
+b ja q hhq io qw qw   fje ssqa aa sj jhgjhg jhgssssssss
 &lt;/amsmath&gt;
 
-&lt;/hide&gt;
 
-== One ==
+= One =
 &lt;beamer b&gt;
-Hallo2345123 123 123 
+Hallo2jj345123 123 123 
 Das ist jakjh 
 $a$=$b$ kjh  kjqh k jkl lkj j h iuaahh zh qwe asd u io
 &lt;/beamer&gt;
 
-== Stuff ==
+= Stuff =
 &lt;beamer b&gt;
 This is no w asdcvmmsd b weasdasd asd  qwe as d  qwe a sd qw e asd qwe asd qwe asd qwe asd qwe  asd qwe asd qwe asd qwe asd qwe asd beamer a sd
 &lt;/beamer&gt;
 
-== Only ==
+= Only =
 
 &lt;amsmath n="Myname"&gt;J xust  a test&lt;/amsmath&gt;
 
-== Titel Y ==
+= Titel Y =
 
 &lt;amsmath o-proof&gt;
 Ea iaaa  sdsa df ax sda   gg   n s
@@ -1363,7 +1394,7 @@ Drei \url{https://www.ifi.ch}
 &lt;/amsmath&gt;
 
 
-== Test; Style Attribute ==
+= Test; Style Attribute =
 &lt;amsmath style="border:10px solid green;"&gt;
 921iihj kjh ujkWe6697 i m a sdf  ke a meas urement and  get a r esu lt  $\omega$. We now assume we can talk of an object with the property $\omega$. We cannota
 say that the object is (or is in the state) $\omega$ as this description might not be precise enough in the sense that the object
@@ -1374,7 +1405,7 @@ might have additional properties as well (The color red is an insufficient chara
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>gu88it90dxxeti5jzdedrcvc45om453</sha1>
+      <sha1>pz8yd8jwalbqjedgo9l5l8iiijh3ru2</sha1>
     </revision>
   </page>
   <page>
@@ -2079,26 +2110,26 @@ scheduling dessen, was wir im backendsehen. hjkjhj
     <ns>3000</ns>
     <id>31</id>
     <revision>
-      <id>85</id>
-      <parentid>80</parentid>
-      <timestamp>2024-12-19T09:55:57Z</timestamp>
+      <id>193</id>
+      <parentid>85</parentid>
+      <timestamp>2025-01-09T21:42:48Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>85</origin>
+      <origin>193</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="142" sha1="91sqs5x7jrzfxj1ky23ksxfr6gwhqe8" xml:space="preserve">
+      <text bytes="160" sha1="05uov0wd3g2i2jtivhpteyzalonduqi" xml:space="preserve">
 &lt;amsmath&gt;
 
-\dref{Help:Demo for Parsifal}{asd} Just asd d 
+\dref{Test:Parsifal/Demo for Parsifal}{asd} Just asd d 
 
-\dref{Help:Demo für Parsifal}{qdqd}
+\dref{Test:Parsifal/Demo für Parsifal}{qdqd}
 
 &lt;/amsmath&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>91sqs5x7jrzfxj1ky23ksxfr6gwhqe8</sha1>
+      <sha1>05uov0wd3g2i2jtivhpteyzalonduqi</sha1>
     </revision>
   </page>
   <page>
