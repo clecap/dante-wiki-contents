@@ -846,26 +846,27 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>12</id>
-      <timestamp>2024-12-12T23:12:56Z</timestamp>
+      <id>199</id>
+      <parentid>12</parentid>
+      <timestamp>2025-01-09T22:48:33Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>12</origin>
+      <origin>199</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="554" sha1="h6ftj2hwx01hf7ss6iklc8e92p6u7wo" xml:space="preserve">&lt;pre&gt;
+      <text bytes="542" sha1="qkmeotxm9yxoyfiv2eus8gh2b2yg2ti" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b id="limitSize" title="Change setting: Limit automagic growth of TeX areas."&gt;[javascript:PRT.toggleLimitSize() Limit Size:]&lt;/b&gt;
-* &lt;b id="editHandles" title="Change setting: Show separate edit handles for all TeX areas."&gt;[javascript:PRT.toggleEditHandles() Edit Handles:]&lt;/b&gt;
+* &lt;b id="editHandles" title="Change setting: Show links to log for all TeX areas."&gt;[javascript:PRT.toggleEditHandles() Log Links:]&lt;/b&gt;
 * &lt;b id="variantShow" title="Change setting: Show variants of pages."&gt;[javascript:PRT.toggleVariants() Show Variants:]&lt;/b&gt;
 * &lt;b&gt;[javascript:window.persistCatWindow() Persist Cat Window]&lt;/b&gt;
 }}
 &lt;/pre&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>h6ftj2hwx01hf7ss6iklc8e92p6u7wo</sha1>
+      <sha1>qkmeotxm9yxoyfiv2eus8gh2b2yg2ti</sha1>
     </revision>
   </page>
   <page>
@@ -2110,26 +2111,28 @@ scheduling dessen, was wir im backendsehen. hjkjhj
     <ns>3000</ns>
     <id>31</id>
     <revision>
-      <id>193</id>
-      <parentid>85</parentid>
-      <timestamp>2025-01-09T21:42:48Z</timestamp>
+      <id>198</id>
+      <parentid>197</parentid>
+      <timestamp>2025-01-09T22:25:00Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>193</origin>
+      <origin>198</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="160" sha1="05uov0wd3g2i2jtivhpteyzalonduqi" xml:space="preserve">
+      <text bytes="196" sha1="diwi4zx391mwqz4ohpxh9fdi4mrdzv0" xml:space="preserve">
 &lt;amsmath&gt;
 
-\dref{Test:Parsifal/Demo for Parsifal}{asd} Just asd d 
+\dref{Test:Parsifal/Demo for Parsifal}{asd} Ju sst asd d 
 
 \dref{Test:Parsifal/Demo für Parsifal}{qdqd}
 
+\dref{Main Page}{goto main page}
+
 &lt;/amsmath&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>05uov0wd3g2i2jtivhpteyzalonduqi</sha1>
+      <sha1>diwi4zx391mwqz4ohpxh9fdi4mrdzv0</sha1>
     </revision>
   </page>
   <page>
