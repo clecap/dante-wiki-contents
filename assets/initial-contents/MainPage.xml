@@ -41,21 +41,28 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>3</id>
-      <parentid>1</parentid>
-      <timestamp>2024-12-18T22:06:08Z</timestamp>
+      <id>213</id>
+      <parentid>205</parentid>
+      <timestamp>2025-01-10T17:17:38Z</timestamp>
       <contributor>
-        <username>Maintenance script</username>
-        <id>3</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>Imported by wiki-init.sh</comment>
-      <origin>3</origin>
+      <origin>213</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
+      <text bytes="121" sha1="dct64mn19ocoh2wnf53o0kfrq1a3cc3" xml:space="preserve">
+This is a freshly ghj kjh installed Dante Wiki. kjhkjhjj
 
-This is a freshly installed Dante Wiki.</text>
-      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
+&lt;audio&gt;&lt;/audio&gt;
+
+&lt;video&gt;&lt;/video&gt;
+
+
+&lt;amsmath&gt;
+asdasd
+&lt;/amsmath&gt;</text>
+      <sha1>dct64mn19ocoh2wnf53o0kfrq1a3cc3</sha1>
     </revision>
   </page>
 </mediawiki>
