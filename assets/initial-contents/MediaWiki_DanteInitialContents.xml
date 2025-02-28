@@ -392,6 +392,25 @@ buttonlabel=Create new article with this title
     </revision>
   </page>
   <page>
+    <title>MediaWiki:Edithelppage</title>
+    <ns>8</ns>
+    <id>85</id>
+    <revision>
+      <id>235</id>
+      <timestamp>2025-02-28T21:11:01Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Help:Editing_pages"</comment>
+      <origin>235</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18" sha1="1k11dr5a2dim1hw6acy40hwtwy20gdl" xml:space="preserve">Help:Editing_pages</text>
+      <sha1>1k11dr5a2dim1hw6acy40hwtwy20gdl</sha1>
+    </revision>
+  </page>
+  <page>
     <title>MediaWiki:Gadget-danteDump1.js</title>
     <ns>8</ns>
     <id>61</id>
@@ -773,27 +792,28 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>225</id>
-      <parentid>199</parentid>
-      <timestamp>2025-01-10T21:40:16Z</timestamp>
+      <id>234</id>
+      <parentid>233</parentid>
+      <timestamp>2025-02-28T20:50:59Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>225</origin>
+      <origin>234</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="557" sha1="37dad97aq1p31isla2q5yum6cit3csa" xml:space="preserve">&lt;pre&gt;
+      <text bytes="676" sha1="g2r6x5tdhq6zdfqzrv5kfsu9ewz17xn" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b id="limitSize" title="Change setting: Limit automagic growth of TeX areas."&gt;[javascript:PRT.toggleLimitSize() Limit Size:]&lt;/b&gt;
 * &lt;b id="editHandles" title="Change setting: Show links to logs and edit handles for h6 areas."&gt;[javascript:PRT.toggleEditHandles() Dev Handles:]&lt;/b&gt;
 * &lt;b id="variantShow" title="Change setting: Show variants of pages."&gt;[javascript:PRT.toggleVariants() Show Variants:]&lt;/b&gt;
+* &lt;b id="useCodeMirror" title="Change setting: Use CodeMirror editor."&gt;[javascript:PRT.toggleCodeMirror() Editor:]&lt;/b&gt;
 * &lt;b&gt;[javascript:window.persistCatWindow() Persist Cat Window]&lt;/b&gt;
 }}
 &lt;/pre&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>37dad97aq1p31isla2q5yum6cit3csa</sha1>
+      <sha1>g2r6x5tdhq6zdfqzrv5kfsu9ewz17xn</sha1>
     </revision>
   </page>
   <page>
