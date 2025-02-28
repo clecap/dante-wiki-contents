@@ -580,21 +580,22 @@ console.log ("*** inside dante gadget", window.Dante);
     <ns>8</ns>
     <id>66</id>
     <revision>
-      <id>69</id>
-      <timestamp>2024-07-29T10:52:40Z</timestamp>
+      <id>229</id>
+      <parentid>228</parentid>
+      <timestamp>2025-02-28T19:32:02Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>69</origin>
+      <origin>229</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="71" sha1="mavgq3mq09wq6136ksibma5nsvbp6hr" xml:space="preserve">&lt;pre&gt;
+      <text bytes="94" sha1="o1bfibm2dymk9k0ev1svjbhdsgyb16h" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
-*'''[[Main Page]]'''
+* &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt; 
 }}
 &lt;/pre&gt;</text>
-      <sha1>mavgq3mq09wq6136ksibma5nsvbp6hr</sha1>
+      <sha1>o1bfibm2dymk9k0ev1svjbhdsgyb16h</sha1>
     </revision>
   </page>
   <page>
@@ -772,27 +773,27 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>199</id>
-      <parentid>12</parentid>
-      <timestamp>2025-01-09T22:48:33Z</timestamp>
+      <id>225</id>
+      <parentid>199</parentid>
+      <timestamp>2025-01-10T21:40:16Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>199</origin>
+      <origin>225</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="542" sha1="qkmeotxm9yxoyfiv2eus8gh2b2yg2ti" xml:space="preserve">&lt;pre&gt;
+      <text bytes="557" sha1="37dad97aq1p31isla2q5yum6cit3csa" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b id="limitSize" title="Change setting: Limit automagic growth of TeX areas."&gt;[javascript:PRT.toggleLimitSize() Limit Size:]&lt;/b&gt;
-* &lt;b id="editHandles" title="Change setting: Show links to log for all TeX areas."&gt;[javascript:PRT.toggleEditHandles() Log Links:]&lt;/b&gt;
+* &lt;b id="editHandles" title="Change setting: Show links to logs and edit handles for h6 areas."&gt;[javascript:PRT.toggleEditHandles() Dev Handles:]&lt;/b&gt;
 * &lt;b id="variantShow" title="Change setting: Show variants of pages."&gt;[javascript:PRT.toggleVariants() Show Variants:]&lt;/b&gt;
 * &lt;b&gt;[javascript:window.persistCatWindow() Persist Cat Window]&lt;/b&gt;
 }}
 &lt;/pre&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>qkmeotxm9yxoyfiv2eus8gh2b2yg2ti</sha1>
+      <sha1>37dad97aq1p31isla2q5yum6cit3csa</sha1>
     </revision>
   </page>
   <page>
