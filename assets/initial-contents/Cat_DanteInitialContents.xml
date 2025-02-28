@@ -846,27 +846,28 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>225</id>
-      <parentid>199</parentid>
-      <timestamp>2025-01-10T21:40:16Z</timestamp>
+      <id>234</id>
+      <parentid>233</parentid>
+      <timestamp>2025-02-28T20:50:59Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>225</origin>
+      <origin>234</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="557" sha1="37dad97aq1p31isla2q5yum6cit3csa" xml:space="preserve">&lt;pre&gt;
+      <text bytes="676" sha1="g2r6x5tdhq6zdfqzrv5kfsu9ewz17xn" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b id="limitSize" title="Change setting: Limit automagic growth of TeX areas."&gt;[javascript:PRT.toggleLimitSize() Limit Size:]&lt;/b&gt;
 * &lt;b id="editHandles" title="Change setting: Show links to logs and edit handles for h6 areas."&gt;[javascript:PRT.toggleEditHandles() Dev Handles:]&lt;/b&gt;
 * &lt;b id="variantShow" title="Change setting: Show variants of pages."&gt;[javascript:PRT.toggleVariants() Show Variants:]&lt;/b&gt;
+* &lt;b id="useCodeMirror" title="Change setting: Use CodeMirror editor."&gt;[javascript:PRT.toggleCodeMirror() Editor:]&lt;/b&gt;
 * &lt;b&gt;[javascript:window.persistCatWindow() Persist Cat Window]&lt;/b&gt;
 }}
 &lt;/pre&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>37dad97aq1p31isla2q5yum6cit3csa</sha1>
+      <sha1>g2r6x5tdhq6zdfqzrv5kfsu9ewz17xn</sha1>
     </revision>
   </page>
   <page>
@@ -947,16 +948,17 @@ buttonlabel=Create new article with this title
     <ns>8</ns>
     <id>13</id>
     <revision>
-      <id>16</id>
-      <timestamp>2024-08-25T17:51:11Z</timestamp>
+      <id>237</id>
+      <parentid>16</parentid>
+      <timestamp>2025-02-28T21:15:07Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>16</origin>
+      <origin>237</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="825" sha1="7gqhe16e8cu0pjjiba25oiherpf7il7" xml:space="preserve">
+      <text bytes="848" sha1="j2e7sq7jfi6gz9bdjj3w8d2xesv1p2u" xml:space="preserve">
 
 &lt;pre&gt;
 File:Dblp.png
@@ -977,6 +979,7 @@ MediaWiki:Copyrightwarning2
 MediaWiki:CreatePage
 MediaWiki:Deletereason-dropdown
 MediaWiki:Disclaimerpage
+MediaWiki:Edithelppage
 MediaWiki:Gadget-danteDump1.js
 MediaWiki:Gadget-danteGadgetTest.js
 MediaWiki:Gadgets-definition
@@ -993,7 +996,7 @@ Template:Extension DPL
 Template:Subpages
 &lt;/pre&gt;
 [[Category:DanteInitialContents]]</text>
-      <sha1>7gqhe16e8cu0pjjiba25oiherpf7il7</sha1>
+      <sha1>j2e7sq7jfi6gz9bdjj3w8d2xesv1p2u</sha1>
     </revision>
   </page>
   <page>
@@ -2722,6 +2725,32 @@ msc {
 
 [[Category:DanteInitialContents]]</text>
       <sha1>49zsa7y9s5nu5gbh5wkhw0cnsss9m85</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Editing pages</title>
+    <ns>12</ns>
+    <id>86</id>
+    <revision>
+      <id>238</id>
+      <parentid>236</parentid>
+      <timestamp>2025-02-28T21:17:00Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>238</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="67" sha1="efbgcqbrerqx0jguu6unzizjl95tcok" xml:space="preserve">
+
+
+
+Some help for editing pages
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>efbgcqbrerqx0jguu6unzizjl95tcok</sha1>
     </revision>
   </page>
 </mediawiki>
