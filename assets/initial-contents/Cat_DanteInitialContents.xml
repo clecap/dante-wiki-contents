@@ -743,20 +743,20 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>252</id>
-      <parentid>251</parentid>
-      <timestamp>2025-03-01T10:01:39Z</timestamp>
+      <id>291</id>
+      <parentid>290</parentid>
+      <timestamp>2025-03-01T16:56:17Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>252</origin>
+      <origin>291</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4233" sha1="pl5lnxhekdmcwehm2x316luwz023pwp" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4293" sha1="1rpwpk2jfcleob97hcv0rjukomlm16r" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
-* [[MediaWiki:CreatePage|Create Page]]
+* &lt;b&gt;[[MediaWiki:CreatePage|Create Page]]&lt;/b&gt;
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
@@ -797,6 +797,7 @@ The contents of this page must conform to the following rules:
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=8}} MediaWiki]
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2}} User]
 ** [{{fullurl:Special:ListFiles}} Files]
+** [[MediaWiki:Namespacelist | List all Namespaces]]
 
 * &lt;b title="Report a bug which you found"&gt;Issue Reporting&lt;/b&gt;
 ** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]
@@ -840,7 +841,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>pl5lnxhekdmcwehm2x316luwz023pwp</sha1>
+      <sha1>1rpwpk2jfcleob97hcv0rjukomlm16r</sha1>
     </revision>
   </page>
   <page>
@@ -918,31 +919,50 @@ this system are subject to copyright.
     <ns>8</ns>
     <id>12</id>
     <revision>
-      <id>15</id>
-      <timestamp>2024-07-29T18:42:41Z</timestamp>
+      <id>281</id>
+      <parentid>280</parentid>
+      <timestamp>2025-03-01T13:07:14Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>15</origin>
+      <origin>281</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="199" sha1="mefz1vjair2eh6idbwrzjv4wymcg5uw" xml:space="preserve">&lt;div style="float:left;"&gt;
+      <text bytes="558" sha1="cpvg63e54l4vor4vyedejlk51xl60p0" xml:space="preserve">
+=== Create Normal Article ===
+
+&lt;div style="float:left;"&gt;
 &lt;inputbox&gt;
 type=create 
 break=no 
 buttonlabel=Create new article with this title  
 &lt;/inputbox&gt;
+
+&lt;/div&gt;&lt;div style="clear:left;"&gt;&lt;/div&gt;
+
+&lt;div style="height:50px;min-height:50px;"&gt;&lt;/div&gt;
+
+
+=== Create Article in Special Namespaces ===
+
+&lt;div style="float:left;"&gt;
+&lt;table&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Test:&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;inputbox&gt;
+type=create 
+break=no
+prefix=Test
+buttonlabel=Create new article with this title  
+&lt;/inputbox&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/div&gt;&lt;div style="clear:left;"&gt;&lt;/div&gt;
 
 
 
-
-
-
-
 [[Category:DanteInitialContents]]</text>
-      <sha1>mefz1vjair2eh6idbwrzjv4wymcg5uw</sha1>
+      <sha1>cpvg63e54l4vor4vyedejlk51xl60p0</sha1>
     </revision>
   </page>
   <page>
@@ -2346,15 +2366,15 @@ DanteWiki follows different goals and guidelines.
     <ns>12</ns>
     <id>37</id>
     <revision>
-      <id>256</id>
-      <parentid>255</parentid>
-      <timestamp>2025-03-01T10:08:41Z</timestamp>
+      <id>260</id>
+      <parentid>259</parentid>
+      <timestamp>2025-03-01T10:20:30Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <comment>/* Privacy */</comment>
-      <origin>256</origin>
+      <origin>260</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2337" sha1="sm8o596u7ghqi4r6rv56p7dt9dmiseg" xml:space="preserve">You might want to customize the following pages:
@@ -2758,6 +2778,33 @@ Some help for editing pages
 
 [[Category:DanteInitialContents]]</text>
       <sha1>efbgcqbrerqx0jguu6unzizjl95tcok</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Namespacelist</title>
+    <ns>8</ns>
+    <id>89</id>
+    <revision>
+      <id>292</id>
+      <parentid>286</parentid>
+      <timestamp>2025-03-01T16:57:49Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>292</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="243" sha1="02ma94ap2kjvh78qgul6wanr16ttc6a" xml:space="preserve">
+
+This page displays the list of namespaces which is active on this DanteWiki.
+
+The generating function can be found in [[MediaWiki:Common.js]].
+
+&lt;div id="namespace-container" style="margin-left:20px;"&gt;&lt;/div&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>02ma94ap2kjvh78qgul6wanr16ttc6a</sha1>
     </revision>
   </page>
 </mediawiki>
