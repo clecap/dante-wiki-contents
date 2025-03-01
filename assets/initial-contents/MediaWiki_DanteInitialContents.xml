@@ -549,13 +549,14 @@ console.log ("*** inside dante gadget", window.Dante);
     <ns>8</ns>
     <id>65</id>
     <revision>
-      <id>68</id>
-      <timestamp>2024-07-28T10:41:03Z</timestamp>
+      <id>258</id>
+      <parentid>257</parentid>
+      <timestamp>2025-03-01T10:14:37Z</timestamp>
       <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <origin>68</origin>
+      <origin>258</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="27" sha1="40e5gfpzgo6iyoipy6ax696ry6fsntq" xml:space="preserve">Project:Privacy Information</text>
@@ -661,23 +662,22 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>241</id>
-      <parentid>154</parentid>
-      <timestamp>2025-03-01T09:22:27Z</timestamp>
+      <id>252</id>
+      <parentid>251</parentid>
+      <timestamp>2025-03-01T10:01:39Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>241</origin>
+      <origin>252</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4264" sha1="iffkq9auwfd20wz7b6nmu6u380h7x9e" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4233" sha1="pl5lnxhekdmcwehm2x316luwz023pwp" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
-* &lt;b style='color:red !important;'&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
-
+* &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
 ** &lt;b title="Help for using some LaTeX features"&gt;LaTeX Help&lt;/b&gt;
 *** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
@@ -759,7 +759,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>iffkq9auwfd20wz7b6nmu6u380h7x9e</sha1>
+      <sha1>pl5lnxhekdmcwehm2x316luwz023pwp</sha1>
     </revision>
   </page>
   <page>
