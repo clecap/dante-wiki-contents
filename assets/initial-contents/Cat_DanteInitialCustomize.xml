@@ -154,26 +154,6 @@ This page can and should be customized to display privacy information for the us
     </revision>
   </page>
   <page>
-    <title>Dantewiki:Privacy</title>
-    <ns>4</ns>
-    <id>47</id>
-    <revision>
-      <id>50</id>
-      <timestamp>2024-08-24T16:57:02Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <origin>50</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="114" sha1="l3ghryip8qaxwt4wssb6xgnhyawixoz" xml:space="preserve">This page must be customized to describe the privacy policy of this DanteWiki.
-
-[[Category:DanteInitialCustomize]]</text>
-      <sha1>l3ghryip8qaxwt4wssb6xgnhyawixoz</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Dantewiki:Privacy Information</title>
     <ns>4</ns>
     <id>48</id>
