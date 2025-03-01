@@ -743,23 +743,22 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>241</id>
-      <parentid>154</parentid>
-      <timestamp>2025-03-01T09:22:27Z</timestamp>
+      <id>252</id>
+      <parentid>251</parentid>
+      <timestamp>2025-03-01T10:01:39Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>241</origin>
+      <origin>252</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4264" sha1="iffkq9auwfd20wz7b6nmu6u380h7x9e" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4233" sha1="pl5lnxhekdmcwehm2x316luwz023pwp" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
-* &lt;b style='color:red !important;'&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
-
+* &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
 ** &lt;b title="Help for using some LaTeX features"&gt;LaTeX Help&lt;/b&gt;
 *** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
@@ -841,7 +840,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>iffkq9auwfd20wz7b6nmu6u380h7x9e</sha1>
+      <sha1>pl5lnxhekdmcwehm2x316luwz023pwp</sha1>
     </revision>
   </page>
   <page>
@@ -2347,19 +2346,19 @@ DanteWiki follows different goals and guidelines.
     <ns>12</ns>
     <id>37</id>
     <revision>
-      <id>240</id>
-      <parentid>239</parentid>
-      <timestamp>2025-03-01T09:06:35Z</timestamp>
+      <id>256</id>
+      <parentid>255</parentid>
+      <timestamp>2025-03-01T10:08:41Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>240</origin>
+      <comment>/* Privacy */</comment>
+      <origin>256</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1726" sha1="kkx833vzez4acu28v3qnysnst0jm4vl" xml:space="preserve">You might want to customize the following pages:
+      <text bytes="2337" sha1="sm8o596u7ghqi4r6rv56p7dt9dmiseg" xml:space="preserve">You might want to customize the following pages:
 
-* [[Project:Privacy Information]]
 * [[Project:About]]
 * [[Project:Disclaimer]]
 * [[Project:Imprint]]
@@ -2388,9 +2387,14 @@ The footer may contain the following links
 
 More information: https://www.mediawiki.org/wiki/Manual:Footer
  
-== Privacy-Link ==
-* [[MediaWiki:Privacy]] contains the text for the privacy-link.
-* [[MediaWiki:Privacypage]] contains the name of the wiki page to which the privacy-link links to. It currently links to [[Project:Privacy]]
+== Privacy ==
+According to the laws of some states, web pages should provide information
+on how they store personal information of their users. In MediaWiki, this is done
+using a so called privacy-link, which the system displays in some places. By editing the following
+files you can influence how this is done.
+* [[Project:Privacy Information]] contains the privacy information you want to provide to the user.
+* [[MediaWiki:Privacy]] contains the text which is displayed as part of the privacy-link. We suggest to use the content "Privacy policy".
+* [[MediaWiki:Privacypage]] contains the name of the wiki page to which the privacy-link links to. It currently links to [[Project:Privacy Information]]. We suggest not to touch the content of this page. You can, however, adjust it - for example if you want to link to an external page which is not under your control.
 
 == About-Link ==
 * [[MediaWiki:Aboutsite]] contains the text of the about-link.
@@ -2401,7 +2405,7 @@ More information: https://www.mediawiki.org/wiki/Manual:Footer
 * [[MediaWiki:Disclaimerpage]] contains the name of the wiki page to which the disclaimer-link links to. it currently links to [[Project:Disclaimer]]
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>kkx833vzez4acu28v3qnysnst0jm4vl</sha1>
+      <sha1>sm8o596u7ghqi4r6rv56p7dt9dmiseg</sha1>
     </revision>
   </page>
   <page>
