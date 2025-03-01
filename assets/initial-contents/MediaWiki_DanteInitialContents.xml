@@ -661,39 +661,42 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>154</id>
-      <parentid>153</parentid>
-      <timestamp>2024-12-19T22:51:00Z</timestamp>
+      <id>241</id>
+      <parentid>154</parentid>
+      <timestamp>2025-03-01T09:22:27Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>154</origin>
+      <origin>241</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3906" sha1="jgb38j5gsemhgl1f7icqgtnpuwl0ozn" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4264" sha1="iffkq9auwfd20wz7b6nmu6u380h7x9e" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * [[MediaWiki:CreatePage|Create Page]]
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b style='color:red !important;'&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 
-* &lt;b&gt;Help&lt;/b&gt;
+* &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
+** &lt;b title="Help for using some LaTeX features"&gt;LaTeX Help&lt;/b&gt;
+*** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
+*** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
+*** [https://ctan.net/graphics/pictex/PiCTeX_manual.pdf PiCTeX \S]
+*** [https://texdoc.org/serve/xyrefer.pdf/0 XY-Pic Reference \S]
+*** [http://www.map.mpim-bonn.mpg.de/images/4/41/Xyguide.pdf XY-Pic Users \S]
+*** [https://www.jmilne.org/not/Mxymatrix.pdf XY-Matrix \S]
 
-** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
-** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
-** [https://ctan.net/graphics/pictex/PiCTeX_manual.pdf PiCTeX \S]
-** [https://texdoc.org/serve/xyrefer.pdf/0 XY-Pic Reference \S]
-** [http://www.map.mpim-bonn.mpg.de/images/4/41/Xyguide.pdf XY-Pic Users \S]
-** [https://www.jmilne.org/not/Mxymatrix.pdf XY-Matrix \S]
+** &lt;b title="Help for using some MediaWiki features"&gt;MediaWiki Help&lt;/b&gt;
+*** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3 \S]
+*** [https://www.mediawiki.org/wiki/Help:Links Links WP]
 
-** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3 \S]
-** [[Help:Sidebar | Sidebar]]
-** [[Help:Parsifal Cheat| Parsifal Cheat]]
-** [[Help:Dante Cheat| Dante Cheat]]
-** [https://www.mediawiki.org/wiki/Help:Links Links WP]
+** &lt;b title="Help for using some DanteWiki features"&gt;DanteWiki Help&lt;/b&gt;
+*** [[Help:Sidebar | Sidebar]]
+*** [[Help:Parsifal Cheat| Parsifal Cheat]]
+*** [[Help:Dante Cheat| Dante Cheat]]
 
-* &lt;b&gt;Sidebar Edits&lt;/b&gt;
+* &lt;b title="Edit the contents of various parts of this sidebar"&gt;Sidebar Edits&lt;/b&gt;
 ** [{{fullurl:MediaWiki:Sidebar|action=edit}} Full Sidebar]
 ** [{{fullurl:MediaWiki:Sidebar/Areas|action=edit}} Areas]
 ** [{{fullurl:MediaWiki:Sidebar/Categories|action=edit}} Categories]
@@ -714,13 +717,13 @@ The contents of this page must conform to the following rules:
 ** [{{fullurl:Special:AllPages|from=&amp;to=&amp;namespace=2}} User]
 ** [{{fullurl:Special:ListFiles}} Files]
 
-* &lt;b title="Found a bug"&gt;Issue Reporting&lt;/b&gt;
+* &lt;b title="Report a bug which you found"&gt;Issue Reporting&lt;/b&gt;
 ** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]
 ** [https://github.com/clecap/dante-wiki/issues DanteWiki Issues \S]
 ** [https://github.com/clecap/dante-wiki-production/issues DanteProduction Issues \S]
 ** [https://github.com/clecap/Parsifal/issues Parsifal Issues \S]
 
-* &lt;b title="Check this regularly"&gt;Maintenance&lt;/b&gt;
+* &lt;b title="Links useful for regular maintenance"&gt;Maintenance&lt;/b&gt;
 ** [[Special:BrokenRedirects | Broken Redirects]]
 ** [[Special:DoubleRedirects | Double Redirects]]
 ** [[Special:UncategorizedPages | Uncat Pages]]
@@ -756,7 +759,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>jgb38j5gsemhgl1f7icqgtnpuwl0ozn</sha1>
+      <sha1>iffkq9auwfd20wz7b6nmu6u380h7x9e</sha1>
     </revision>
   </page>
   <page>
