@@ -743,20 +743,20 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>299</id>
-      <parentid>291</parentid>
-      <timestamp>2025-03-01T17:31:58Z</timestamp>
+      <id>319</id>
+      <parentid>318</parentid>
+      <timestamp>2025-03-02T21:16:07Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>299</origin>
+      <origin>319</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4295" sha1="aokwdppmla331spm9y89m7absldt41r" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4312" sha1="lhqzlh17amv9ghem1hvcc35y1wmcxgr" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
-* &lt;b&gt;[[MediaWiki:CreatePage | Create Page]]&lt;/b&gt;
+* &lt;b&gt;[{{fullurl:MediaWiki:CreatePage}} Create Page]&lt;/b&gt;
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
@@ -773,9 +773,9 @@ The contents of this page must conform to the following rules:
 *** [https://www.mediawiki.org/wiki/Help:Links Links WP]
 
 ** &lt;b title="Help for using some DanteWiki features"&gt;DanteWiki Help&lt;/b&gt;
-*** [[Help:Sidebar | Sidebar]]
-*** [[Help:Parsifal Cheat| Parsifal Cheat]]
-*** [[Help:Dante Cheat| Dante Cheat]]
+*** [[Help:Sidebar | Sidebar \S]]
+*** [[Help:Parsifal Cheat| Parsifal Cheat \S]]
+*** [[Help:Dante Cheat| Dante Cheat \S]]
 
 * &lt;b title="Edit the contents of various parts of this sidebar"&gt;Sidebar Edits&lt;/b&gt;
 ** [{{fullurl:MediaWiki:Sidebar|action=edit}} Full Sidebar]
@@ -841,7 +841,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>aokwdppmla331spm9y89m7absldt41r</sha1>
+      <sha1>lhqzlh17amv9ghem1hvcc35y1wmcxgr</sha1>
     </revision>
   </page>
   <page>
@@ -919,18 +919,18 @@ this system are subject to copyright.
     <ns>8</ns>
     <id>12</id>
     <revision>
-      <id>298</id>
-      <parentid>297</parentid>
-      <timestamp>2025-03-01T17:25:57Z</timestamp>
+      <id>337</id>
+      <parentid>331</parentid>
+      <timestamp>2025-03-04T21:04:03Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>298</origin>
+      <origin>337</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1107" sha1="fvtixb1c7q77bv2vneveup7j9timm2h" xml:space="preserve">
-&lt;div style="float:left;"&gt;
+      <text bytes="1168" sha1="3y32zhvyoanynv7c7gfol1fo20vdtoz" xml:space="preserve">
+&lt;div style="float:left;"&gt; 
 &lt;inputbox&gt;
 type=create 
 break=no 
@@ -941,10 +941,11 @@ buttonlabel=Create new article with this title
 
 &lt;b&gt;Note:&lt;/b&gt; May add a namespace as a prefix (with a :)
 
+[[MediaWiki:Namespacelist | List of all namespaces \S]]
+
 &lt;div style="height:50px;min-height:50px;"&gt;&lt;/div&gt;
 
-
-=== Create Article in Special Namespaces ===
+&lt;h2&gt;Create Article in Special Namespaces&lt;/h2&gt;
 
 &lt;div style="float:left;"&gt;
 &lt;table&gt;
@@ -952,7 +953,7 @@ buttonlabel=Create new article with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=Test
+prefix=Test:
 buttonlabel=Create new Test page with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -965,7 +966,7 @@ buttonlabel=Create new Test page with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=MediaWiki
+prefix=MediaWiki:
 buttonlabel=Create new MediaWiki system page with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -978,7 +979,7 @@ buttonlabel=Create new MediaWiki system page with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=Help
+prefix=Help:
 buttonlabel=Create new help article with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -986,7 +987,7 @@ buttonlabel=Create new help article with this title
 &lt;/div&gt;&lt;div style="clear:left;"&gt;&lt;/div&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>fvtixb1c7q77bv2vneveup7j9timm2h</sha1>
+      <sha1>3y32zhvyoanynv7c7gfol1fo20vdtoz</sha1>
     </revision>
   </page>
   <page>
@@ -1607,57 +1608,62 @@ rendering in text.
     <ns>3000</ns>
     <id>23</id>
     <revision>
-      <id>149</id>
-      <parentid>148</parentid>
-      <timestamp>2024-12-19T22:45:39Z</timestamp>
+      <id>349</id>
+      <parentid>348</parentid>
+      <timestamp>2025-03-04T22:36:11Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>149</origin>
+      <origin>349</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1223" sha1="29qmuyq0ojix84pj112xzocgq7l6dv2" xml:space="preserve">* Broken pipes for the internal links do not yet work.
-[[Main Page ¦  style=color:green;]]  
+      <text bytes="1445" sha1="kmd1cvl9tfa3ebub18wj5nyxsl9d084" xml:space="preserve">= Tests for internal links =
 
-[[Main Page \| style=color:blue;]] 
-   
-[[Main Page | Main Page \s]] 
-
-[[Main Page | Main Page \S]]
-
-[[Main Page | Main Page \w]]
-
-[[Main Page]]
-
-[[Main Page | Bla ]]
-
-[[Main Page | Bla ]]
-
-
-=== Auto-Titel Shorthand ===
-
+== Using shorthand notation for target ==
 * [[Main Page | \s]] small side let
 * [[Main Page | \S]] large side
 * [[Main Page | \w]] window
+* [[Main Page | \t]] Tooltip 
 
-== Test for setting target on external links ==
-* [https://www.mediawiki.org/ olgana ¦  target=_blank ]
+== Using shorthand notation for target with pipes ==
 
-* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
+* [[Main Page | Main Page \s]] 
+* [[Main Page | Main Page \S]]
+* [[Main Page | Main Page \w]]
+* [[Main Page | Main Page \t]] Tooltip
 
-* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
+== Using shorthand notation for target without pipes ==
 
-* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
+* [[Main Page \s]] 
+* [[Main Page \S]]
+* [[Main Page \w]]
 
+== Using normal notation for other attributes ==
+
+[[Main Page ¦  style=color:green;]]  
+
+[[Main Page \| style=color:blue;]]
+
+= Tests for external links =
+== Using shorthand notation for target ==
 * [https://www.mediawiki.org/ Test link (should open in small side) ending in backslash s shorthand \s]
 
 * [https://www.mediawiki.org/ Test link (should open in large side) ending in backslash S shorthand \S]
 
 * [https://www.mediawiki.org/ Test link (should open in window) ending in backslash w shorthand \w]
 
+== Using normal notation for target ==
+* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
+
+* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
+
+* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
+
+
+
 [[Category:DanteInitialContents]]</text>
-      <sha1>29qmuyq0ojix84pj112xzocgq7l6dv2</sha1>
+      <sha1>kmd1cvl9tfa3ebub18wj5nyxsl9d084</sha1>
     </revision>
   </page>
   <page>
@@ -2829,6 +2835,467 @@ The generating function can be found in [[MediaWiki:Common.js]].
 
 [[Category:DanteInitialContents]]</text>
       <sha1>02ma94ap2kjvh78qgul6wanr16ttc6a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Original Headers</title>
+    <ns>3000</ns>
+    <id>90</id>
+    <revision>
+      <id>339</id>
+      <parentid>336</parentid>
+      <timestamp>2025-03-04T21:05:30Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>339</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="273" sha1="hoftsde0bc4thtyavl7abs08ty2idfd" xml:space="preserve">
+We want to allow the use of h1, h2 and so on without having them parsed and interpreted as sections by the mediawiki parser.
+
+&lt;h1&gt;H1&lt;/h1&gt;
+
+&lt;h2&gt;H2&lt;/h2&gt;
+
+&lt;h3&gt;H3&lt;/h3&gt;
+
+&lt;h4&gt;H3&lt;/h4&gt;
+
+= h1 org =
+
+== h2 org ==
+
+=== h3 org ===
+
+==== h4 org ====
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>hoftsde0bc4thtyavl7abs08ty2idfd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Endpoint Tests</title>
+    <ns>3000</ns>
+    <id>92</id>
+    <revision>
+      <id>359</id>
+      <parentid>358</parentid>
+      <timestamp>2025-03-05T13:57:17Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>359</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="561" sha1="qev72i5wdv1xdnd7zzjx9cfq19m4anl" xml:space="preserve">
+This is an internal test page which works properly only in development mode and on a development environment.
+
+&lt;html&gt;
+&lt;a href="extensions/DantePresentations/endpoints/showEndpoint.php?Wiki-wgtitle=Test:Original_Headers" target="_blank"&gt;showEndpoint?Wiki-wgtitle=Test:Original_Headers&lt;/a&gt;
+&lt;/html&gt;
+
+
+&lt;html&gt;
+&lt;a href="extensions/DantePresentations/endpoints/showEndpoint.php?Wiki-wgnamespacenumber=3000&amp;wiki-dbkey=Original_Headers" target="_blank"&gt;showEndpoint?Wiki-wgnamespacenumber=3000&amp;wiki-dbkey=Original_Headers&lt;/a&gt;
+&lt;/html&gt;
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>qev72i5wdv1xdnd7zzjx9cfq19m4anl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Swipe</title>
+    <ns>3000</ns>
+    <id>93</id>
+    <revision>
+      <id>364</id>
+      <parentid>363</parentid>
+      <timestamp>2025-03-05T17:15:18Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>/* Five */</comment>
+      <origin>364</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17777" sha1="dii5m6koaf0qw3outfzgpqylwdyklkv" xml:space="preserve">
+= One =
+One stuff
+
+= Two =
+Two stuff
+
+= Three =
+Three stuff
+
+= Four =
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+
+= Five =
+&lt;amsmath&gt;
+g text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+A very long text is now coming for text purposes.
+&lt;/amsmath&gt;
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>dii5m6koaf0qw3outfzgpqylwdyklkv</sha1>
     </revision>
   </page>
 </mediawiki>
