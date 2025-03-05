@@ -336,18 +336,18 @@ this system are subject to copyright.
     <ns>8</ns>
     <id>12</id>
     <revision>
-      <id>298</id>
-      <parentid>297</parentid>
-      <timestamp>2025-03-01T17:25:57Z</timestamp>
+      <id>337</id>
+      <parentid>331</parentid>
+      <timestamp>2025-03-04T21:04:03Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>298</origin>
+      <origin>337</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1107" sha1="fvtixb1c7q77bv2vneveup7j9timm2h" xml:space="preserve">
-&lt;div style="float:left;"&gt;
+      <text bytes="1168" sha1="3y32zhvyoanynv7c7gfol1fo20vdtoz" xml:space="preserve">
+&lt;div style="float:left;"&gt; 
 &lt;inputbox&gt;
 type=create 
 break=no 
@@ -358,10 +358,11 @@ buttonlabel=Create new article with this title
 
 &lt;b&gt;Note:&lt;/b&gt; May add a namespace as a prefix (with a :)
 
+[[MediaWiki:Namespacelist | List of all namespaces \S]]
+
 &lt;div style="height:50px;min-height:50px;"&gt;&lt;/div&gt;
 
-
-=== Create Article in Special Namespaces ===
+&lt;h2&gt;Create Article in Special Namespaces&lt;/h2&gt;
 
 &lt;div style="float:left;"&gt;
 &lt;table&gt;
@@ -369,7 +370,7 @@ buttonlabel=Create new article with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=Test
+prefix=Test:
 buttonlabel=Create new Test page with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -382,7 +383,7 @@ buttonlabel=Create new Test page with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=MediaWiki
+prefix=MediaWiki:
 buttonlabel=Create new MediaWiki system page with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -395,7 +396,7 @@ buttonlabel=Create new MediaWiki system page with this title
   &lt;td&gt;&lt;inputbox&gt;
 type=create 
 break=no
-prefix=Help
+prefix=Help:
 buttonlabel=Create new help article with this title  
 &lt;/inputbox&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -403,7 +404,7 @@ buttonlabel=Create new help article with this title
 &lt;/div&gt;&lt;div style="clear:left;"&gt;&lt;/div&gt;
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>fvtixb1c7q77bv2vneveup7j9timm2h</sha1>
+      <sha1>3y32zhvyoanynv7c7gfol1fo20vdtoz</sha1>
     </revision>
   </page>
   <page>
@@ -720,20 +721,20 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>299</id>
-      <parentid>291</parentid>
-      <timestamp>2025-03-01T17:31:58Z</timestamp>
+      <id>319</id>
+      <parentid>318</parentid>
+      <timestamp>2025-03-02T21:16:07Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>299</origin>
+      <origin>319</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4295" sha1="aokwdppmla331spm9y89m7absldt41r" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4312" sha1="lhqzlh17amv9ghem1hvcc35y1wmcxgr" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
-* &lt;b&gt;[[MediaWiki:CreatePage | Create Page]]&lt;/b&gt;
+* &lt;b&gt;[{{fullurl:MediaWiki:CreatePage}} Create Page]&lt;/b&gt;
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
@@ -750,9 +751,9 @@ The contents of this page must conform to the following rules:
 *** [https://www.mediawiki.org/wiki/Help:Links Links WP]
 
 ** &lt;b title="Help for using some DanteWiki features"&gt;DanteWiki Help&lt;/b&gt;
-*** [[Help:Sidebar | Sidebar]]
-*** [[Help:Parsifal Cheat| Parsifal Cheat]]
-*** [[Help:Dante Cheat| Dante Cheat]]
+*** [[Help:Sidebar | Sidebar \S]]
+*** [[Help:Parsifal Cheat| Parsifal Cheat \S]]
+*** [[Help:Dante Cheat| Dante Cheat \S]]
 
 * &lt;b title="Edit the contents of various parts of this sidebar"&gt;Sidebar Edits&lt;/b&gt;
 ** [{{fullurl:MediaWiki:Sidebar|action=edit}} Full Sidebar]
@@ -818,7 +819,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>aokwdppmla331spm9y89m7absldt41r</sha1>
+      <sha1>lhqzlh17amv9ghem1hvcc35y1wmcxgr</sha1>
     </revision>
   </page>
   <page>
