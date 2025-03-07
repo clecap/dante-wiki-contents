@@ -721,23 +721,24 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>319</id>
-      <parentid>318</parentid>
-      <timestamp>2025-03-02T21:16:07Z</timestamp>
+      <id>391</id>
+      <parentid>390</parentid>
+      <timestamp>2025-03-07T12:00:04Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>319</origin>
+      <origin>391</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4312" sha1="lhqzlh17amv9ghem1hvcc35y1wmcxgr" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4314" sha1="4zzn8dylldidfjuea03sultd5z92vmd" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * &lt;b&gt;[{{fullurl:MediaWiki:CreatePage}} Create Page]&lt;/b&gt;
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
+** [[Help:Techniques]]
 ** &lt;b title="Help for using some LaTeX features"&gt;LaTeX Help&lt;/b&gt;
 *** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
 *** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
@@ -803,8 +804,7 @@ The contents of this page must conform to the following rules:
 *** &lt;b&gt;[javascript:console.log(Dante.testDump); Log Dante.testDump]&lt;/b&gt;
 *** &lt;b&gt;[javascript:Dante.testDump(); Dante.testDump]&lt;/b&gt;
 ** [[Help:Tests for Drawio|Drawio]]
-** Parsifal Tests
-*** [[Help:Slides Test Reveal|Slides Reveal]]
+** [[Test:Parsifal Tests| Parsifal Tests]]
 * [[Special:Upload| Upload file]]
 * [[Special:SpecialPages| Special pages]]
 * &lt;b&gt;Page Tools&lt;/b&gt;
@@ -819,7 +819,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>lhqzlh17amv9ghem1hvcc35y1wmcxgr</sha1>
+      <sha1>4zzn8dylldidfjuea03sultd5z92vmd</sha1>
     </revision>
   </page>
   <page>
