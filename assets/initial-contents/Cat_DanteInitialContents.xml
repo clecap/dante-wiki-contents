@@ -743,23 +743,24 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>319</id>
-      <parentid>318</parentid>
-      <timestamp>2025-03-02T21:16:07Z</timestamp>
+      <id>391</id>
+      <parentid>390</parentid>
+      <timestamp>2025-03-07T12:00:04Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>319</origin>
+      <origin>391</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4312" sha1="lhqzlh17amv9ghem1hvcc35y1wmcxgr" xml:space="preserve">&lt;pre&gt;
+      <text bytes="4314" sha1="4zzn8dylldidfjuea03sultd5z92vmd" xml:space="preserve">&lt;pre&gt;
 {{#tree: extensions=["persist"] | 
 * &lt;b&gt;[{{fullurl:Main Page}} Main Page]&lt;/b&gt;
 * &lt;b&gt;[{{fullurl:MediaWiki:CreatePage}} Create Page]&lt;/b&gt;
 * [{{fullurl:Special:RecentChanges}} Recent Changes]
 * &lt;b&gt;[[Help:Customize | Please customize these pages!]]&lt;/b&gt;
 * &lt;b title="Help for using features of this system"&gt;Help&lt;/b&gt;
+** [[Help:Techniques]]
 ** &lt;b title="Help for using some LaTeX features"&gt;LaTeX Help&lt;/b&gt;
 *** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
 *** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ &amp; PGF \S]
@@ -825,8 +826,7 @@ The contents of this page must conform to the following rules:
 *** &lt;b&gt;[javascript:console.log(Dante.testDump); Log Dante.testDump]&lt;/b&gt;
 *** &lt;b&gt;[javascript:Dante.testDump(); Dante.testDump]&lt;/b&gt;
 ** [[Help:Tests for Drawio|Drawio]]
-** Parsifal Tests
-*** [[Help:Slides Test Reveal|Slides Reveal]]
+** [[Test:Parsifal Tests| Parsifal Tests]]
 * [[Special:Upload| Upload file]]
 * [[Special:SpecialPages| Special pages]]
 * &lt;b&gt;Page Tools&lt;/b&gt;
@@ -841,7 +841,7 @@ The contents of this page must conform to the following rules:
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>lhqzlh17amv9ghem1hvcc35y1wmcxgr</sha1>
+      <sha1>4zzn8dylldidfjuea03sultd5z92vmd</sha1>
     </revision>
   </page>
   <page>
@@ -1123,18 +1123,18 @@ Template:Subpages
     <ns>12</ns>
     <id>17</id>
     <revision>
-      <id>95</id>
-      <parentid>82</parentid>
-      <timestamp>2024-12-19T12:17:40Z</timestamp>
+      <id>365</id>
+      <parentid>95</parentid>
+      <timestamp>2025-03-05T17:49:47Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <comment>/* Attributes */</comment>
-      <origin>95</origin>
+      <origin>365</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4815" sha1="8r3az80d0n6e6vkpo4dkz5816k1wfbo" xml:space="preserve">
+      <text bytes="5256" sha1="q1zt8e051o7xfztfgaukg3t1obdzlc8" xml:space="preserve">
 == Parsifal Cheat Sheet ==
 
 == Editor ==
@@ -1157,9 +1157,12 @@ without resizing the rest of the browser.
 &lt;tr&gt;&lt;td colspan=2&gt;&lt;b&gt;Code Highlighting (Minted)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;code&gt;minted&lt;/code&gt;&lt;/td&gt;  &lt;td&gt;Activates minted using default style emacs&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;code&gt;minted=&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Activates minted using given style if exists, else emacs style&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;minted-linenos&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Use line numbers with minted&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;minted-box&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Places minted result inside of a box&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td colspan=2&gt;&lt;b&gt;Preamble&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;pa="..."&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Adds the contents ... at the end of the preamble for the Latex compilation&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;pa="[[...]]"&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Adds the contents of DanteWiki page ... at the end of the preamble for the Latex compilation&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-
 
 === Available minted Styles ===
 Names obtained via &lt;code&gt;pygmentize -L styles&lt;/code&gt;
@@ -1232,7 +1235,7 @@ first text. Nevertheless there should be a possibility for the reader to recogni
 two parts.
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>8r3az80d0n6e6vkpo4dkz5816k1wfbo</sha1>
+      <sha1>q1zt8e051o7xfztfgaukg3t1obdzlc8</sha1>
     </revision>
   </page>
   <page>
@@ -1341,25 +1344,23 @@ Notes:
     </revision>
   </page>
   <page>
-    <title>Test:Parsifal</title>
+    <title>Test:Parsifal/Some Tests</title>
     <ns>3000</ns>
     <id>20</id>
     <revision>
-      <id>185</id>
-      <parentid>184</parentid>
-      <timestamp>2025-01-09T20:42:28Z</timestamp>
+      <id>396</id>
+      <parentid>393</parentid>
+      <timestamp>2025-03-07T12:03:15Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
       <comment>/* Titel */</comment>
-      <origin>185</origin>
+      <origin>396</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1681" sha1="pz8yd8jwalbqjedgo9l5l8iiijh3ru2" xml:space="preserve">asdaaj kh aal gjjjj
+      <text bytes="1670" sha1="qcywrsh27qewu2prayhprmw2ns8t4mf" xml:space="preserve">asdaaj kh aal gjjjj
 q
-= Titel =
-
 &lt;amsmath n="Myname"&gt;o f t  h is jk  sds
    q we qj 
 xc x
@@ -1456,7 +1457,7 @@ might have additional properties as well (The color red is an insufficient chara
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>pz8yd8jwalbqjedgo9l5l8iiijh3ru2</sha1>
+      <sha1>qcywrsh27qewu2prayhprmw2ns8t4mf</sha1>
     </revision>
   </page>
   <page>
@@ -2913,19 +2914,19 @@ This is an internal test page which works properly only in development mode and 
     <ns>3000</ns>
     <id>93</id>
     <revision>
-      <id>364</id>
-      <parentid>363</parentid>
-      <timestamp>2025-03-05T17:15:18Z</timestamp>
+      <id>384</id>
+      <parentid>383</parentid>
+      <timestamp>2025-03-06T21:29:01Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Five */</comment>
-      <origin>364</origin>
+      <comment>/* One but with a long title */</comment>
+      <origin>384</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="17777" sha1="dii5m6koaf0qw3outfzgpqylwdyklkv" xml:space="preserve">
-= One =
+      <text bytes="17846" sha1="tflcmd0v6snrzv1ncs8q068ap83adhr" xml:space="preserve">
+= One but with a very very very long title to check the ellipsis mechanism =
 One stuff
 
 = Two =
@@ -3295,7 +3296,161 @@ A very long text is now coming for text purposes.
 
 
 [[Category:DanteInitialContents]]</text>
-      <sha1>dii5m6koaf0qw3outfzgpqylwdyklkv</sha1>
+      <sha1>tflcmd0v6snrzv1ncs8q068ap83adhr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalMacro/Blatest</title>
+    <ns>8</ns>
+    <id>96</id>
+    <revision>
+      <id>372</id>
+      <parentid>369</parentid>
+      <timestamp>2025-03-05T18:10:19Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>372</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="170" sha1="e2anxyj63x6qabr33n1zu5e7j162o1y" xml:space="preserve">This Parsifal macro contains latex preamble text inside of a &lt;code&gt;pre&lt;/code&gt;
+tag.
+
+&lt;pre&gt;
+\def\mybla{\textbf{MY BLA MACRO TEST}}
+&lt;/pre&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>e2anxyj63x6qabr33n1zu5e7j162o1y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Parsifal/Preamble</title>
+    <ns>3000</ns>
+    <id>94</id>
+    <revision>
+      <id>385</id>
+      <parentid>381</parentid>
+      <timestamp>2025-03-07T10:07:47Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>385</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="502" sha1="oqjz1l4h611h5flnfzt4jtdrpc5uhwz" xml:space="preserve">
+ 
+= Direct Preamble =
+
+&lt;amsmath pa="\def\bla{\textbf{bla}}"&gt;
+This \bla has a va alue. hg hjw
+&lt;/amsmath&gt;
+
+= Inclusion Preamble =
+
+&lt;amsmath pa="[[Blatest]]"&gt;
+This \mybla has a value. hsaak
+&lt;/amsmath&gt;
+
+= Page Preamble =  
+ 
+&lt;preamble&gt;
+\def\pagepreamble{DEFINED A PAGE PREAMBLE}  
+&lt;/preamble&gt;
+
+&lt;amsmath&gt;
+Re a l ize \pagepreamble stuff
+&lt;/amsmath&gt;
+
+&lt;amsmath&gt;
+R ea l ize \pagepreamble stuff later down
+&lt;/amsmath&gt;
+
+
+= Futher Down =
+&lt;amsmath&gt;
+Check: \pagepreamble
+&lt;/amsmath&gt;
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>oqjz1l4h611h5flnfzt4jtdrpc5uhwz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Techniques</title>
+    <ns>12</ns>
+    <id>97</id>
+    <revision>
+      <id>398</id>
+      <parentid>389</parentid>
+      <timestamp>2025-03-07T12:53:06Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>398</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="447" sha1="q4b1weie3fmq3qm4859g90sn3ilocwl" xml:space="preserve">
+
+
+= List of all Subpages =
+
+'''Of the current page''':
+&lt;pre&gt;
+  &lt;splist /&gt;
+&lt;/pre&gt;
+
+'''Of a given page''': (using dpl)
+&lt;pre&gt;
+{{#dpl:
+|namespace=MediaWiki
+|titlegt=ParsifalTemplate/
+}}
+&lt;/pre&gt;
+
+
+'''Of a given page''' (using Speical Page):
+&lt;pre&gt;
+  {{Special:PrefixIndex/MediaWiki:ParsifalTemplate/}}
+&lt;/pre&gt;
+
+
+= Colum FOrmatting =
+&lt;pre&gt;
+  &lt;div style="-webkit-column-count:3;column-count:4;"&gt;
+  ...
+  &lt;/div&gt;
+&lt;/pre&gt;  
+  
+[[Category:DanteInitialContents]]</text>
+      <sha1>q4b1weie3fmq3qm4859g90sn3ilocwl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Parsifal Tests</title>
+    <ns>3000</ns>
+    <id>98</id>
+    <revision>
+      <id>399</id>
+      <parentid>397</parentid>
+      <timestamp>2025-03-07T12:55:19Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>399</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="116" sha1="5gz82rfx04ciqlrda41ktkj7a2rbjem" xml:space="preserve">List of all '''Parsifal-related tests'''.
+
+{{Special:PrefixIndex/Test:Parsifal/}}
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>5gz82rfx04ciqlrda41ktkj7a2rbjem</sha1>
     </revision>
   </page>
 </mediawiki>
