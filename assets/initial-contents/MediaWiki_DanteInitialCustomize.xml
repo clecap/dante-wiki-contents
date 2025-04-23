@@ -28,6 +28,8 @@
       <namespace key="2101" case="first-letter">Snip talk</namespace>
       <namespace key="2200" case="first-letter">Translated</namespace>
       <namespace key="2201" case="first-letter">Translated Talk</namespace>
+      <namespace key="2202" case="first-letter">Collection</namespace>
+      <namespace key="2203" case="first-letter">Collection Talk</namespace>
       <namespace key="2300" case="case-sensitive">Gadget</namespace>
       <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
       <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
@@ -39,15 +41,15 @@
   <page>
     <title>MediaWiki:Copyright</title>
     <ns>8</ns>
-    <id>74</id>
+    <id>56</id>
     <revision>
-      <id>78</id>
+      <id>60</id>
       <timestamp>2024-07-29T18:38:33Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>78</origin>
+      <origin>60</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="56" sha1="76wisucdgp4wi5ic2wv66ythkpfd76q" xml:space="preserve">Content is subject to copyright, unless otherwise noted.</text>
@@ -57,15 +59,15 @@
   <page>
     <title>MediaWiki:CopyrightNotice</title>
     <ns>8</ns>
-    <id>75</id>
+    <id>57</id>
     <revision>
-      <id>79</id>
+      <id>61</id>
       <timestamp>2024-08-20T20:35:37Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>79</origin>
+      <origin>61</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="207" sha1="cujgv9it9b79lx8hpi6rd7ulyob1a15" xml:space="preserve">This is a Dante-Wiki. This is not Mediawiki and not Wikipedia.
@@ -78,15 +80,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:About</title>
     <ns>4</ns>
-    <id>44</id>
+    <id>25</id>
     <revision>
-      <id>47</id>
+      <id>28</id>
       <timestamp>2024-08-24T16:56:18Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>47</origin>
+      <origin>28</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="107" sha1="nozbgwh1pewr8gqibkbqxent99cylo7" xml:space="preserve">This page must be customized to describe the purpose of this DanteWiki.
@@ -98,15 +100,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:Disclaimer</title>
     <ns>4</ns>
-    <id>45</id>
+    <id>26</id>
     <revision>
-      <id>48</id>
+      <id>29</id>
       <timestamp>2024-08-24T16:56:32Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>48</origin>
+      <origin>29</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="152" sha1="4iaz5lslraa0mbs0wc1p80p3bkqectc" xml:space="preserve">This page must be customized to describe the disclaimers, terms of services and conditions of use for this DanteWiki.
@@ -117,15 +119,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:Privacy Information</title>
     <ns>4</ns>
-    <id>48</id>
+    <id>28</id>
     <revision>
-      <id>51</id>
+      <id>31</id>
       <timestamp>2024-08-24T16:57:13Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>51</origin>
+      <origin>31</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="331" sha1="cy8oq4ejsa88qv1vuxmllrenz1om6wx" xml:space="preserve">A Dantewiki is intended for the use of a single person or a very small number
