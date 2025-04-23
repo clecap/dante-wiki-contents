@@ -28,6 +28,8 @@
       <namespace key="2101" case="first-letter">Snip talk</namespace>
       <namespace key="2200" case="first-letter">Translated</namespace>
       <namespace key="2201" case="first-letter">Translated Talk</namespace>
+      <namespace key="2202" case="first-letter">Collection</namespace>
+      <namespace key="2203" case="first-letter">Collection Talk</namespace>
       <namespace key="2300" case="case-sensitive">Gadget</namespace>
       <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
       <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
@@ -41,31 +43,21 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>382</id>
-      <parentid>360</parentid>
-      <timestamp>2025-03-06T12:26:58Z</timestamp>
+      <id>3</id>
+      <parentid>1</parentid>
+      <timestamp>2025-04-21T20:02:52Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>Maintenance script</username>
+        <id>3</id>
       </contributor>
-      <origin>382</origin>
+      <comment>Imported by wiki-init.sh</comment>
+      <origin>3</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="175" sha1="8x3afgsq1czrieyxs44wjk0ulh29dgn" xml:space="preserve">
-This is a freshly ghj kjh installed Dante Wiki. kjhkjhjj
+      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
 
-&lt;audio&gt;&lt;/audio&gt;
-
-&lt;video&gt;&lt;/video&gt;
-
-= a section =
-
-&lt;amsmath&gt;
-asdasdqqyxy erqq qwmqsqpsdfg
-&lt;/amsmath&gt;
-
-&lt;h2&gt;Section&lt;/h2&gt;</text>
-      <sha1>8x3afgsq1czrieyxs44wjk0ulh29dgn</sha1>
+This is a freshly installed Dante Wiki.</text>
+      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
     </revision>
   </page>
 </mediawiki>
