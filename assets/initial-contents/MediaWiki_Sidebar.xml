@@ -28,6 +28,8 @@
       <namespace key="2101" case="first-letter">Snip talk</namespace>
       <namespace key="2200" case="first-letter">Translated</namespace>
       <namespace key="2201" case="first-letter">Translated Talk</namespace>
+      <namespace key="2202" case="first-letter">Collection</namespace>
+      <namespace key="2203" case="first-letter">Collection Talk</namespace>
       <namespace key="2300" case="case-sensitive">Gadget</namespace>
       <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
       <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
@@ -42,7 +44,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-18T22:06:08Z</timestamp>
+      <timestamp>2025-04-21T20:02:51Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
