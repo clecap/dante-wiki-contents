@@ -28,6 +28,8 @@
       <namespace key="2101" case="first-letter">Snip talk</namespace>
       <namespace key="2200" case="first-letter">Translated</namespace>
       <namespace key="2201" case="first-letter">Translated Talk</namespace>
+      <namespace key="2202" case="first-letter">Collection</namespace>
+      <namespace key="2203" case="first-letter">Collection Talk</namespace>
       <namespace key="2300" case="case-sensitive">Gadget</namespace>
       <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
       <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
@@ -42,7 +44,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2024-12-18T22:06:08Z</timestamp>
+      <timestamp>2025-04-21T20:02:51Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -73,22 +75,22 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>142</id>
-      <parentid>138</parentid>
-      <timestamp>2024-12-19T14:38:36Z</timestamp>
+      <id>82</id>
+      <parentid>81</parentid>
+      <timestamp>2025-04-23T20:40:48Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>142</origin>
+      <origin>82</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="15842" sha1="qx0ikbi07b6svdx6d9idfbwhjyw70dh" xml:space="preserve">&lt;pre&gt;
+      <text bytes="15886" sha1="kothr76qsmt78v2fzfteeftx64bltm0" xml:space="preserve">&lt;pre&gt;
 \documentclass[varwidth=15cm,margin=0.07cm]{standalone} 
 
 %%
-%% Standard package imports
-%% 
+%% Standard package imports        
+%%  
 
 \usepackage[T1]{fontenc}             % fontencoding - FIRST load fontencoding 
 \usepackage[utf8]{inputenc}          % and only THEN load UTF-8 see https://tex.stackexchange.com/questions/13067/
@@ -105,7 +107,7 @@
 %% minted is included dynamically
 
 %%
-%% Delayed minted initialization code
+%% Delayed minted initialization code  
 %% * We do not load minted here as part of the normal preamble as it slows down normal latex compilation
 %% * we only load minted on demand using attribute minted
 %% * However we cannot execute this in situations where we do not load the minted package
@@ -219,6 +221,7 @@
 
 \input{../local/chc-jpabox.tex}
 \input{../local/variants.tex}
+\input{../local/image-patch.tex}
 
 
 
@@ -633,7 +636,7 @@ magic-line-identifier-for-inclusion
 
 [[Category:DanteInitialContents]]
 [[Category:ParsifalTemplate]]</text>
-      <sha1>qx0ikbi07b6svdx6d9idfbwhjyw70dh</sha1>
+      <sha1>kothr76qsmt78v2fzfteeftx64bltm0</sha1>
     </revision>
   </page>
   <page>
@@ -743,14 +746,13 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>8</id>
     <revision>
-      <id>391</id>
-      <parentid>390</parentid>
+      <id>11</id>
       <timestamp>2025-03-07T12:00:04Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>391</origin>
+      <origin>11</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="4314" sha1="4zzn8dylldidfjuea03sultd5z92vmd" xml:space="preserve">&lt;pre&gt;
@@ -849,14 +851,13 @@ The contents of this page must conform to the following rules:
     <ns>8</ns>
     <id>9</id>
     <revision>
-      <id>234</id>
-      <parentid>233</parentid>
+      <id>12</id>
       <timestamp>2025-02-28T20:50:59Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>234</origin>
+      <origin>12</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="676" sha1="g2r6x5tdhq6zdfqzrv5kfsu9ewz17xn" xml:space="preserve">&lt;pre&gt;
@@ -919,14 +920,13 @@ this system are subject to copyright.
     <ns>8</ns>
     <id>12</id>
     <revision>
-      <id>337</id>
-      <parentid>331</parentid>
+      <id>15</id>
       <timestamp>2025-03-04T21:04:03Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>337</origin>
+      <origin>15</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1168" sha1="3y32zhvyoanynv7c7gfol1fo20vdtoz" xml:space="preserve">
@@ -995,14 +995,13 @@ buttonlabel=Create new help article with this title
     <ns>8</ns>
     <id>13</id>
     <revision>
-      <id>237</id>
-      <parentid>16</parentid>
+      <id>16</id>
       <timestamp>2025-02-28T21:15:07Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>237</origin>
+      <origin>16</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="848" sha1="j2e7sq7jfi6gz9bdjj3w8d2xesv1p2u" xml:space="preserve">
@@ -1119,19 +1118,69 @@ Template:Subpages
     </revision>
   </page>
   <page>
-    <title>Help:Parsifal Cheat</title>
-    <ns>12</ns>
+    <title>MediaWiki:Namespacelist</title>
+    <ns>8</ns>
     <id>17</id>
     <revision>
-      <id>365</id>
-      <parentid>95</parentid>
+      <id>20</id>
+      <timestamp>2025-03-01T16:57:49Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <origin>20</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="243" sha1="02ma94ap2kjvh78qgul6wanr16ttc6a" xml:space="preserve">
+
+This page displays the list of namespaces which is active on this DanteWiki.
+
+The generating function can be found in [[MediaWiki:Common.js]].
+
+&lt;div id="namespace-container" style="margin-left:20px;"&gt;&lt;/div&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>02ma94ap2kjvh78qgul6wanr16ttc6a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ParsifalMacro/Blatest</title>
+    <ns>8</ns>
+    <id>18</id>
+    <revision>
+      <id>21</id>
+      <timestamp>2025-03-05T18:10:19Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <origin>21</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="170" sha1="e2anxyj63x6qabr33n1zu5e7j162o1y" xml:space="preserve">This Parsifal macro contains latex preamble text inside of a &lt;code&gt;pre&lt;/code&gt;
+tag.
+
+&lt;pre&gt;
+\def\mybla{\textbf{MY BLA MACRO TEST}}
+&lt;/pre&gt;
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>e2anxyj63x6qabr33n1zu5e7j162o1y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Parsifal Cheat</title>
+    <ns>12</ns>
+    <id>19</id>
+    <revision>
+      <id>22</id>
       <timestamp>2025-03-05T17:49:47Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>/* Attributes */</comment>
-      <origin>365</origin>
+      <origin>22</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="5256" sha1="q1zt8e051o7xfztfgaukg3t1obdzlc8" xml:space="preserve">
@@ -1241,16 +1290,15 @@ two parts.
   <page>
     <title>Help:Dante Cheat</title>
     <ns>12</ns>
-    <id>18</id>
+    <id>20</id>
     <revision>
-      <id>175</id>
-      <parentid>170</parentid>
+      <id>23</id>
       <timestamp>2025-01-08T10:54:41Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>175</origin>
+      <origin>23</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2137" sha1="aqxki56u9ffe2xfq7j82vfeqp5kdwee" xml:space="preserve">
@@ -1319,16 +1367,16 @@ Notes:
   <page>
     <title>Help:Sidebar</title>
     <ns>12</ns>
-    <id>19</id>
+    <id>21</id>
     <revision>
-      <id>22</id>
+      <id>24</id>
       <timestamp>2024-07-27T20:17:01Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>22</origin>
+      <origin>24</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="257" sha1="mhrzfonpkrkm0m2l8yxgdbx5yf6pqc2" xml:space="preserve">
@@ -1344,19 +1392,318 @@ Notes:
     </revision>
   </page>
   <page>
+    <title>Category:DanteInitialCustomize</title>
+    <ns>14</ns>
+    <id>24</id>
+    <revision>
+      <id>27</id>
+      <timestamp>2024-08-24T17:00:12Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>27</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="167" sha1="9wa4rf2ocqixm5565cla6k39adbx2xa" xml:space="preserve">This category is for initial contents pages of dantewiki which should be
+customized by the user.
+
+
+[[Category:DanteInitialContents]]
+[[Category:DanteInitialCustomize]]</text>
+      <sha1>9wa4rf2ocqixm5565cla6k39adbx2xa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>File:Dblp.png</title>
+    <ns>6</ns>
+    <id>50</id>
+    <revision>
+      <id>54</id>
+      <timestamp>2024-12-10T15:43:26Z</timestamp>
+      <contributor>
+        <username>Imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Imported&gt;Admin uploaded [[File:Dblp.png]]</comment>
+      <origin>54</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33" sha1="gvq6ut7lznild28cxvcvjb8qvitopum" xml:space="preserve">[[Category:DanteInitialContents]]</text>
+      <sha1>gvq6ut7lznild28cxvcvjb8qvitopum</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Parsifal/Syntax Highlighting</title>
+    <ns>3000</ns>
+    <id>58</id>
+    <revision>
+      <id>62</id>
+      <timestamp>2024-12-19T09:53:38Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>/* More Complex Highlight */</comment>
+      <origin>62</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="303" sha1="0nk4mbkcg5bsc06mbhfymw56rc5kfu5" xml:space="preserve">
+
+== Simple Highlight ==
+&lt;syntaxhighlight&gt;
+let x = 7;
+&lt;/syntaxhighlight&gt;
+
+== More Complex Highlight ==
+‎&lt;syntaxhighlight lang="python"&gt;
+def quick_sort(arr):
+	less = []
+	pivot_list = []
+	more = []
+	if len(arr) &lt;= 1:
+		return arr
+	else:
+		pass
+‎&lt;/syntaxhighlight&gt;
+
+
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>0nk4mbkcg5bsc06mbhfymw56rc5kfu5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Help:DanteLinks</title>
+    <ns>12</ns>
+    <id>59</id>
+    <revision>
+      <id>63</id>
+      <timestamp>2024-07-27T20:10:00Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
+      <origin>63</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2710" sha1="e4kx4rvrm7puj6vxatjdbhi7j4bhwv1" xml:space="preserve">
+
+
+Window
+* [https://blog.fefe.de \w]
+* [https://blog.fefe.de Fefe \w]
+
+
+Side
+* [https://blog.fefe.de \s]
+* [https://blog.fefe.de Fefe \s]
+
+
+'''Example'''
+* &lt;nowiki&gt;[[Main Page || doub]]&lt;/nowiki&gt;
+* [[Main Page || doub]] 
+
+* &lt;nowiki&gt;[[Main Page \| doub]]&lt;/nowiki&gt;
+* [[Main Page \| doub]]
+
+
+'''Example'''
+* &lt;nowiki&gt;[[Main Page ¦ style=color:green;]]&lt;/nowiki&gt;
+* [[Main Page ¦ style=color:green;]]
+
+'''Example'''
+* &lt;nowiki&gt;[[Help:Demo for DanteLinks ¦ style=color:green;]]&lt;/nowiki&gt;
+* [[Help:Demo for DanteLinks ¦ style=color:green;]]
+
+'''Example:''' Adding style attributes to an external link via broken pipe symbol
+* &lt;nowiki&gt;[https://blog.fefe.de Fefe ¦ style=color:green;]&lt;/nowiki&gt; produces
+* [https://blog.fefe.de Fefe ¦ style=color:green;]
+
+
+'''Example:''' Adding target attribute _blank to an external link opens it in a new tab
+* &lt;nowiki&gt;[https://blog.fefe.de Fefe ¦ target=_blank ]&lt;/nowiki&gt; produces:
+* [https://blog.fefe.de Fefe ¦ target=_blank ]
+
+For use in sidebars only: There is a special class dexternal which can be used to append an external link symbol to link. In the sidebar links which otherwise are external will not show the symbol external. This is as we need query extensions for a number of links in the sidebar and this needs fullurl as parser and this causes the parser to understand the link as external in every case. Therefore we turned this thingie off in sidebar until we find a smart fix for this.
+
+[[Main Page]]
+
+And here [[Main Page]] some text [https://blog.fefe.de Fefe] to see the distances when
+rendering in text.
+
+
+== Requirements ==
+
+* We always want to see where a link goes (internal or external)
+* We always want to know where a link opens (same tab, new tab, new window)
+* We want to allow the user to open the link where he wants to (same tab, new tab, new window)
+* We want to force-open some links in specific modes (same tab, new tab, new window) when the user only clicks normally.
+
+== All Link Types ==
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Internal&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[[Main Page]]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[[Main Page]]&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Piped&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[[Main Page|Hauptseite]]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[[Main Page|Hauptseite]]&lt;/td&gt;&lt;/tr&gt;
+
+
+&lt;tr&gt;&lt;td&gt;External numbered&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[https://blog.fefe.de]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[https://blog.fefe.de]&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;External text&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[https://blog.fefe.de Fefe]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[https://blog.fefe.de Fefe]&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;External bare&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;https://blog.fefe.de&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;https://blog.fefe.de&lt;/td&gt;&lt;/tr&gt;
+
+
+&lt;/table&gt;
+
+
+[[Main Page]]s
+
+[https://blog.fefe.de Fefe]
+
+
+[[Murundai\w]]
+
+[https://blog.fefe.de Hurundai\w]
+
+[[Pipetrick (computing)|Pipetrick]] 
+
+
+
+
+[[:Category:Root]]
+[[Category:DanteInitialContents]]</text>
+      <sha1>e4kx4rvrm7puj6vxatjdbhi7j4bhwv1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:DanteLinks</title>
+    <ns>3000</ns>
+    <id>60</id>
+    <revision>
+      <id>64</id>
+      <timestamp>2025-03-04T22:36:11Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <origin>64</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1445" sha1="kmd1cvl9tfa3ebub18wj5nyxsl9d084" xml:space="preserve">= Tests for internal links =
+
+== Using shorthand notation for target ==
+* [[Main Page | \s]] small side let
+* [[Main Page | \S]] large side
+* [[Main Page | \w]] window
+* [[Main Page | \t]] Tooltip 
+
+== Using shorthand notation for target with pipes ==
+
+* [[Main Page | Main Page \s]] 
+* [[Main Page | Main Page \S]]
+* [[Main Page | Main Page \w]]
+* [[Main Page | Main Page \t]] Tooltip
+
+== Using shorthand notation for target without pipes ==
+
+* [[Main Page \s]] 
+* [[Main Page \S]]
+* [[Main Page \w]]
+
+== Using normal notation for other attributes ==
+
+[[Main Page ¦  style=color:green;]]  
+
+[[Main Page \| style=color:blue;]]
+
+= Tests for external links =
+== Using shorthand notation for target ==
+* [https://www.mediawiki.org/ Test link (should open in small side) ending in backslash s shorthand \s]
+
+* [https://www.mediawiki.org/ Test link (should open in large side) ending in backslash S shorthand \S]
+
+* [https://www.mediawiki.org/ Test link (should open in window) ending in backslash w shorthand \w]
+
+== Using normal notation for target ==
+* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
+
+* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
+
+* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
+
+
+
+[[Category:DanteInitialContents]]</text>
+      <sha1>kmd1cvl9tfa3ebub18wj5nyxsl9d084</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Test:Reveal</title>
+    <ns>3000</ns>
+    <id>61</id>
+    <revision>
+      <id>65</id>
+      <timestamp>2024-08-22T14:39:07Z</timestamp>
+      <contributor>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
+      </contributor>
+      <minor/>
+      <comment>Admin moved page [[Help:Test/Reveal]] to [[Test:Reveal]] without leaving a redirect</comment>
+      <origin>65</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="229" sha1="79r3kudp4povk94cubqufqs1b669x7c" xml:space="preserve">
+__SLIDES__
+
+__NOTOC__
+
+==One==
+&lt;beamer b&gt;
+one
+
+qwe
+
+qwe
+
+qwe
+
+
+&lt;/beamer&gt;
+
+==Two==
+&lt;beamer b&gt;
+Two qwd
+&lt;/beamer&gt;
+
+== Three ==
+&lt;amsmath&gt;
+asd asd
+&lt;/amsmath&gt;
+
+== Four ==
+&lt;amsmath&gt;
+asd asdv
+&lt;/amsmath&gt;
+[[Category:DanteInitialContents]]</text>
+      <sha1>79r3kudp4povk94cubqufqs1b669x7c</sha1>
+    </revision>
+  </page>
+  <page>
     <title>Test:Parsifal/Some Tests</title>
     <ns>3000</ns>
-    <id>20</id>
+    <id>22</id>
     <revision>
-      <id>396</id>
-      <parentid>393</parentid>
+      <id>25</id>
       <timestamp>2025-03-07T12:03:15Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
       <comment>/* Titel */</comment>
-      <origin>396</origin>
+      <origin>25</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1670" sha1="qcywrsh27qewu2prayhprmw2ns8t4mf" xml:space="preserve">asdaaj kh aal gjjjj
@@ -1458,1999 +1805,6 @@ might have additional properties as well (The color red is an insufficient chara
 
 [[Category:DanteInitialContents]]</text>
       <sha1>qcywrsh27qewu2prayhprmw2ns8t4mf</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Syntax Highlighting</title>
-    <ns>3000</ns>
-    <id>21</id>
-    <revision>
-      <id>83</id>
-      <parentid>24</parentid>
-      <timestamp>2024-12-19T09:53:38Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>/* More Complex Highlight */</comment>
-      <origin>83</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="303" sha1="0nk4mbkcg5bsc06mbhfymw56rc5kfu5" xml:space="preserve">
-
-== Simple Highlight ==
-&lt;syntaxhighlight&gt;
-let x = 7;
-&lt;/syntaxhighlight&gt;
-
-== More Complex Highlight ==
-‎&lt;syntaxhighlight lang="python"&gt;
-def quick_sort(arr):
-	less = []
-	pivot_list = []
-	more = []
-	if len(arr) &lt;= 1:
-		return arr
-	else:
-		pass
-‎&lt;/syntaxhighlight&gt;
-
-
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>0nk4mbkcg5bsc06mbhfymw56rc5kfu5</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:DanteLinks</title>
-    <ns>12</ns>
-    <id>22</id>
-    <revision>
-      <id>25</id>
-      <timestamp>2024-07-27T20:10:00Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>25</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="2710" sha1="e4kx4rvrm7puj6vxatjdbhi7j4bhwv1" xml:space="preserve">
-
-
-Window
-* [https://blog.fefe.de \w]
-* [https://blog.fefe.de Fefe \w]
-
-
-Side
-* [https://blog.fefe.de \s]
-* [https://blog.fefe.de Fefe \s]
-
-
-'''Example'''
-* &lt;nowiki&gt;[[Main Page || doub]]&lt;/nowiki&gt;
-* [[Main Page || doub]] 
-
-* &lt;nowiki&gt;[[Main Page \| doub]]&lt;/nowiki&gt;
-* [[Main Page \| doub]]
-
-
-'''Example'''
-* &lt;nowiki&gt;[[Main Page ¦ style=color:green;]]&lt;/nowiki&gt;
-* [[Main Page ¦ style=color:green;]]
-
-'''Example'''
-* &lt;nowiki&gt;[[Help:Demo for DanteLinks ¦ style=color:green;]]&lt;/nowiki&gt;
-* [[Help:Demo for DanteLinks ¦ style=color:green;]]
-
-'''Example:''' Adding style attributes to an external link via broken pipe symbol
-* &lt;nowiki&gt;[https://blog.fefe.de Fefe ¦ style=color:green;]&lt;/nowiki&gt; produces
-* [https://blog.fefe.de Fefe ¦ style=color:green;]
-
-
-'''Example:''' Adding target attribute _blank to an external link opens it in a new tab
-* &lt;nowiki&gt;[https://blog.fefe.de Fefe ¦ target=_blank ]&lt;/nowiki&gt; produces:
-* [https://blog.fefe.de Fefe ¦ target=_blank ]
-
-For use in sidebars only: There is a special class dexternal which can be used to append an external link symbol to link. In the sidebar links which otherwise are external will not show the symbol external. This is as we need query extensions for a number of links in the sidebar and this needs fullurl as parser and this causes the parser to understand the link as external in every case. Therefore we turned this thingie off in sidebar until we find a smart fix for this.
-
-[[Main Page]]
-
-And here [[Main Page]] some text [https://blog.fefe.de Fefe] to see the distances when
-rendering in text.
-
-
-== Requirements ==
-
-* We always want to see where a link goes (internal or external)
-* We always want to know where a link opens (same tab, new tab, new window)
-* We want to allow the user to open the link where he wants to (same tab, new tab, new window)
-* We want to force-open some links in specific modes (same tab, new tab, new window) when the user only clicks normally.
-
-== All Link Types ==
-
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;Internal&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[[Main Page]]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[[Main Page]]&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Piped&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[[Main Page|Hauptseite]]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[[Main Page|Hauptseite]]&lt;/td&gt;&lt;/tr&gt;
-
-
-&lt;tr&gt;&lt;td&gt;External numbered&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[https://blog.fefe.de]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[https://blog.fefe.de]&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;External text&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;[https://blog.fefe.de Fefe]&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;[https://blog.fefe.de Fefe]&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;External bare&lt;/td&gt;&lt;td&gt;&lt;nowiki&gt;https://blog.fefe.de&lt;/nowiki&gt;&lt;/td&gt;&lt;td&gt;https://blog.fefe.de&lt;/td&gt;&lt;/tr&gt;
-
-
-&lt;/table&gt;
-
-
-[[Main Page]]s
-
-[https://blog.fefe.de Fefe]
-
-
-[[Murundai\w]]
-
-[https://blog.fefe.de Hurundai\w]
-
-[[Pipetrick (computing)|Pipetrick]] 
-
-
-
-
-[[:Category:Root]]
-[[Category:DanteInitialContents]]</text>
-      <sha1>e4kx4rvrm7puj6vxatjdbhi7j4bhwv1</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:DanteLinks</title>
-    <ns>3000</ns>
-    <id>23</id>
-    <revision>
-      <id>349</id>
-      <parentid>348</parentid>
-      <timestamp>2025-03-04T22:36:11Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>349</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="1445" sha1="kmd1cvl9tfa3ebub18wj5nyxsl9d084" xml:space="preserve">= Tests for internal links =
-
-== Using shorthand notation for target ==
-* [[Main Page | \s]] small side let
-* [[Main Page | \S]] large side
-* [[Main Page | \w]] window
-* [[Main Page | \t]] Tooltip 
-
-== Using shorthand notation for target with pipes ==
-
-* [[Main Page | Main Page \s]] 
-* [[Main Page | Main Page \S]]
-* [[Main Page | Main Page \w]]
-* [[Main Page | Main Page \t]] Tooltip
-
-== Using shorthand notation for target without pipes ==
-
-* [[Main Page \s]] 
-* [[Main Page \S]]
-* [[Main Page \w]]
-
-== Using normal notation for other attributes ==
-
-[[Main Page ¦  style=color:green;]]  
-
-[[Main Page \| style=color:blue;]]
-
-= Tests for external links =
-== Using shorthand notation for target ==
-* [https://www.mediawiki.org/ Test link (should open in small side) ending in backslash s shorthand \s]
-
-* [https://www.mediawiki.org/ Test link (should open in large side) ending in backslash S shorthand \S]
-
-* [https://www.mediawiki.org/ Test link (should open in window) ending in backslash w shorthand \w]
-
-== Using normal notation for target ==
-* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
-
-* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
-
-* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
-
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>kmd1cvl9tfa3ebub18wj5nyxsl9d084</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Reveal</title>
-    <ns>3000</ns>
-    <id>24</id>
-    <revision>
-      <id>27</id>
-      <timestamp>2024-08-22T14:39:07Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Reveal]] to [[Test:Reveal]] without leaving a redirect</comment>
-      <origin>27</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="229" sha1="79r3kudp4povk94cubqufqs1b669x7c" xml:space="preserve">
-__SLIDES__
-
-__NOTOC__
-
-==One==
-&lt;beamer b&gt;
-one
-
-qwe
-
-qwe
-
-qwe
-
-
-&lt;/beamer&gt;
-
-==Two==
-&lt;beamer b&gt;
-Two qwd
-&lt;/beamer&gt;
-
-== Three ==
-&lt;amsmath&gt;
-asd asd
-&lt;/amsmath&gt;
-
-== Four ==
-&lt;amsmath&gt;
-asd asdv
-&lt;/amsmath&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>79r3kudp4povk94cubqufqs1b669x7c</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Drawio</title>
-    <ns>3000</ns>
-    <id>25</id>
-    <revision>
-      <id>28</id>
-      <timestamp>2024-08-22T14:34:25Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Drawio]] to [[Test:Drawio]] without leaving a redirect</comment>
-      <origin>28</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="79" sha1="9v475rtow0pgp053k5j7x18mq8rdik9" xml:space="preserve">
-== First Test ==  
-&lt;drawio filename="asd" /&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>9v475rtow0pgp053k5j7x18mq8rdik9</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Page Width</title>
-    <ns>3000</ns>
-    <id>26</id>
-    <revision>
-      <id>29</id>
-      <timestamp>2024-08-22T14:36:09Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Parsifal/Page Width]] to [[Test:Parsifal/Page Width]] without leaving a redirect</comment>
-      <origin>29</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="1655" sha1="5vaha1o65xgx6oyx8j3hrxh7xuip9sz" xml:space="preserve">== Test for Parsifal Page Width ==
-Pre
-&lt;amsmath&gt;
-Ei nz el test aq qwehj hjk hjk 789
- 
-Rule of 14cm
-\hrule height 1px depth 1px width 14cm \relax
-
-Rule of 15cm
-\hrule height 1px depth 1px width 15cm \relax
-
-Rule of 16cm
-\hrule height 1px depth 1px width 16cm \relax
-&lt;/amsmath&gt;
-
-== Setting Page Width ==
-&lt;amsmath slim b&gt;
-This is a slim page 
-&lt;/amsmath&gt;
-
-&lt;amsmath width="25cm"&gt;
-Width 25cm 
-&lt;/amsmath&gt;
-
-&lt;amsmath width="5cm"&gt;
-Width 5cm 
-&lt;/amsmath&gt;
-
-&lt;amsmath width="15cm"&gt;
-Width 15cm 
-&lt;/amsmath&gt;
-
-&lt;amsmath width="14cm"&gt;
-Width 14cm 
-&lt;/amsmath&gt;
-
-&lt;amsmath width="13cm"&gt;
-Width 13cm 
-&lt;/amsmath&gt;
-
-
-
-&lt;amsmath width="50cm"&gt;
-Width 50cm  
-&lt;/amsmath&gt;
-
-== Wide Page ==
-&lt;amsmath wide&gt;
-This is a wide page which is able to contain quite
-a lot of text provided we enter enough text to fill the
-the page which has a lot of space.  
-
-{\color{red}asd asd asd asd asd asd asd asd}
-
-\begin{enumerate}
-\item a
-\item b
-\end{enumerate}
-aSome more
-
-&lt;/amsmath&gt;
-
-&lt;amsmath wide&gt;
-This is a wide pagej
-&lt;/amsmath&gt;
-
-&lt;amsmath&gt;
-This is a normal page.
-&lt;/amsmath&gt;
-
-== Setting Size ==
-&lt;amsmath width="1cm" scale="3" b&gt;
-One centimetersss s
-
-&lt;/amsmath&gt;
-
-== PDF Scale Adjustment ==
-&lt;amsmath pdfscale="7"&gt;
-7
-&lt;/amsmath&gt;
-
-&lt;amsmath pdfscale="8"&gt;
-8
-&lt;/amsmath&gt;
-
-&lt;amsmath pdfscale="9"&gt;
-9
-&lt;/amsmath&gt;
-
-&lt;amsmath pdfscale="20"&gt;
-20
-&lt;/amsmath&gt;
-
-&lt;amsmath pdfscale="1"&gt;
-1 20
-&lt;/amsmath&gt;
-
-
-== Margin adjustment ==
-&lt;amsmath&gt;
-No margin adjustments
-&lt;/amsmath&gt;
-
-&lt;amsmath margin="0.07cm"&gt;
-Now margin=0.07cm
-&lt;/amsmath&gt;
-
-&lt;amsmath margin="0.5cm"&gt;
-Now margin=0.5cm
-&lt;/amsmath&gt;
-
-&lt;amsmath margin="{0.0cm 0.0cm 0.0cm 3cm}"&gt;
-Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
-&lt;/amsmath&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>5vaha1o65xgx6oyx8j3hrxh7xuip9sz</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Attribute test</title>
-    <ns>3000</ns>
-    <id>27</id>
-    <revision>
-      <id>30</id>
-      <timestamp>2024-08-24T12:58:04Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Parsifal Diverse Demo]] to [[Test:Parsifal/Attribute test]] without leaving a redirect</comment>
-      <origin>30</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="3530" sha1="4bi88bcjos7hxrcg7d64zgxw5wl87f0" xml:space="preserve">&lt;amsmath style="border:10px solid green;"&gt;
-921iihj kjh ujkWe6697 i m a sdf  ke a meas urement and  get a r esu lt  $\omega$. We now assume we can talk of an object with the property $\omega$. We cannota
-say that the object is (or is in the state) $\omega$ as this description might not be precise enough in the sense that the object
-might have additional properties as well (The color red is an insufficient characterization of an object). We have the fantasy that
-a sufficient number of properties will uniquely describe an object (This fantasy might not be true).
-We used language to assign the property to the object but we should rather have used language which assigns the property to the 
-relation of both, the measurement device and the object. And we should not ignore that, in addition to measurement device and object there is
-also a certain rest in the universe. In the end, we should talk about the property being connected to the measurement device, the object and the rest of the universe. However, it is more convenient, at least in the beginning, to assume that the property belongs to the object 
-alone and take the journey from there. Also,lkj  we must admit that there are observations (Hon Mandel dip) and theories (particle number operator not always
-precisely defined in Fock space) which make it difficult to talk about well-defined objects, of which we have the fantasy that they can be identified, and even if they do not carry identity that the at least could be counted in numbers of a kind.
-
-We make the observation: If we measure a property twice immediately after each other leaving no time for development in between,
-we get the same result. This might not be the case for every measurement (there are measuremetns for which this is not true and where we describe the measurement as an interaction which changes the object in a way and
-there are measurements which cannot be made twice in a row as, for example, they destroy the measured object by the very act of observation -- at least
-that is how we describe the situations in these cases), but at least we can assume this for a class of ideal measurements. 
-
-Under this assumption: After the measurement we talk about the property of the object in a precise manner in the sense
-that a repeated measurement leads to the same result.
-
-So, how would we describe the object before the measurement?
-
-Assume we make the observation, that an object may lead to different measurement results. 
-We find: When we measure (different) objects of a certain kind of which we believe we know no difference (short of knowing somehow that they are different), why would they lead to different measurement results.
-
-a
-Even worse: We assumed that we knew a property after the measurement. So we know the object as such. 
-
-We can describe this as: One property is still missing which we did not measure in that measurement (for example we measured color and not smell) and if we had measured it
-we would have realized that the object is indeed different.
-We can describe this as: Before the measurement the object did not have the property we measured (it was imprinted by the measurement).
-Before the measurement the object had that property only to a certain degree, and for some reason the measurement process selected this and not that aspect of the property. 
-&lt;/amsmath&gt;
-
-
-&lt;amsmath&gt;
-1 5 s s  h jk jkl
-&lt;/amsmath&gt;
-
-
-&lt;amsmath&gt;
-1 as d  a sd as d    this is ju st an example
-&lt;/amsmath&gt; 
-
-&lt;amsmath&gt;
-Ve ry s  m a ll k    
-&lt;/amsmath&gt;
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>4bi88bcjos7hxrcg7d64zgxw5wl87f0</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:Parsifal</title>
-    <ns>12</ns>
-    <id>28</id>
-    <revision>
-      <id>31</id>
-      <timestamp>2024-07-27T20:10:23Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Demo for Parsifal]] to [[Help:Parsifal]] without leaving a redirect</comment>
-      <origin>31</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="409" sha1="jwjxhzvm44czwu5zzqvsmapv9ue2z1q" xml:space="preserve">
-__SLIDES__
-
-== one ==
-bla
-&lt;amsmath&gt;
-asdqh
-a
-\ubf{q}w  \ubf{w}er \ubf janus
-
-&lt;/amsmath&gt;
-
-== Link ==
-&lt;amsmath&gt;
-\dref{Main Page}  
-
-\dref{Help: Demo for Parsifal}
-
-\dref{Help: Demo for DanteLinks}
-
-\dref{Test/Parsifal Section Heading Style}
-
-\dref{Test/Parsifal Section Heading Style#h4}
-
-\url{https://www.clemenscap.de} 
-
-&lt;/amsmath&gt;
-
-[[Test/Parsifal Section Heading Style#h4]]
-[[Category:DanteInitialContents]]</text>
-      <sha1>jwjxhzvm44czwu5zzqvsmapv9ue2z1q</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Diverse</title>
-    <ns>3000</ns>
-    <id>29</id>
-    <revision>
-      <id>32</id>
-      <timestamp>2024-08-24T12:49:17Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Diverse]] to [[Test:Diverse]] without leaving a redirect</comment>
-      <origin>32</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="2486" sha1="j4vs56yassv6p0an5onvidty8b3360w" xml:space="preserve">
-[[Main Page ¦ target=_blank]]
-
-[[Main Page ¦ target=_new]]
-
-
-[[Help:Transclusion Test]]
-
-= Level 1 =
-
-
-&lt;amsmath&gt;
-Blabla this is an ekjhkjh kjhkjh kjhkjh kjhkjh xample for an entire line filling the entire area of the browser to get a demonstration for the autoscaling feature. 
-&lt;/amsmath&gt;
-
-== Level 1.1 ==
-
-=== Level 1.1.1 ===
-&lt;amsmath&gt;
-Blabla this is an example for an entire line filling the entire area of the browser to get a demonstration for the autoscaling feature.
-&lt;/amsmath&gt;
-
-&lt;amsmath&gt;
-Blab wer qwer qwer qwer qwer qsdf sdf dsf sdf sdf sdf sdf df sdf er qwer qwer qwer qwer qwer qwer qerqwerqewrqerqerqewrqwerqwerqwer sdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdf gggggggggggggggggggggggggggggg ggggggggggggggggggsdf
-
-\bigskip\bigskip\bigskip
-
-this hjkhjk hjk hjk hjk hjk hjkhjk hjk hjk hjk hjkhjk
-
-\bigskip\bigskip\bigskip
-
-is kjh hjk hjk
-
-\bigskip\bigskip\bigskip
-
-an 
-
-\bigskip\bigskip\bigskip
-
-
-example 
-
-\bigskip\bigskip\bigskip
-
-
-for 
-
-an 
-
-\bigskip\bigskip\bigskip
-
-entire line 
-
-\bigskip\bigskip\bigskip
-
-filling 
-
-\bigskip\bigskip\bigskip
-
-the 
-
-\bigskip\bigskip\bigskip
-
-entire 
-
-area of the browser to get a demonstration for the autoscaling feature.
-&lt;/amsmath&gt;
-
-
-==== Level 1.1.1.1 ====
-
-&lt;amsmath&gt;
-\tikzdeg
-\begin{figure} 
-\centering
-\begin{tikzpicture}
-\node (a) {E}
-child {node (b) {F}
-}
-child {node (c) {+}
-}
-child {node (d) {T}
-child {node (e) {T} 
-  child {node (f) {F}  child {node  (g) {8}} }  
-  }
-child {node  (h) {*}}
-child {node  (i) {F} child {node  (j) {2}}}
-};
-
-\begin{scope}[every node/.style={font=\footnotesize,color=red}]
-\node[right=of a] (na) {\{E.v${}\coloneqq{}$+T.v\}};
-\node[right=of d] (nd) {\{T.v${}\coloneqq{}$F.v$^{*}$T.v\}};
-\node[right=of i] (ni) {\{F.v${}\coloneqq{}$2\}};
-\node[left=of b] (nb) {\{F.v${}\coloneqq{}$5\}};
-\node[left=of e] (ne) {\{T.v${}\coloneqq{}$F.v\}};
-\node[left=of f] (nf) {\{F.v${}\coloneqq{}$8\}};
-\foreach \i in {a,b,d,e,f,i}
-  \draw[dotted] (\i) -- (n\i);
-\end{scope}
-\end{tikzpicture}
-
-\end{figure}
-k hjhjk hjkhjk hj fgh fgh tzutzu
-&lt;/amsmath&gt;
-
-===== Level 1.1.1.1.1 =====
-&lt;amsmath sans&gt;
-Test asd asd a aqqqqjhgjhgjhgjhgjhgjhgjhgjhgjhgjhgjhgjhgjhgj
-Ich glaube es ist jetzt schon nicht so ganz einfach mit dem
-scheduling dessen, was wir im backendsehen. hjkjhj
-
-&lt;/amsmath&gt;
-
-
-====== Level 1.1.1.1.1.1 ======
-
-======= Level 1.1.1.1.1.1.1 =======
-
-======== Level 1.1.1.1.1.1.1.1 ========
-
-== Level 1.2 ==
-
-=== Level 1.2.1 ===
-
-=== Lebel 1.2.2 ===
-
-== Level 1.3 ==
-
-=== Level 1.3.1 ===
-[[Category:DanteInitialContents]]</text>
-      <sha1>j4vs56yassv6p0an5onvidty8b3360w</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Transclusion</title>
-    <ns>3000</ns>
-    <id>30</id>
-    <revision>
-      <id>33</id>
-      <timestamp>2024-08-24T12:52:18Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Transclusion]] to [[Test:Transclusion]] without leaving a redirect</comment>
-      <origin>33</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="34" sha1="db9o00csmtk4plmwiuw9qncfsje0tjv" xml:space="preserve">
-[[Category:DanteInitialContents]]</text>
-      <sha1>db9o00csmtk4plmwiuw9qncfsje0tjv</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Internal Links</title>
-    <ns>3000</ns>
-    <id>31</id>
-    <revision>
-      <id>198</id>
-      <parentid>197</parentid>
-      <timestamp>2025-01-09T22:25:00Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>198</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="196" sha1="diwi4zx391mwqz4ohpxh9fdi4mrdzv0" xml:space="preserve">
-&lt;amsmath&gt;
-
-\dref{Test:Parsifal/Demo for Parsifal}{asd} Ju sst asd d 
-
-\dref{Test:Parsifal/Demo für Parsifal}{qdqd}
-
-\dref{Main Page}{goto main page}
-
-&lt;/amsmath&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>diwi4zx391mwqz4ohpxh9fdi4mrdzv0</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Category:DanteInitialCustomize</title>
-    <ns>14</ns>
-    <id>32</id>
-    <revision>
-      <id>35</id>
-      <timestamp>2024-08-24T17:00:12Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>35</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="167" sha1="9wa4rf2ocqixm5565cla6k39adbx2xa" xml:space="preserve">This category is for initial contents pages of dantewiki which should be
-customized by the user.
-
-
-[[Category:DanteInitialContents]]
-[[Category:DanteInitialCustomize]]</text>
-      <sha1>9wa4rf2ocqixm5565cla6k39adbx2xa</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>File:Dblp.png</title>
-    <ns>6</ns>
-    <id>33</id>
-    <revision>
-      <id>36</id>
-      <timestamp>2024-12-10T15:43:26Z</timestamp>
-      <contributor>
-        <username>Imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Imported&gt;Admin uploaded [[File:Dblp.png]]</comment>
-      <origin>36</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="33" sha1="gvq6ut7lznild28cxvcvjb8qvitopum" xml:space="preserve">[[Category:DanteInitialContents]]</text>
-      <sha1>gvq6ut7lznild28cxvcvjb8qvitopum</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:DanteWiki Concepts</title>
-    <ns>12</ns>
-    <id>34</id>
-    <revision>
-      <id>37</id>
-      <timestamp>2024-08-24T12:09:10Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <origin>37</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="942" sha1="7jwip36kzed153swy9zb8eueguz92da" xml:space="preserve">
-
-
-==== Perpetual Beta ====
-Perpetual beta is a general concept of web 2.0 in which a service is never considered
-complete or finished but permanently is in a preliminary or draft (i.e. beta) status.
-This is inevitable in many web 2.0 services, as only during the construction of the system
-a better understanding of the requirements emerges.
-
-
-==== Bootstrapped Development ====
-Bootstrapped development is common in open knowledge management systems. The system itself is
-used for documenting the work with the system, as it is done on this page. Throughout this
-process the users and developers learn about their knowledge management needs.
-
-==== User Co-Development ====
-The system is not developed by IT architects for users but by a user for the needs of the
-users. Thus, the developers are typical representatives of the user community, which
-avoids the usual distance between developers and users.
-
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>7jwip36kzed153swy9zb8eueguz92da</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Raw Test</title>
-    <ns>3000</ns>
-    <id>35</id>
-    <revision>
-      <id>38</id>
-      <timestamp>2024-08-22T14:38:45Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <minor/>
-      <comment>Admin moved page [[Help:Test/Parsifal Raw Test]] to [[Test:Parsifal/Raw Test]] without leaving a redirect</comment>
-      <origin>38</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="170" sha1="jou9ssba6i4y1511d49ctg6k8agml6t" xml:space="preserve">This is a test for the raw parsifal tag tex.
-
-== First ==
-&lt;tex&gt;
-\documentclass{article}
-\begin{document}
-asd khjks
-\end{document}
-&lt;/tex&gt;
-[[Category:DanteInitialContents]]</text>
-      <sha1>jou9ssba6i4y1511d49ctg6k8agml6t</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:DanteWiki FAQ</title>
-    <ns>12</ns>
-    <id>36</id>
-    <revision>
-      <id>39</id>
-      <timestamp>2024-08-24T17:03:25Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>39</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="2613" sha1="9j85j3byolcgtfn0ued2b21kozhrdwp" xml:space="preserve">
-
-== FAQ ==
-
-=== Why is this called DanteWiki? ===
-The thought of writing done what one has understood dates
-back to Dante:
-
-"O mente, che scrivesti ciò ch’io vidi" (Dante, Inferno II, 8)
-
-"O Gedächtnis, das geschrieben, was ich erkannte" (own translation)
-
-This thought has also been described in a letter of 
-Nicolo Machiavelli to Francesco Vettori, florentinian
-ambassador in Rome. 
-We cite it here according to Niccolo Machiavelli, Der Fürst. 
-Suhrkamp Verlag, 2016:
-
-&lt;poem&gt;
-Und weil Dante sagt, es gebe keine Wissenschaft ohne die Aufzeichnung dessen,
-was man begriffen hat – so habe ich das notiert, was ich bei dem Gespräch
-mit Ihnen als das Wesentliche festhielt, und ein kleines Werk über Fürstentümer
-verfaßt, worin ich mich so weit wie möglich in die Gedanken über dieses Thema
-vertiefe und erörtere, was Herrschaft ist, welche Arten es davon gib, wie man sie
-erwirbt und erhält und warum man sie verliert.
-&lt;/poem&gt;
-
-Or, for short:
-
-"[E]s [gibt] keine Wissenschaft ohne die Aufzeichnung dessen, was
-man begriffen hat."
-
-"There is no science without a record of what one has understood" (own translation)
-
-That's why I call this Wiki system a DanteWiki.
-
-=== What does the logo show? ===
-The logo shows a painting made 
-by Michelangelo Merisi da Caravaggio in 1607. It depicts Saint Jerome
-of Stridon, who is best known for his translations of the Bible into Latin. 
-it here serves as the symbol of a scientist, philosopher and thinker.
-Saint Jerome is alone, remote from the distractions of the world,
-focused alone on putting down his thoughts.
-The skull on his table reminds us of the mortality of man and the
-volatility of his thoughts.
-It thus challenges us to write down our thoughts.
-
-The logo thus reflexts my core motives when creating this system.
-
-=== What is the relation to MediaWiki? ===
-None.
-
-I did not want to build this system completely from scratch.
-MediaWiki was the software which contained most of the necessary 
-base functionality and was open for further development 
-due to its open license model.
-I will try to keep DanteWiki as close to MediaWiki as possible
-to ease maintenence and bug fixing.
-
-=== What is the relation to WikiPedia? ===
-None.
-
-While WikiPedia is a very interesting project, I do not
-subscribe to the objectivist perspective on which it seems
-to be grounded. In particular - in my opinion - 
-the neutral point of view goal of WikiPedia cannot be achieved
-for a number of linguistic reasons and should not
-be aimed for due to a number of philosophic reasons.
-
-DanteWiki follows different goals and guidelines.
-[[Category:DanteInitialContents]]</text>
-      <sha1>9j85j3byolcgtfn0ued2b21kozhrdwp</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:Customize</title>
-    <ns>12</ns>
-    <id>37</id>
-    <revision>
-      <id>260</id>
-      <parentid>259</parentid>
-      <timestamp>2025-03-01T10:20:30Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>/* Privacy */</comment>
-      <origin>260</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="2337" sha1="sm8o596u7ghqi4r6rv56p7dt9dmiseg" xml:space="preserve">You might want to customize the following pages:
-
-* [[Project:About]]
-* [[Project:Disclaimer]]
-* [[Project:Imprint]]
-
-= Copyright Customization =
-
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;[[MediaWiki:Copyright]]&lt;/td&gt;&lt;td&gt;contains a copyright notice which is displayed in the footer of every page.&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td&gt;[[MediaWiki:CopyrightNotice]]&lt;/td&gt;&lt;td&gt;contains a longer copyright notice when the user clicks on the copyright icon on the right side in the footer. It may also be linked to in other places.&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td&gt;[[MediaWiki:Copyrightwarning]]&lt;/td&gt;&lt;td&gt;is displayed under the edit box when editing a page.&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td&gt;[[MediaWiki:Copyrightwarning2]]&lt;/td&gt;&lt;td&gt;may be displayed in a number of places, but unfortunately the Mediawiki reference is very unclear on the details.&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-= Information =
-
-The footer may contain the following links 
-
-* Privacy-link
-* About-link
-* Disclaimer-link
-* Imprint-link
-
-More information: https://www.mediawiki.org/wiki/Manual:Footer
- 
-== Privacy ==
-According to the laws of some states, web pages should provide information
-on how they store personal information of their users. In MediaWiki, this is done
-using a so called privacy-link, which the system displays in some places. By editing the following
-files you can influence how this is done.
-* [[Project:Privacy Information]] contains the privacy information you want to provide to the user.
-* [[MediaWiki:Privacy]] contains the text which is displayed as part of the privacy-link. We suggest to use the content "Privacy policy".
-* [[MediaWiki:Privacypage]] contains the name of the wiki page to which the privacy-link links to. It currently links to [[Project:Privacy Information]]. We suggest not to touch the content of this page. You can, however, adjust it - for example if you want to link to an external page which is not under your control.
-
-== About-Link ==
-* [[MediaWiki:Aboutsite]] contains the text of the about-link.
-* [[MediaWiki:Aboutpage]] contains the name of the wiki page to which the about-link links to. It currently links to [[Project:About]]
-
-== Disclaimer-Link ==
-* [[MediaWiki:Disclaimers]] contains the text of the disclaimer-link.
-* [[MediaWiki:Disclaimerpage]] contains the name of the wiki page to which the disclaimer-link links to. it currently links to [[Project:Disclaimer]]
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>sm8o596u7ghqi4r6rv56p7dt9dmiseg</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:Operational Modes</title>
-    <ns>12</ns>
-    <id>38</id>
-    <revision>
-      <id>41</id>
-      <timestamp>2024-08-24T17:04:00Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>41</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="891" sha1="763pwjqhdeh6mjtc4djdxeaor0v3p6k" xml:space="preserve">A MediaWiki has to load and compile are large number of PHP files. This takes time, so during normal operations this process usually is cached, which saves a lot of time for loading and compilation. However, during development you do not want the files to be cached but you always want the most recent changes in the source code to be used. Thus, all files have to be loaded, check and, if necessary, recompiled. Also, you might want to see warning notices about 
-deprecated functions. 
-
-In a Wikipedia installation the respective settings usually are done as part of the setup process. In DanteWiki, however, the developers want to be able to switch quickly between the different modes, so that the development cycle of DanteWiki can be faster. The setting can be switched by [[Special:Debug Mode]] and the currently active mode is displayed in the footer.
-[[Category:DanteInitialContents]]</text>
-      <sha1>763pwjqhdeh6mjtc4djdxeaor0v3p6k</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Category:Todo</title>
-    <ns>14</ns>
-    <id>39</id>
-    <revision>
-      <id>42</id>
-      <timestamp>2024-08-25T17:53:50Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <origin>42</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="70" sha1="pcvck8pxxomzef3j7mfd6edyvfzhj66" xml:space="preserve">Pages on which we have to work on.
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>pcvck8pxxomzef3j7mfd6edyvfzhj66</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Graphviz</title>
-    <ns>3000</ns>
-    <id>40</id>
-    <revision>
-      <id>43</id>
-      <timestamp>2024-12-13T19:19:26Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <origin>43</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="2501" sha1="1umdtw3xfeok4j1h6dthsb4843maoic" xml:space="preserve">
-== Graph 1 ==
-&lt;graphviz&gt;
-graph {
-    a -- b;
-    b -- c;
-    a -- c;
-    d -- c;
-    e -- c;
-    e -- a;
-}
-&lt;/graphviz&gt;
-
-== Graph 2 ==
-&lt;graphviz&gt;
-graph {
-    a -- b;
-    b -- c;
-    c -- d;
-    d -- e;
-    e -- f;
-    a -- f;
-    a -- c;
-    a -- d;
-    a -- e;
-    b -- d;
-    b -- e;
-    b -- f;
-    c -- e;
-    c -- f;
-    d -- f;
-}
-&lt;/graphviz&gt;
-
-== Graph 3 ==
-
-&lt;graphviz&gt;
-digraph {
-    a -&gt; b;
-    b -&gt; c;
-    c -&gt; d;
-    d -&gt; a;
-}
-&lt;/graphviz&gt;
-
-== Graph 4 ==
-
-&lt;graphviz&gt;
-digraph {
-    a -&gt; b[label="0.2",weight="0.2"];
-    a -&gt; c[label="0.4",weight="0.4"];
-    c -&gt; b[label="0.6",weight="0.6"];
-    c -&gt; e[label="0.6",weight="0.6"];
-    e -&gt; e[label="0.1",weight="0.1"];
-    e -&gt; b[label="0.7",weight="0.7"];
-}
-&lt;/graphviz&gt;
-
-== Graph 5 ==
-
-&lt;graphviz&gt;
-graph {
-    a -- b[color=red,penwidth=3.0];
-    b -- c;
-    c -- d[color=red,penwidth=3.0];
-    d -- e;
-    e -- f;
-    a -- d;
-    b -- d[color=red,penwidth=3.0];
-    c -- f[color=red,penwidth=3.0];
-}
-&lt;/graphviz&gt;
-
-== Graph 6 ==
-
-&lt;graphviz&gt;
-digraph {
-    subgraph cluster_0 {
-        label="Subgraph A";
-        a -&gt; b;
-        b -&gt; c;
-        c -&gt; d;
-    }
-
-    subgraph cluster_1 {
-        label="Subgraph B";
-        a -&gt; f;
-        f -&gt; c;
-    }
-}
-&lt;/graphviz&gt;
-
-== Graph 7 ==
-
-&lt;graphviz&gt;
-graph {
-    splines=line;
-    subgraph cluster_0 {
-        label="Subgraph A";
-        a; b; c
-    }
-
-    subgraph cluster_1 {
-        label="Subgraph B";
-        d; e;
-    }
-
-    a -- e;
-    a -- d;
-    b -- d;
-    b -- e;
-    c -- d;
-    c -- e;
-}
-&lt;/graphviz&gt;
-
-== Graph 8 ==
-&lt;graphviz&gt;
-graph {
-    rankdir=LR; // Left to Right, instead of Top to Bottom
-    a -- { b c d };
-    b -- { c e };
-    c -- { e f };
-    d -- { f g };
-    e -- h;
-    f -- { h i j g };
-    g -- k;
-    h -- { o l };
-    i -- { l m j };
-    j -- { m n k };
-    k -- { n r };
-    l -- { o m };
-    m -- { o p n };
-    n -- { q r };
-    o -- { s p };
-    p -- { s t q };
-    q -- { t r };
-    r -- t;
-    s -- z;
-    t -- z;
-}
-&lt;/graphviz&gt;
-
-
-== Graph 9 ==
-&lt;graohviz&gt;
-graph {
-    rankdir=LR;
-    a -- { b c d }; b -- { c e }; c -- { e f }; d -- { f g }; e -- h;
-    f -- { h i j g }; g -- k; h -- { o l }; i -- { l m j }; j -- { m n k };
-    k -- { n r }; l -- { o m }; m -- { o p n }; n -- { q r };
-    o -- { s p }; p -- { s t q }; q -- { t r }; r -- t; s -- z; t -- z;
-    { rank=same; b, c, d }
-    { rank=same; e, f, g }
-    { rank=same; h, i, j, k }
-    { rank=same; l, m, n }
-    { rank=same; o, p, q, r }
-    { rank=same; s, t }
-}
-&lt;/graphviz&gt;
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>1umdtw3xfeok4j1h6dthsb4843maoic</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Mermaid</title>
-    <ns>3000</ns>
-    <id>41</id>
-    <revision>
-      <id>44</id>
-      <timestamp>2024-12-13T19:35:54Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <comment>Created page with " == Mermaid == &lt;mermaid&gt; mm(""" graph LR;     A--&gt; B &amp; C &amp; D;     B--&gt; A &amp; E;     C--&gt; A &amp; E;     D--&gt; A &amp; E;     E--&gt; B &amp; C &amp; D; """) &lt;/mermaid&gt;  == Mermaid 2 == &lt;mermaid&gt; mindmap Root     A       B       C &lt;/mermaid&gt;  [[Category:DanteInitialContents]]"</comment>
-      <origin>44</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="253" sha1="6x7b0vfrebh5nxw7p1umipj559mudth" xml:space="preserve">
-== Mermaid ==
-&lt;mermaid&gt;
-mm("""
-graph LR;
-    A--&gt; B &amp; C &amp; D;
-    B--&gt; A &amp; E;
-    C--&gt; A &amp; E;
-    D--&gt; A &amp; E;
-    E--&gt; B &amp; C &amp; D;
-""")
-&lt;/mermaid&gt;
-
-== Mermaid 2 ==
-&lt;mermaid&gt;
-mindmap
-Root
-    A
-      B
-      C
-&lt;/mermaid&gt;
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>6x7b0vfrebh5nxw7p1umipj559mudth</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Mscgen</title>
-    <ns>3000</ns>
-    <id>42</id>
-    <revision>
-      <id>45</id>
-      <timestamp>2024-12-13T19:36:27Z</timestamp>
-      <contributor>
-        <username>imported&gt;Admin</username>
-        <id>0</id>
-      </contributor>
-      <origin>45</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="845" sha1="49zsa7y9s5nu5gbh5wkhw0cnsss9m85" xml:space="preserve">
-== Message Sequence Chart 1 ==
-&lt;mscgen&gt;
-msc {
-  hscale = "2";
-
-  a,b,c;
-
-  a-&gt;b [ label = "ab()" ] ;
-  b-&gt;c [ label = "bc(TRUE)"];
-  c=&gt;c [ label = "process(1)" ];
-  c=&gt;c [ label = "process(2)" ];
-  ...;
-  c=&gt;c [ label = "process(n)" ];
-  c=&gt;c [ label = "process(END)" ];
-  a&lt;&lt;=c [ label = "callback()"];
-  ---  [ label = "If more to run", ID="*" ];
-  a-&gt;a [ label = "next()"];
-  a-&gt;c [ label = "ac1()\nac2()"];
-  b&lt;-c [ label = "cb(TRUE)"];
-  b-&gt;b [ label = "stalled(...)"];
-  a&lt;-b [ label = "ab() = FALSE"];
-}
-&lt;/mscgen&gt;
-
-== Message Sequence Chart 1 ==
-&lt;mscgen&gt;
-msc {
- arcgradient = 8;
-
- a [label="Client"],b [label="Server"];
-
- a=&gt;b [label="data1"];
- a-xb [label="data2"];
- a=&gt;b [label="data3"];
- a&lt;=b [label="ack1, nack2"];
- a=&gt;b [label="data2", arcskip="1"];
- |||;
- a&lt;=b [label="ack3"];
- |||;
-}
-&lt;/mscgen&gt;
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>49zsa7y9s5nu5gbh5wkhw0cnsss9m85</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:Editing pages</title>
-    <ns>12</ns>
-    <id>86</id>
-    <revision>
-      <id>238</id>
-      <parentid>236</parentid>
-      <timestamp>2025-02-28T21:17:00Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>238</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="67" sha1="efbgcqbrerqx0jguu6unzizjl95tcok" xml:space="preserve">
-
-
-
-Some help for editing pages
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>efbgcqbrerqx0jguu6unzizjl95tcok</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>MediaWiki:Namespacelist</title>
-    <ns>8</ns>
-    <id>89</id>
-    <revision>
-      <id>292</id>
-      <parentid>286</parentid>
-      <timestamp>2025-03-01T16:57:49Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>292</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="243" sha1="02ma94ap2kjvh78qgul6wanr16ttc6a" xml:space="preserve">
-
-This page displays the list of namespaces which is active on this DanteWiki.
-
-The generating function can be found in [[MediaWiki:Common.js]].
-
-&lt;div id="namespace-container" style="margin-left:20px;"&gt;&lt;/div&gt;
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>02ma94ap2kjvh78qgul6wanr16ttc6a</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Original Headers</title>
-    <ns>3000</ns>
-    <id>90</id>
-    <revision>
-      <id>339</id>
-      <parentid>336</parentid>
-      <timestamp>2025-03-04T21:05:30Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>339</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="273" sha1="hoftsde0bc4thtyavl7abs08ty2idfd" xml:space="preserve">
-We want to allow the use of h1, h2 and so on without having them parsed and interpreted as sections by the mediawiki parser.
-
-&lt;h1&gt;H1&lt;/h1&gt;
-
-&lt;h2&gt;H2&lt;/h2&gt;
-
-&lt;h3&gt;H3&lt;/h3&gt;
-
-&lt;h4&gt;H3&lt;/h4&gt;
-
-= h1 org =
-
-== h2 org ==
-
-=== h3 org ===
-
-==== h4 org ====
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>hoftsde0bc4thtyavl7abs08ty2idfd</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Endpoint Tests</title>
-    <ns>3000</ns>
-    <id>92</id>
-    <revision>
-      <id>359</id>
-      <parentid>358</parentid>
-      <timestamp>2025-03-05T13:57:17Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>359</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="561" sha1="qev72i5wdv1xdnd7zzjx9cfq19m4anl" xml:space="preserve">
-This is an internal test page which works properly only in development mode and on a development environment.
-
-&lt;html&gt;
-&lt;a href="extensions/DantePresentations/endpoints/showEndpoint.php?Wiki-wgtitle=Test:Original_Headers" target="_blank"&gt;showEndpoint?Wiki-wgtitle=Test:Original_Headers&lt;/a&gt;
-&lt;/html&gt;
-
-
-&lt;html&gt;
-&lt;a href="extensions/DantePresentations/endpoints/showEndpoint.php?Wiki-wgnamespacenumber=3000&amp;wiki-dbkey=Original_Headers" target="_blank"&gt;showEndpoint?Wiki-wgnamespacenumber=3000&amp;wiki-dbkey=Original_Headers&lt;/a&gt;
-&lt;/html&gt;
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>qev72i5wdv1xdnd7zzjx9cfq19m4anl</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Swipe</title>
-    <ns>3000</ns>
-    <id>93</id>
-    <revision>
-      <id>384</id>
-      <parentid>383</parentid>
-      <timestamp>2025-03-06T21:29:01Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <comment>/* One but with a long title */</comment>
-      <origin>384</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="17846" sha1="tflcmd0v6snrzv1ncs8q068ap83adhr" xml:space="preserve">
-= One but with a very very very long title to check the ellipsis mechanism =
-One stuff
-
-= Two =
-Two stuff
-
-= Three =
-Three stuff
-
-= Four =
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-
-= Five =
-&lt;amsmath&gt;
-g text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-A very long text is now coming for text purposes.
-&lt;/amsmath&gt;
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>tflcmd0v6snrzv1ncs8q068ap83adhr</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>MediaWiki:ParsifalMacro/Blatest</title>
-    <ns>8</ns>
-    <id>96</id>
-    <revision>
-      <id>372</id>
-      <parentid>369</parentid>
-      <timestamp>2025-03-05T18:10:19Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>372</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="170" sha1="e2anxyj63x6qabr33n1zu5e7j162o1y" xml:space="preserve">This Parsifal macro contains latex preamble text inside of a &lt;code&gt;pre&lt;/code&gt;
-tag.
-
-&lt;pre&gt;
-\def\mybla{\textbf{MY BLA MACRO TEST}}
-&lt;/pre&gt;
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>e2anxyj63x6qabr33n1zu5e7j162o1y</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal/Preamble</title>
-    <ns>3000</ns>
-    <id>94</id>
-    <revision>
-      <id>385</id>
-      <parentid>381</parentid>
-      <timestamp>2025-03-07T10:07:47Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>385</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="502" sha1="oqjz1l4h611h5flnfzt4jtdrpc5uhwz" xml:space="preserve">
- 
-= Direct Preamble =
-
-&lt;amsmath pa="\def\bla{\textbf{bla}}"&gt;
-This \bla has a va alue. hg hjw
-&lt;/amsmath&gt;
-
-= Inclusion Preamble =
-
-&lt;amsmath pa="[[Blatest]]"&gt;
-This \mybla has a value. hsaak
-&lt;/amsmath&gt;
-
-= Page Preamble =  
- 
-&lt;preamble&gt;
-\def\pagepreamble{DEFINED A PAGE PREAMBLE}  
-&lt;/preamble&gt;
-
-&lt;amsmath&gt;
-Re a l ize \pagepreamble stuff
-&lt;/amsmath&gt;
-
-&lt;amsmath&gt;
-R ea l ize \pagepreamble stuff later down
-&lt;/amsmath&gt;
-
-
-= Futher Down =
-&lt;amsmath&gt;
-Check: \pagepreamble
-&lt;/amsmath&gt;
-
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>oqjz1l4h611h5flnfzt4jtdrpc5uhwz</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Help:Techniques</title>
-    <ns>12</ns>
-    <id>97</id>
-    <revision>
-      <id>398</id>
-      <parentid>389</parentid>
-      <timestamp>2025-03-07T12:53:06Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>398</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="447" sha1="q4b1weie3fmq3qm4859g90sn3ilocwl" xml:space="preserve">
-
-
-= List of all Subpages =
-
-'''Of the current page''':
-&lt;pre&gt;
-  &lt;splist /&gt;
-&lt;/pre&gt;
-
-'''Of a given page''': (using dpl)
-&lt;pre&gt;
-{{#dpl:
-|namespace=MediaWiki
-|titlegt=ParsifalTemplate/
-}}
-&lt;/pre&gt;
-
-
-'''Of a given page''' (using Speical Page):
-&lt;pre&gt;
-  {{Special:PrefixIndex/MediaWiki:ParsifalTemplate/}}
-&lt;/pre&gt;
-
-
-= Colum FOrmatting =
-&lt;pre&gt;
-  &lt;div style="-webkit-column-count:3;column-count:4;"&gt;
-  ...
-  &lt;/div&gt;
-&lt;/pre&gt;  
-  
-[[Category:DanteInitialContents]]</text>
-      <sha1>q4b1weie3fmq3qm4859g90sn3ilocwl</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Test:Parsifal Tests</title>
-    <ns>3000</ns>
-    <id>98</id>
-    <revision>
-      <id>399</id>
-      <parentid>397</parentid>
-      <timestamp>2025-03-07T12:55:19Z</timestamp>
-      <contributor>
-        <username>Admin</username>
-        <id>1</id>
-      </contributor>
-      <origin>399</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="116" sha1="5gz82rfx04ciqlrda41ktkj7a2rbjem" xml:space="preserve">List of all '''Parsifal-related tests'''.
-
-{{Special:PrefixIndex/Test:Parsifal/}}
-
-[[Category:DanteInitialContents]]</text>
-      <sha1>5gz82rfx04ciqlrda41ktkj7a2rbjem</sha1>
     </revision>
   </page>
 </mediawiki>
