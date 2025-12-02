@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>Dantewiki</sitename>
     <dbname>Dante</dbname>
-    <base>https://localhost:4443/wiki-dir/index.php/Main_Page</base>
+    <base>https://localhost:443/wiki-dir/index.php/Main_Page</base>
     <generator>MediaWiki 1.39.0</generator>
     <case>first-letter</case>
     <namespaces>
@@ -44,7 +44,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2025-04-21T20:02:51Z</timestamp>
+      <timestamp>2025-12-02T14:51:47Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -75,14 +75,13 @@
     <ns>8</ns>
     <id>4</id>
     <revision>
-      <id>82</id>
-      <parentid>81</parentid>
+      <id>7</id>
       <timestamp>2025-04-23T20:40:48Z</timestamp>
       <contributor>
-        <username>Admin</username>
-        <id>1</id>
+        <username>imported&gt;Admin</username>
+        <id>0</id>
       </contributor>
-      <origin>82</origin>
+      <origin>7</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="15886" sha1="kothr76qsmt78v2fzfteeftx64bltm0" xml:space="preserve">&lt;pre&gt;
@@ -1394,16 +1393,16 @@ Notes:
   <page>
     <title>Category:DanteInitialCustomize</title>
     <ns>14</ns>
-    <id>24</id>
+    <id>22</id>
     <revision>
-      <id>27</id>
+      <id>25</id>
       <timestamp>2024-08-24T17:00:12Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>27</origin>
+      <origin>25</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="167" sha1="9wa4rf2ocqixm5565cla6k39adbx2xa" xml:space="preserve">This category is for initial contents pages of dantewiki which should be
@@ -1418,16 +1417,16 @@ customized by the user.
   <page>
     <title>File:Dblp.png</title>
     <ns>6</ns>
-    <id>50</id>
+    <id>23</id>
     <revision>
-      <id>54</id>
+      <id>26</id>
       <timestamp>2024-12-10T15:43:26Z</timestamp>
       <contributor>
         <username>Imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Imported&gt;Admin uploaded [[File:Dblp.png]]</comment>
-      <origin>54</origin>
+      <origin>26</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="33" sha1="gvq6ut7lznild28cxvcvjb8qvitopum" xml:space="preserve">[[Category:DanteInitialContents]]</text>
@@ -1437,16 +1436,16 @@ customized by the user.
   <page>
     <title>Test:Parsifal/Syntax Highlighting</title>
     <ns>3000</ns>
-    <id>58</id>
+    <id>24</id>
     <revision>
-      <id>62</id>
+      <id>27</id>
       <timestamp>2024-12-19T09:53:38Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>/* More Complex Highlight */</comment>
-      <origin>62</origin>
+      <origin>27</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="303" sha1="0nk4mbkcg5bsc06mbhfymw56rc5kfu5" xml:space="preserve">
@@ -1478,16 +1477,16 @@ def quick_sort(arr):
   <page>
     <title>Help:DanteLinks</title>
     <ns>12</ns>
-    <id>59</id>
+    <id>25</id>
     <revision>
-      <id>63</id>
+      <id>28</id>
       <timestamp>2024-07-27T20:10:00Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>Automated change: Category Edit by TreeAndMenu new generation, file: fancytree.js</comment>
-      <origin>63</origin>
+      <origin>28</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="2710" sha1="e4kx4rvrm7puj6vxatjdbhi7j4bhwv1" xml:space="preserve">
@@ -1580,15 +1579,15 @@ rendering in text.
   <page>
     <title>Test:DanteLinks</title>
     <ns>3000</ns>
-    <id>60</id>
+    <id>26</id>
     <revision>
-      <id>64</id>
+      <id>29</id>
       <timestamp>2025-03-04T22:36:11Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>64</origin>
+      <origin>29</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1445" sha1="kmd1cvl9tfa3ebub18wj5nyxsl9d084" xml:space="preserve">= Tests for internal links =
@@ -1642,9 +1641,9 @@ rendering in text.
   <page>
     <title>Test:Reveal</title>
     <ns>3000</ns>
-    <id>61</id>
+    <id>27</id>
     <revision>
-      <id>65</id>
+      <id>30</id>
       <timestamp>2024-08-22T14:39:07Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
@@ -1652,7 +1651,7 @@ rendering in text.
       </contributor>
       <minor/>
       <comment>Admin moved page [[Help:Test/Reveal]] to [[Test:Reveal]] without leaving a redirect</comment>
-      <origin>65</origin>
+      <origin>30</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="229" sha1="79r3kudp4povk94cubqufqs1b669x7c" xml:space="preserve">
@@ -1694,16 +1693,16 @@ asd asdv
   <page>
     <title>Test:Parsifal/Some Tests</title>
     <ns>3000</ns>
-    <id>22</id>
+    <id>28</id>
     <revision>
-      <id>25</id>
+      <id>31</id>
       <timestamp>2025-03-07T12:03:15Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
       <comment>/* Titel */</comment>
-      <origin>25</origin>
+      <origin>31</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="1670" sha1="qcywrsh27qewu2prayhprmw2ns8t4mf" xml:space="preserve">asdaaj kh aal gjjjj
