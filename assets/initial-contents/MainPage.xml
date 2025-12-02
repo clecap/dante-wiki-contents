@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>Dantewiki</sitename>
     <dbname>Dante</dbname>
-    <base>https://localhost:4443/wiki-dir/index.php/Main_Page</base>
+    <base>https://localhost:443/wiki-dir/index.php/Main_Page</base>
     <generator>MediaWiki 1.39.0</generator>
     <case>first-letter</case>
     <namespaces>
@@ -43,21 +43,34 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>3</id>
-      <parentid>1</parentid>
-      <timestamp>2025-04-21T20:02:52Z</timestamp>
+      <id>73</id>
+      <parentid>72</parentid>
+      <timestamp>2025-12-02T23:00:52Z</timestamp>
       <contributor>
-        <username>Maintenance script</username>
-        <id>3</id>
+        <username>Admin</username>
+        <id>1</id>
       </contributor>
-      <comment>Imported by wiki-init.sh</comment>
-      <origin>3</origin>
+      <origin>73</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="41" sha1="o5qzsfb6obinvwco4ij19qxjhm4a2ce" xml:space="preserve">
+      <text bytes="228" sha1="r90x7qm5v2fw0n339hum6mdy3yljhtr" xml:space="preserve">
+&lt;amsmath&gt;
+abaaaaaaaaaa
 
-This is a freshly installed Dante Wiki.</text>
-      <sha1>o5qzsfb6obinvwco4ij19qxjhm4a2ce</sha1>
+% Define an endlessly recursive macro
+\newcommand{\neverstop}{%
+  \neverstop % Calls itself again
+}
+
+\neverstop
+
+asdadsasdasd
+
+&lt;/amsmath&gt;
+
+
+lkjlkjlkj jjjaaThis is a fresshly inasataalled Dante Wiki.ssdfa</text>
+      <sha1>r90x7qm5v2fw0n339hum6mdy3yljhtr</sha1>
     </revision>
   </page>
 </mediawiki>
