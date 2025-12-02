@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>Dantewiki</sitename>
     <dbname>Dante</dbname>
-    <base>https://localhost:4443/wiki-dir/index.php/Main_Page</base>
+    <base>https://localhost:443/wiki-dir/index.php/Main_Page</base>
     <generator>MediaWiki 1.39.0</generator>
     <case>first-letter</case>
     <namespaces>
@@ -44,7 +44,7 @@
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2025-04-21T20:02:51Z</timestamp>
+      <timestamp>2025-12-02T14:51:47Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
