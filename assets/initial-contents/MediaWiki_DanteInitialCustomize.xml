@@ -2,7 +2,7 @@
   <siteinfo>
     <sitename>Dantewiki</sitename>
     <dbname>Dante</dbname>
-    <base>https://localhost:4443/wiki-dir/index.php/Main_Page</base>
+    <base>https://localhost:443/wiki-dir/index.php/Main_Page</base>
     <generator>MediaWiki 1.39.0</generator>
     <case>first-letter</case>
     <namespaces>
@@ -41,15 +41,15 @@
   <page>
     <title>MediaWiki:Copyright</title>
     <ns>8</ns>
-    <id>56</id>
+    <id>60</id>
     <revision>
-      <id>60</id>
+      <id>64</id>
       <timestamp>2024-07-29T18:38:33Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>60</origin>
+      <origin>64</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="56" sha1="76wisucdgp4wi5ic2wv66ythkpfd76q" xml:space="preserve">Content is subject to copyright, unless otherwise noted.</text>
@@ -59,15 +59,15 @@
   <page>
     <title>MediaWiki:CopyrightNotice</title>
     <ns>8</ns>
-    <id>57</id>
+    <id>61</id>
     <revision>
-      <id>61</id>
+      <id>65</id>
       <timestamp>2024-08-20T20:35:37Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>61</origin>
+      <origin>65</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="207" sha1="cujgv9it9b79lx8hpi6rd7ulyob1a15" xml:space="preserve">This is a Dante-Wiki. This is not Mediawiki and not Wikipedia.
@@ -80,15 +80,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:About</title>
     <ns>4</ns>
-    <id>25</id>
+    <id>30</id>
     <revision>
-      <id>28</id>
+      <id>33</id>
       <timestamp>2024-08-24T16:56:18Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>28</origin>
+      <origin>33</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="107" sha1="nozbgwh1pewr8gqibkbqxent99cylo7" xml:space="preserve">This page must be customized to describe the purpose of this DanteWiki.
@@ -100,15 +100,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:Disclaimer</title>
     <ns>4</ns>
-    <id>26</id>
+    <id>31</id>
     <revision>
-      <id>29</id>
+      <id>34</id>
       <timestamp>2024-08-24T16:56:32Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>29</origin>
+      <origin>34</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="152" sha1="4iaz5lslraa0mbs0wc1p80p3bkqectc" xml:space="preserve">This page must be customized to describe the disclaimers, terms of services and conditions of use for this DanteWiki.
@@ -119,15 +119,15 @@ site may adapt the copyright rules as necessary by editing this page.</text>
   <page>
     <title>Dantewiki:Privacy Information</title>
     <ns>4</ns>
-    <id>28</id>
+    <id>33</id>
     <revision>
-      <id>31</id>
+      <id>36</id>
       <timestamp>2024-08-24T16:57:13Z</timestamp>
       <contributor>
         <username>imported&gt;Admin</username>
         <id>0</id>
       </contributor>
-      <origin>31</origin>
+      <origin>36</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
       <text bytes="331" sha1="cy8oq4ejsa88qv1vuxmllrenz1om6wx" xml:space="preserve">A Dantewiki is intended for the use of a single person or a very small number
