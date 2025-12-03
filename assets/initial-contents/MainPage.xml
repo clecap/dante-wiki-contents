@@ -43,34 +43,23 @@
     <ns>0</ns>
     <id>1</id>
     <revision>
-      <id>73</id>
-      <parentid>72</parentid>
-      <timestamp>2025-12-02T23:00:52Z</timestamp>
+      <id>68</id>
+      <parentid>67</parentid>
+      <timestamp>2025-12-03T16:59:33Z</timestamp>
       <contributor>
         <username>Admin</username>
         <id>1</id>
       </contributor>
-      <origin>73</origin>
+      <origin>68</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="228" sha1="r90x7qm5v2fw0n339hum6mdy3yljhtr" xml:space="preserve">
-&lt;amsmath&gt;
-abaaaaaaaaaa
-
-% Define an endlessly recursive macro
-\newcommand{\neverstop}{%
-  \neverstop % Calls itself again
-}
-
-\neverstop
-
-asdadsasdasd
-
+      <text bytes="125" sha1="mkegjwkq2fxzocv4topt0f3y9nx0yk6" xml:space="preserve">
+&lt;amsmath b br bs&gt;
+asdaaaaa $a = b$ and aaaasdas aaASasaSas  $c=d$ kjhkjh
 &lt;/amsmath&gt;
 
-
-lkjlkjlkj jjjaaThis is a fresshly inasataalled Dante Wiki.ssdfa</text>
-      <sha1>r90x7qm5v2fw0n339hum6mdy3yljhtr</sha1>
+This is a freshly installed Dante Wiki.</text>
+      <sha1>mkegjwkq2fxzocv4topt0f3y9nx0yk6</sha1>
     </revision>
   </page>
 </mediawiki>
