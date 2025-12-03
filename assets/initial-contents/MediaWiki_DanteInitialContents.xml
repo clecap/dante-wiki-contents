@@ -627,7 +627,7 @@ console.log ("*** inside dante gadget", window.Dante);
     <id>2</id>
     <revision>
       <id>2</id>
-      <timestamp>2025-12-02T14:51:47Z</timestamp>
+      <timestamp>2025-12-03T14:01:34Z</timestamp>
       <contributor>
         <username>Maintenance script</username>
         <id>3</id>
@@ -903,7 +903,7 @@ The contents of this page must conform to the following rules:
     <id>3</id>
     <revision>
       <id>5</id>
-      <timestamp>2025-12-02T14:51:54Z</timestamp>
+      <timestamp>2025-12-03T14:01:40Z</timestamp>
       <contributor>
         <username>DynamicPageList3 extension</username>
         <id>4</id>
