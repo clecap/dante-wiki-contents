@@ -1,0 +1,18 @@
+
+
+== Simple Highlight ==
+<syntaxhighlight>
+let x = 7;
+</syntaxhighlight>
+
+== More Complex Highlight ==
+‎<syntaxhighlight lang="python">
+def quick_sort(arr):
+	less = []
+	pivot_list = []
+	more = []
+	if len(arr) <= 1:
+		return arr
+	else:
+		pass
+‎</syntaxhighlight>

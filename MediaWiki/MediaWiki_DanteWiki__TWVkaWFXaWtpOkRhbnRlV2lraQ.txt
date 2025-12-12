@@ -1,0 +1,70 @@
+
+
+== FAQ ==
+
+=== Why is this called DanteWiki? ===
+The thought of writing done what one has understood dates
+back to Dante:
+
+"O mente, che scrivesti ciò ch’io vidi" (Dante, Inferno II, 8)
+
+"O Gedächtnis, das geschrieben, was ich erkannte" (own translation)
+
+This thought has also been described in a letter of 
+Nicolo Machiavelli to Francesco Vettori, florentinian
+ambassador in Rome. 
+We cite it here according to Niccolo Machiavelli, Der Fürst. 
+Suhrkamp Verlag, 2016:
+
+<poem>
+Und weil Dante sagt, es gebe keine Wissenschaft ohne die Aufzeichnung dessen,
+was man begriffen hat – so habe ich das notiert, was ich bei dem Gespräch
+mit Ihnen als das Wesentliche festhielt, und ein kleines Werk über Fürstentümer
+verfaßt, worin ich mich so weit wie möglich in die Gedanken über dieses Thema
+vertiefe und erörtere, was Herrschaft ist, welche Arten es davon gib, wie man sie
+erwirbt und erhält und warum man sie verliert.
+</poem>
+
+Or, for short:
+
+"[E]s [gibt] keine Wissenschaft ohne die Aufzeichnung dessen, was
+man begriffen hat."
+
+"There is no science without a record of what one has understood" (own translation)
+
+That's why I call this Wiki system a DanteWiki.
+
+=== What does the logo show? ===
+The logo shows a painting made 
+by Michelangelo Merisi da Caravaggio in 1607. It depicts Saint Jerome
+of Stridon, who is best known for his translations of the Bible into Latin. 
+it here serves as the symbol of a scientist, philosopher and thinker.
+Saint Jerome is alone, remote from the distractions of the world,
+focused alone on putting down his thoughts.
+The skull on his table reminds us of the mortality of man and the
+volatility of his thoughts.
+It thus challenges us to write down our thoughts.
+
+The logo thus reflexts my core motives when creating this system.
+
+=== What is the relation to MediaWiki? ===
+None.
+
+I did not want to build this system completely from scratch.
+MediaWiki was the software which contained most of the necessary 
+base functionality and was open for further development 
+due to its open license model.
+I will try to keep DanteWiki as close to MediaWiki as possible
+to ease maintenence and bug fixing.
+
+=== What is the relation to WikiPedia? ===
+None.
+
+While WikiPedia is a very interesting project, I do not
+subscribe to the objectivist perspective on which it seems
+to be grounded. In particular - in my opinion - 
+the neutral point of view goal of WikiPedia cannot be achieved
+for a number of linguistic reasons and should not
+be aimed for due to a number of philosophic reasons.
+
+DanteWiki follows different goals and guidelines.

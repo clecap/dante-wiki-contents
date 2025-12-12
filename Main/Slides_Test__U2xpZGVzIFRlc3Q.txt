@@ -1,0 +1,16 @@
+
+__SLIDES__
+
+This requires a specific magic word here - ut it destroys the full view of the beamer. Why?
+
+== Slide 1 ==
+<beamer>
+This
+</beamer>
+
+== Slide 2 ==
+<amsmath>
+Es ist $E = mc^2$.
+
+
+</amsmath>

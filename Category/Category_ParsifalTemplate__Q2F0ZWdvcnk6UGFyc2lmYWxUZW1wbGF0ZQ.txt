@@ -1,0 +1,4 @@
+This category contains all pages which may serve as templates for the Parsifal extension.
+
+Usually, such templates are also in the MediaWiki: namespace and subpages of [[MediaWiki:ParsifalTemplate]]
+[[Category:DanteInitialCustomize]]

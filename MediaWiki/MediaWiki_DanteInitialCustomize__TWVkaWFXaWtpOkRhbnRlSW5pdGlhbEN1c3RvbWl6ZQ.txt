@@ -1,0 +1,13 @@
+
+
+
+<pre>
+MediaWiki:Copyright
+MediaWiki:CopyrightNotice
+MediaWiki:DanteIntialCustomize
+Project:About
+Project:Disclaimer
+Project:Privacy Information
+</pre>
+
+[[Category:DanteInitialCustomize]]

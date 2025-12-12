@@ -1,0 +1,6 @@
+Enter one file per line.
+
+<pre>
+Main Page
+MediaWiki:Corefiles
+</pre>

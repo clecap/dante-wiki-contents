@@ -1,0 +1,7 @@
+= =
+<amsmath>
+asd
+
+
+</amsmath>
+[[Category:Compiler]]

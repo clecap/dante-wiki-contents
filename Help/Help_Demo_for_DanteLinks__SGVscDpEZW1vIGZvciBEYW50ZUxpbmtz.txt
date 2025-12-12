@@ -1,0 +1,33 @@
+
+* Broken pipes for the internal links do not yet work.
+[[Main Page ¦ style=color:green;]]
+
+[[Help:Demo for DanteLinks]]
+
+[[Help:Demo for DanteLinks ¦ style=color:green;]]
+
+Adding style attributes to an external link via broken pipe symbol:
+* [https://blog.fefe.de Fefe ¦ style=color:green;]
+
+Adding target attributes so that an external link opens in a new tab:
+* [https://blog.fefe.de Fefe ¦ target=_blank ]
+
+For use in sidebars only: There is a special class dexternal which can be used to append an external link symbol to link. In the sidebar links which otherwise are external will not show the symbol external. This is as we need query extensions for a number of links in the sidebar and this needs fullurl as parser and this causes the parser to understand the link as external in every case. Therefore we turned this thingie off in sidebar until we find a smart fix for this.
+
+[[Main Page]]
+
+== All Link Types ==
+
+[[Main Page]]
+
+[[Main Page|Hauptseite]]
+
+[[Main Page]]s
+
+[https://blog.fefe.de]
+
+[https://blog.fefe.de Fefe]
+
+[[Halomi]]
+
+[[:Category:Root]]

@@ -1,0 +1,48 @@
+
+== ==
+<amsmath>
+\def\UE#1{\hspace*{0.5cm}\color{green}UE#1 (Gaede)}
+\def\PK#1{\hspace*{0.5cm}\color{red}PK#1 (Gaede)}
+\def\VL#1{\color{blue}VL#1 (Cap)}
+
+\def\ue{\leavevmode\color{green}}
+\def\pk{\leavevmode\color{red}}
+\def\vl{\leavevmode\color{blue}}
+
+\textbf{\large Zeitplanung}
+
+\begin{tabular}[]{c|l|lp{5cm}}
+\textbf{Datum} & \textbf{Veranstaltung} & \textbf{Thema} & \textbf{Inhalte} \\ \hline
+16. 10. & \VL{1} \\
+18. 10. & \UE1 & \ue Wiederholung & \ue\scriptsize Wiederholung reguläre Ausdrücke, DEA und NDEA\\
+23. 10. & \VL{2} \\
+25. 10. & \PK 1 & \pk Lexikalische Analyse 1 &  \pk\scriptsize Einarbeitung in 
+  C und make, Implementierung eines Quellcode-Filters \\
+30. 10. & \VL{3} \\
+01. 11. & \UE 2 \\
+06. 11. & \VL{4} \\
+08. 11. & \PK 2 & \pk Lexikalische Analyse 2 & \pk\scriptsize Klassifizieren lexikalischer Token, Einsortieren in eine Symboltabelle \\
+13. 11. & \VL{5} \\
+15. 11. & \UE 3 \\
+20. 11. & \VL{6} \\
+22. 11. & \PK 3 & \pk Syntax Analyse 1 & \pk\scriptsize LL(1) Parser für Modula 2 via LL-Algo \\
+27. 11. & \VL{7} \\
+29. 11. & \UE 4 \\
+04. 12. & \VL{8} \\
+06. 12. & \PK 4 & \pk Syntax Analyse 2 & \pk\scriptsize LALR(1) Parser für Modula 2 via Bison \\
+11. 12. & \VL{9} \\
+13. 12. & \UE 5 \\
+18. 12. & \VL{10} \\
+20. 12. & \PK 5 & \pk Semantische Analyse & \pk\scriptsize  Aufbau eines attributierten Syntaxbaumes mittels Kimwitu++\\
+03. 01. & \PK 6 & \pk Code Erzeugung & \pk\scriptsize Ausgabe einer Übersetzung in der Sprache C\\
+08. 01. & \VL{11} \\
+10. 01. & \UE 6 \\
+15. 01. & \VL{12} \\
+17. 01. & \PK 7 & \pk Zusammenfassung & \pk\scriptsize Rückblick und Abschlußbesprechung\\
+22. 01. & \VL{13} \\
+24. 01. & \UE 7 & \ue Zusammenfassung & \ue\scriptsize Rückblick und Abschlußbesprechung
+\end{tabular}
+
+
+</amsmath>
+[[Category:Compiler]]

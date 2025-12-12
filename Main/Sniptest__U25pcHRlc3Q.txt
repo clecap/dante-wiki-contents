@@ -1,0 +1,40 @@
+
+This is a test page for which there exists a corresponding page in the snip namespace.
+
+Here is the link to this corresponding page: [[Snip:Sniptest]]
+
+Here is the ssss ssss ssss sssss link to this corresponding page: [[Snip:Sniptest]]
+
+Here is a link to this page itself [[Sniptest]]
+
+Here is a link to a page linking to this page [[Sniptestlinker]]
+
+<snip i>XT snip.</snip>
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Here is the ssss ssss ssss sssss link to this corresponding page: [[Snip:Sniptest]]

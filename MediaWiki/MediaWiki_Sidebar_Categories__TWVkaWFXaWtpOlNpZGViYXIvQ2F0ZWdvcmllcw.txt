@@ -1,0 +1,22 @@
+This page is a system page. It controls what is shown in the
+<code>Categories</code> portion of the sidebar.
+
+The contents of this page must conform to the following rules:
+
+* The page contains a single <code>&lt;pre> ... &lt;/pre></code> area.
+* This area contains a JSON data string of type array.
+* The array contains objects of one of the following types:
+** <code>{"root": <string>, "depth": <number>}</code>
+** <code>{"name": <string>}</code>
+** Every object may contain an optional "style" key whose value is a CSS string.
+** Every object may contain an optional "classname" field whose value refers to a class name known to the system
+
+<pre>
+[
+  {"root": "Root", "depth":4},
+  {"name": "Example", "style": "color:red;"},
+  {"name": "Testpage", "style": "color:green;"}
+]
+</pre>
+
+[[Category:DanteInitialContents]]

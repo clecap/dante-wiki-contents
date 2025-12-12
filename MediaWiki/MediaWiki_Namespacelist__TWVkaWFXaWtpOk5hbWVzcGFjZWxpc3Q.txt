@@ -1,0 +1,9 @@
+
+
+This page displays the list of namespaces which is active on this DanteWiki.
+
+The generating function can be found in [[MediaWiki:Common.js]].
+
+<div id="namespace-container" style="margin-left:20px;"></div>
+
+[[Category:DanteInitialContents]]

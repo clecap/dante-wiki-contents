@@ -1,0 +1,7 @@
+Subpages of MediaWiki:ParsifalTemplate are templates for use with Parsifal.
+
+== List of Parsifal Templates ==
+
+{{Special:PrefixIndex/MediaWiki:ParsifalTemplate/}}
+[[Category:ParsifalTemplate]]
+[[Category:DanteInitialContents]]

@@ -1,0 +1,8 @@
+This Parsifal macro contains latex preamble text inside of a <code>pre</code>
+tag.
+
+<pre>
+\def\mybla{\textbf{MY BLA MACRO TEST}}
+</pre>
+
+[[Category:DanteInitialContents]]

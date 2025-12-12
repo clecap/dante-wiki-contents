@@ -1,0 +1,8 @@
+This category contains pages used for bootstrapping Dantewiki.
+
+'''Important:''' We strongly recommend that you do not edit this category or use it in own pages as this might break your system.
+
+
+__HIDDENCAT__
+
+[[Category:Root]]

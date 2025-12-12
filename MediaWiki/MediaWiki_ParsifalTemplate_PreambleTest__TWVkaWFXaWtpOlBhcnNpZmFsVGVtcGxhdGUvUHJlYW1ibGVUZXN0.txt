@@ -1,0 +1,8 @@
+<pre>
+\def\iamapreamble{I am a test of the preamble feature}
+
+
+</pre>
+[[Category:ParsifalTemplate]]
+[[Category:DanteInitialContents]]
+[[Category:Testpage]]

@@ -1,0 +1,9 @@
+Pages of the structure <code>Help:Test/*</code> contain tests.
+
+They are part of the <code>Help:</code> namespace, since tests provide additional examples of how the system works.
+
+== List of <code style="font-size:smaller">Help:Test/*</code></small> ==
+{{Special:PrefixIndex/Help:Test/}}
+
+== List of <code style="font-size:smaller">Help:Test/Parsifal</code></small> ==
+{{Special:PrefixIndex/Help:Test/Parsifal}}

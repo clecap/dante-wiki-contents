@@ -1,0 +1,14 @@
+== Test for Parsifal Page Width ==
+Pre
+<amsmath>
+Ei nz el test aq qwehj hjk hjk 789
+ 
+Rule of 14cm
+\hrule height 1px depth 1px width 14cm \relax
+
+Rule of 15cm
+\hrule height 1px depth 1px width 15cm \relax
+
+Rule of 16cm
+\hrule height 1px depth 1px width 16cm \relax
+</amsmath>

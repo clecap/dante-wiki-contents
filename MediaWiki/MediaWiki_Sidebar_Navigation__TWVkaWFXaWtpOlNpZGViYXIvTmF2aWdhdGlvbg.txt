@@ -1,0 +1,88 @@
+<pre>
+{{#tree: extensions=["persist"] | 
+* <b>[{{fullurl:Main Page}} Main Page]</b>
+* <b>[{{fullurl:MediaWiki:CreatePage}} Create Page]</b>
+* [{{fullurl:Special:RecentChanges}} Recent Changes]
+* <b>[[Help:Customize | Please customize these pages!]]</b>
+* <b title="Help for using features of this system">Help</b>
+** [[Help:Techniques]]
+** <b title="Help for using some LaTeX features">LaTeX Help</b>
+*** [https://www.tug.org/docs/latex/tcolorbox/tcolorbox.pdf TColorBox \S]
+*** [https://mirror.dogado.de/tex-archive/graphics/pgf/base/doc/pgfmanual.pdf TikZ & PGF \S]
+*** [https://ctan.net/graphics/pictex/PiCTeX_manual.pdf PiCTeX \S]
+*** [https://texdoc.org/serve/xyrefer.pdf/0 XY-Pic Reference \S]
+*** [http://www.map.mpim-bonn.mpg.de/images/4/41/Xyguide.pdf XY-Pic Users \S]
+*** [https://www.jmilne.org/not/Mxymatrix.pdf XY-Matrix \S]
+
+** <b title="Help for using some MediaWiki features">MediaWiki Help</b>
+*** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3 \S]
+*** [https://www.mediawiki.org/wiki/Help:Links Links WP]
+
+** <b title="Help for using some DanteWiki features">DanteWiki Help</b>
+*** [[Help:Sidebar | Sidebar \S]]
+*** [[Help:Parsifal Cheat| Parsifal Cheat \S]]
+*** [[Help:Dante Cheat| Dante Cheat \S]]
+
+* <b title="Edit the contents of various parts of this sidebar">Sidebar Edits</b>
+** [{{fullurl:MediaWiki:Sidebar|action=edit}} Full Sidebar]
+** [{{fullurl:MediaWiki:Sidebar/Areas|action=edit}} Areas]
+** [{{fullurl:MediaWiki:Sidebar/Categories|action=edit}} Categories]
+** [{{fullurl:MediaWiki:Sidebar/Navigation|action=edit}} Navigation]
+** [{{fullurl:MediaWiki:Sidebar/UI|action=edit}} UI]
+** [{{fullurl:MediaWiki:Sidebar/Social|action=edit}} Social]
+
+* <b title="Query for pages in specific namespaces">Namespace Lists</b>
+** [{{fullurl:Special:AllPages}} All Pages]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=14}} Category]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=10}} Template]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=12}} Help]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=4}} Project]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=2100}} Snip]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=3000}} Test]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=2200}} Translated]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=8}} MediaWiki]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=2}} User]
+** [{{fullurl:Special:ListFiles}} Files]
+** [[MediaWiki:Namespacelist | List all Namespaces]]
+
+* <b title="Report a bug which you found">Issue Reporting</b>
+** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]
+** [https://github.com/clecap/dante-wiki/issues DanteWiki Issues \S]
+** [https://github.com/clecap/dante-wiki-production/issues DanteProduction Issues \S]
+** [https://github.com/clecap/Parsifal/issues Parsifal Issues \S]
+
+* <b title="Links useful for regular maintenance">Maintenance</b>
+** [[Special:BrokenRedirects | Broken Redirects]]
+** [[Special:DoubleRedirects | Double Redirects]]
+** [[Special:UncategorizedPages | Uncat Pages]]
+** [[Special:WantedPages | Missing Pages]]
+
+* <b title="Links supporting further development">Development</b>
+** [[Special:DanteInitialLoad | Load Initial Pages]]
+** [[Special:DanteInitialStore | Store Initial Pages]]
+
+* <b>Demos & Tests</b>
+** Javascript Gadget Tests
+*** <b>[javascript:window.DANTE.testConsole() window.DANTE.testConsole()]</b>
+*** <b>[javascript:Dante.testConsoleZwei() Dante.testConsoleZwei()]</b>
+*** <b>[javascript:Dante.testConsoleDrei() Dante.testConsoleDrei()]</b>
+*** <b>[javascript:console.log(Dante.testConsoleDrei); testprintfc]</b>
+*** <b>[javascript:console.log(Dante); Log Dante object]</b>
+*** <b>[javascript:console.log(Dante.testDump); Log Dante.testDump]</b>
+*** <b>[javascript:Dante.testDump(); Dante.testDump]</b>
+** [[Help:Tests for Drawio|Drawio]]
+** [[Test:Parsifal Tests| Parsifal Tests]]
+* [[Special:Upload| Upload file]]
+* [[Special:SpecialPages| Special pages]]
+* <b>Page Tools</b>
+** [{{fullurl:Dummy:WhatLinksHere}} What links here?]
+** [{{fullurl:Dummy:PageInfo}} Page Info]
+** [{{fullurl:Dummy:RelatedChanges}} Related Changes]
+** [{{fullurl:Dummy:PermaLink}} Permanent Link]
+** [{{fullurl:Dummy:CiteThisPage}} Cite this page]
+** [javascript:print(true) Printable version]
+}}
+</pre>
+
+
+[[Category:DanteInitialContents]]

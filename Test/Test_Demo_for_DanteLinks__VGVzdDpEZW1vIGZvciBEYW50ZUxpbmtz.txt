@@ -1,0 +1,83 @@
+
+
+
+Window
+* [https://blog.fefe.de \w]
+* [https://blog.fefe.de Fefe \w]
+
+
+Side
+* [https://blog.fefe.de \s]
+* [https://blog.fefe.de Fefe \s]
+
+
+'''Example'''
+* <nowiki>[[Main Page || doub]]</nowiki>
+* [[Main Page || doub]] 
+
+* <nowiki>[[Main Page \| doub]]</nowiki>
+* [[Main Page \| doub]]
+
+
+'''Example'''
+* <nowiki>[[Main Page ¦ style=color:green;]]</nowiki>
+* [[Main Page ¦ style=color:green;]]
+
+'''Example'''
+* <nowiki>[[Help:Demo for DanteLinks ¦ style=color:green;]]</nowiki>
+* [[Help:Demo for DanteLinks ¦ style=color:green;]]
+
+'''Example:''' Adding style attributes to an external link via broken pipe symbol
+* <nowiki>[https://blog.fefe.de Fefe ¦ style=color:green;]</nowiki> produces
+* [https://blog.fefe.de Fefe ¦ style=color:green;]
+
+
+'''Example:''' Adding target attribute _blank to an external link opens it in a new tab
+* <nowiki>[https://blog.fefe.de Fefe ¦ target=_blank ]</nowiki> produces:
+* [https://blog.fefe.de Fefe ¦ target=_blank ]
+
+For use in sidebars only: There is a special class dexternal which can be used to append an external link symbol to link. In the sidebar links which otherwise are external will not show the symbol external. This is as we need query extensions for a number of links in the sidebar and this needs fullurl as parser and this causes the parser to understand the link as external in every case. Therefore we turned this thingie off in sidebar until we find a smart fix for this.
+
+[[Main Page]]
+
+And here [[Main Page]] some text [https://blog.fefe.de Fefe] to see the distances when
+rendering in text.
+
+
+== Requirements ==
+
+* We always want to see where a link goes (internal or external)
+* We always want to know where a link opens (same tab, new tab, new window)
+* We want to allow the user to open the link where he wants to (same tab, new tab, new window)
+* We want to force-open some links in specific modes (same tab, new tab, new window) when the user only clicks normally.
+
+== All Link Types ==
+
+<table>
+<tr><td>Internal</td><td><nowiki>[[Main Page]]</nowiki></td><td>[[Main Page]]</td></tr>
+<tr><td>Piped</td><td><nowiki>[[Main Page|Hauptseite]]</nowiki></td><td>[[Main Page|Hauptseite]]</td></tr>
+
+
+<tr><td>External numbered</td><td><nowiki>[https://blog.fefe.de]</nowiki></td><td>[https://blog.fefe.de]</td></tr>
+<tr><td>External text</td><td><nowiki>[https://blog.fefe.de Fefe]</nowiki></td><td>[https://blog.fefe.de Fefe]</td></tr>
+<tr><td>External bare</td><td><nowiki>https://blog.fefe.de</nowiki></td><td>https://blog.fefe.de</td></tr>
+
+
+</table>
+
+
+[[Main Page]]s
+
+[https://blog.fefe.de Fefe]
+
+
+[[Murundai\w]]
+
+[https://blog.fefe.de Hurundai\w]
+
+[[Pipetrick (computing)|Pipetrick]] 
+
+
+
+
+[[:Category:Root]]

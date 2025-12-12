@@ -1,0 +1,71 @@
+This page demonstrates and tests the styling of the heading, which happens
+in Parsifal/latex.css
+
+= h1 =
+In h1  qw
+
+<amsmath sans>
+\LaTeX In h1     
+   
+\nonexistant
+\noindent\hrulefill
+</amsmath>
+
+== h2 ==
+In h2
+
+<amsmath sans>
+\LaTeX In h2
+
+\noindent\hrulefill   
+</amsmath>
+
+=== h3 ===
+In h3
+
+<amsmath sans>
+\LaTeX In h3
+
+\noindent\hrulefill
+</amsmath>
+
+==== h4 ====
+In h4
+
+<amsmath sans>
+\LaTeX In h4
+
+\noindent\hrulefill
+</amsmath>
+
+===== h5 =====
+In h5
+
+<amsmath sans>
+\LaTeX In h5
+
+\noindent\hrulefill
+</amsmath>
+
+====== h6 ======
+In h6
+
+<amsmath sans>
+\LaTeX In h6
+
+\noindent\hrulefill
+</amsmath>
+
+======= h7 =======
+In h7
+
+<amsmath sans>
+\LaTeX In h7
+
+%\noindent\hrulefill
+</amsmath>
+
+<amsmath sans>
+second element
+
+</amsmath>

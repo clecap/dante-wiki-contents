@@ -1,0 +1,84 @@
+== Titel ==
+
+<amsmath n="Myname">aix q kk  1 2 3d ss fghjghj56 876qq kjha slkjh  hallo q1 jk aa s wwad fs d a andsom more  st uff which in side o f this   d
+   
+\xcx
+
+Rule of 14cm  
+\hrule height 1px depth 1px width 14cm \relax         
+
+Rule  of 14.2cm 
+\hrule height 1px depth 1px width 14.2cm \relax
+
+Rule of s 15cm
+\hrule height 1px depth 1px width 15cm \relax
+
+Rule of 16cm
+\hrule height 1px depth 1px width 16cm \relax
+</amsmath>
+
+== Part 2 ==
+<amsmath>
+b ja q q io qw qw   fje q
+</amsmath>
+
+== One ==
+<beamer b>
+Hallo2345123 123 123 
+Das ist jakjh 
+$a$=$b$ kjh  kjqh k jkl lkj j h iuhh zh qwe asd u io
+</beamer>
+
+== Stuff ==
+<beamer b>
+This is no w asdcvb we asd  qwe as d  qwe a sd qw e asd qwe asd qwe asd qwe asd qwe  asd qwe asd qwe asd qwe asd qwe asd beamer a sd
+</beamer>
+
+== Only ==
+
+<amsmath n="Myname">J xust  a test</amsmath>
+
+== Titel Y ==
+
+<amsmath o-proof>
+Ea iaaa  sds df ax sd   gg   n s
+</amsmath>
+
+<amsmath c-habanalop>Zwhc 
+sdf sdf
+sdfsdf
+xx
+sdfsdf
+as
+sdfsdf
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdfsdf
+
+sdf
+
+sdfe i</amsmath>
+
+<amsmath c="Ha bA Na">
+Drei \url{https://www.ifi.ch}
+</amsmath>

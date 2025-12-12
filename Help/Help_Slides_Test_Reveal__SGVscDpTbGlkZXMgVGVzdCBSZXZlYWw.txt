@@ -1,0 +1,32 @@
+
+__SLIDES__
+
+__NOTOC__
+
+==One==
+<beamer b>
+one
+
+qwe
+
+qwe
+
+qwe
+
+
+</beamer>
+
+==Two==
+<beamer b>
+Two qwd
+</beamer>
+
+== Three ==
+<amsmath>
+asd asd
+</amsmath>
+
+== Four ==
+<amsmath>
+asd asdv
+</amsmath>

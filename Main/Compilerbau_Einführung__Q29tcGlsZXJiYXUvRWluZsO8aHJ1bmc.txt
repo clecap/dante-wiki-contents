@@ -1,0 +1,192 @@
+
+
+== ==
+<amsmath>
+\title{Wozu Compiler?}
+ 
+\begin{itemize}
+\item Umwandlung 
+\item 
+\end{itemize}
+
+</amsmath>
+
+
+== ==
+<amsmath>
+\title{Compilerbau}  
+ 
+\begin{itemize}
+\item Altes und relative zentrales Problem der Informatik
+\item Bestehende Lösungen mit hohem Reifegrad
+\item Hersteller und Kunden sind Informatiker
+\item Durchgehende Fortsetzung von der Theorie in die Praxis
+\item Neue Sprachen und Sprachkonzepte benötigen immer wieder neue Compiler
+\end{itemize}
+ 
+</amsmath>
+
+== Compiler versus Interpreter ==
+<drawio filename="compiler-und-interpreter"/>
+
+<amsmath>
+\begin{tabular}[]{p{2.5cm}p{5cm}p{5cm}}
+ & \textbf{Compiler} & \textbf{Interpreter} \\
+Ausführung & Schnell & Langsam \\
+Vorlauf & Lang & Kurz \\
+Abarbeitung & 1-n Durchläufe &  Schrittweise, inkrementell \\
+Statische Fehler & Im gesamten Code gefunden & Nur in ausgeführten Code-Teilen \\
+Symbolische Ausführung & Schwierig\linebreak Mit symbolischem Debugger & Banal, denn Interpretation\linebreak \textit{ist} symbolische Ausführung \\
+Modifikation & Nur vor Compilation & Auch zur Laufzeit \\
+Quellcode nötig & Nur für Übersetzung & Für jede Ausführung \\
+IP Schutz & Leicht & Schwer (obfuscation) \\
+Typische\linebreak Beispiele & C, C++, Pascal, Modula, Fortran, Java, Swift & JavaScript, Python, Shell-Sprachen, Postscript, Ruby, LISP, Haskell, Perl \\
+\end{tabular}
+
+Zunehmend Kombination beider Formen realisiert.
+</amsmath>
+
+== Arten von Interpretern ==
+
+
+== Arten von Compilern ==
+
+===  ===
+<amsmath>
+\title{Nach der Umgebung}
+
+\begin{description}
+\item[Nativer Compiler ] übersetzt für das System auf dem der Compiler selber läuft.
+
+Beispiel: C-Compiler auf dem PC übersetzt für den PC.
+
+\item[Crosscompiler ] übersetzt für ein anderes System als jenes, auf dem
+der Compiler selber läuft.
+
+Beispiel: Swift-Compiler auf dem Mac Laptop übersetzt für das iPhone oder die Apple Watch.
+\end{description}
+</amsmath>
+
+=== Nach der Abstraktionsstufe ===
+<amsmath>
+\title{Nach der Abstraktionsstufe}
+
+\begin{description}
+\item[Compiler ] übersetzt meistens von einer Sprache höherer Abstraktions-Stufe 
+in eine Sprache niedriger Abstraktions-Stufe.
+
+Beispiel: GNU C-Compiler übersetzt in Intel 8086 Maschinensprache.
+
+\item[Transpiler ] übersetzt von einer Hochsprache in eine andere Hochsprache.
+
+Beispiel: Babel Transpiler übersetzt ECMA-Script 6, JSX, Typescript in JavaScript nach ECMA-Script 5 Standard.
+
+Beispiel: Emscripten übersetzt C++ nach Javascript, im Umweg über die LLVM (Low Level Virtual Machine) Zwischensprache.
+
+\item[Recompiler ] übersetzt eine Sprache niedriger Abstraktions-Stufe in 
+einer Sprache niedriger Abstraktions-Stufe.
+
+Beispiel: LLVM Backend übersetzt LLVM in Intel 8086 Maschinensprache.
+
+\item[Decompiler ] übersetzt von Sprache niedriger Abstraktions-Stufe
+in eine Sprache hoher Abstraktions-Stufe.
+
+Beispiel: JEB decompiliert Java-Bytecode nach Java-Quellcode und
+Intel 8086 Maschinensprache nach C-Quellcode.
+
+\item[Assembler ] übersetzt symbolische Darstellung einer Maschinen-nahen 
+Sprache in die binäre Darstellung für eine Maschine.
+
+Beispiel: MASM übersetzt Intel 8086 Assembler in Intel 8086 Binärprogramme.
+
+\item[Bytecode Compiler ] übersetzt eine Hochsprache in eine Zwischensprache (Bytecode) für eine virtuelle Maschine.
+
+Beispiel: Compiler der LLVM Frontend Compiler übersetzen C und C++ nach LLVM.
+
+Beispiel: Java Bytecode Compiler übersetzt Java nach Java Bytecode.
+
+\end{description}
+</amsmath>
+
+<drawio filename="compiler-abstraktion" />
+
+=== Zeitpunkt ===
+<amsmath>
+
+\begin{description}
+\item[Ahead of Time (AOT) Compiler ] übersetzt vor der Ausführung.
+
+Beispiel: GNU C Compiler.
+
+\item[Just in Time (JIT) Compiler ] übersetzt bei der Ausführung.
+Versteckt eine de-facto AOT Compilation vor dem Benutzer.
+
+Kann mit Interpretations-Phase verbunden sein.
+
+\textit{Hotspot} Technologie: Nur wichtige Teile werden übersetzt, die anderen
+Teile bleiben interpretiert.
+
+Beispiel: V8 Compiler für JavaScript / Node.
+
+Beispiel: HHVM Compiler für PHP.
+
+\end{description}
+
+
+</amsmath>
+
+== Begleitwerkzeuge ==
+<amsmath>
+\title{Begleitwerkzeuge}
+
+
+\begin{description}
+\item[Präprozessor ] Werkzeuge zur Vorbearbeitung von Quellcode.
+
+Beispiel: \href{https://en.cppreference.com/w/cpp/preprocessor}{cpp}: C Präprozessor.
+
+Beispiel: \href{https://webpack.js.org/}{Webpack}: JavaScript Bundler.
+
+\item[Assembler ] Werkzeuge zur Umwandlung einer symbolischen Darstellung einer Maschinen-nahen Sprache in die binäre Darstellung für eine Maschine.
+
+Beispiel: MASM übersetzt Intel 8086 Assembler in Intel 8086 Binärprogramme.
+
+\item[Linker/Lader ] Werkzeuge zum Zusammenfügen von Code-Bestandteilen
+mit Quer-Referenzen und symbolischen Adressen, meistens auf Ebene von
+Binärcode oder Maschinencode.
+
+Beispiel: \href{https://linux.die.net/man/8/ld.so}{ld.so, ld-linux.so}, \href{https://linux.die.net/man/8/ldconfig}{ldconfig.so}, \href{https://linux.die.net/man/1/ldd}{ldd} Linker/Lader Werkzeuge von Linux.
+
+\item[Linter ] Werkzeuge für statische Code-Analyse, meist auf Ebene
+von Quellcode. Machen auf bekannte oder mutmaßliche 
+
+Beispiel: \href{https://www.unix.com/man-page/v7/1/lint/}{lint} Linux lint Programm für C.
+
+\end{description}
+
+Literaturhinweis: S. Grover, Linux and Loaders, Linux Journal, 26. November 2002, \url{https://www.linuxjournal.com/article/6463}.
+
+</amsmath>
+
+
+== Motivation ==
+<beamer>
+{\LARGE\bf Title} 
+
+\begin{itemize}
+\item Angewandte Theorie
+\end{itemize}
+</beamer>
+
+
+<hide>
+Einige kleine Erklärungen.
+</hide>
+
+Gerade noch ein wenig Zeugs
+
+== Compiler Bootstrapping ==
+asdasdasdasd
+
+
+[[Category:Compiler]]

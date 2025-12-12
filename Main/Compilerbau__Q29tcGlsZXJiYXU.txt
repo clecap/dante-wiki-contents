@@ -1,0 +1,14 @@
+<amsmath>
+\section{Anwendungen Compilerbau}
+
+\begin{itemize}
+\item asd
+\end{itemize}
+
+
+</amsmath>
+
+<beamer>
+Das ist also 
+
+</beamer>

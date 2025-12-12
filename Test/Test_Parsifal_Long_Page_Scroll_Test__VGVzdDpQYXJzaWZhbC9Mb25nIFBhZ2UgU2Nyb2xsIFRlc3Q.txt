@@ -1,0 +1,639 @@
+<amsmath>
+This 
+
+\bigskip
+
+is a
+
+This 
+
+\bigskip
+
+is 
+
+\bigskip
+
+a 
+
+\bigskip
+
+very 
+
+\bigskip
+
+long
+
+\bigskip
+
+page 
+
+\bigskip
+
+which 
+
+\bigskip
+
+we
+
+\bigskip
+
+need 
+
+\bigskip
+
+for 
+
+\bigskip
+
+doing 
+
+\bigskip
+
+some 
+
+\bigskip
+
+tests
+
+\bigskip
+
+a 
+
+\bigskip
+
+very 
+
+\bigskip
+
+long
+
+\bigskip
+
+page 
+
+\bigskip
+
+which 
+
+\bigskip
+
+we
+
+\bigskip
+
+need 
+
+\bigskip
+
+for 
+
+\bigskip
+
+doing 
+
+\bigskip
+
+some 
+
+\bigskip
+
+tests
+
+\bigskip
+
+This 
+
+\bigskip
+
+is 
+
+\bigskip
+
+a 
+
+\bigskip
+
+very 
+
+\bigskip
+
+long
+
+\bigskip
+
+page 
+
+\bigskip
+
+which 
+
+\bigskip
+
+we
+
+\bigskip
+
+need 
+
+\bigskip
+
+for  gh
+
+\bigskip
+
+doing 
+
+\bigskip
+
+some 
+
+\bigskip
+
+tests hgh jhg j gh jhg jgjhgjhg g gjgjgjgjgjgjgjhg gjggjhgjh  gjgjgjgjhg gjgj
+
+\bigskip
+
+And now we are jk lj kjkj jl jk actually very low down on the page because we want to
+test the scrolling behavior of the system for situations where
+we add some more text and want to ssee if the page automagically adpats in the lengt
+
+asa
+
+qwaweddasa
+
+1234321234321234321234321234321234321234321234321234321234321234321234321234321234321234321234ijkhzhbfghg-t867qkgopl29imokqqq
+</amsmath>
+
+
+
+
+
+<amsmath sans>
+
+\textbf{Stack:} 
+\begin{itemize}
+\item Selbe Aufgabe wie in jedem akzeptzierenden Keller-Automaten.
+\item Konvention: Stack wächst von links nach rechts. \\
+Damit ändert das Befüllen des Stacks nicht die Leserichtung.\\
+Das macht die reduce Schritte einfacher.
+\end{itemize}
+
+\textbf{Heap:} 
+\begin{itemize}
+\item Bereich zur Konstruktion von Teilen des Ableitungsbaums.
+\item Zusätzlich zur Funktion des akzeptierenden Keller-Automaten.
+\item Kann auch vom Stack mit übernommen werden,\\ wenn dieser nicht nur Symbole speichert sondern auch Zeiger auf Teilbäume.
+\end{itemize}
+
+Aktionen des Parsers:
+ 
+\textbf{Shift:}
+\begin{enumerate}
+\item Entferne das nächste Symbol vom Input.
+\item Baue aus diesem Symbol einen neuen einknotigen Parsebaum.
+\end{enumerate}
+
+\textbf{Reduce:}
+\begin{enumerate}
+\item Wende eine Grammatikregel auf Top of Stack (liegt rechts!) an.
+\item Fasse die betroffenen Symbole zu einem Parsebaum zusammen.
+\end{enumerate}
+
+\textbf{Terminate:}
+\begin{enumerate}
+\item Der Input ist leer (kein weiterer Shift Übergang ist mehr möglich).
+\item Kein weiterer Reduce Übergang ist mehr möglich.
+\item Es liegt nur mehr das Startsymbol auf dem Stack.
+\end{enumerate}
+
+
+
+</amsmath>
+
+== Beispiel ==
+<amsmath sans>
+\def\to{\mbox{$\rightarrow$ }}
+\def\r#1{{\color{red}#1}}
+
+Die Grammatik habe als Terminale die Token $\{$ \r{ID}, \r{INT}, \r{*}, \r{+}, \r{=} $\}$. \\
+Lexikalische Ausprägungen der Token \r{ID} seien $\{$ A, B, C, D $\}$.\\
+Lexikalische Ausprägungen der Token \r{INT} seien $\{$ 1, 2, 3, 4 $\}$.\\
+Die übrigen Token stehen lexikalisch für sich selbst.
+
+Die Grammatik habe die Nichtterminale $\{$ Val, Prod, Sum, Ass $\}$.
+
+Startsymbol sei Ass.
+
+Die Grammatik sei gegeben durch die Regeln:
+
+\mright\begin{minipage}{10cm}
+Val \to \r{ID} \\
+Val \to \r{INT} \\
+Prod \to Val \\
+Prod \to Prod \r{*} Val \\
+Sum \to Prod \\
+Sum \to Sum \r{+} Prod \\
+Ass \to \r{ID} \r{=} Sum
+\end{minipage}
+
+Zu parsen sei die Eingabe A = B + C * 2
+ 
+
+\begin{tabular}[]{llllll}
+\textbf{Nr.} & \textbf{Stack} & \textbf{LA} & \textbf{Input-Buffer} &  \textbf{Action} \\ 
+1&        &  \r{ID(A)} & A = B + C * 2 & Shift ID(A) \\
+2&\r{ID}  &  \r=  &  = B + C * 2 & Shift =\\
+3& \r{ID} \r{=} & \r{ID(B)}    &  B + C * 2 & Shift ID(B)\\
+4&\r{ID} \r{=} \r{ID}& \r+ & + C * 2 & Reduce  Val \to ID\\
+5&\r{ID} \r{=}   Val & \r+ &  + C * 2 & Reduce Prod \to Val \\
+6&\r{ID} \r{=} Prod  & \r{+} & + C * 2 & Reduce Sum \to Prod \\
+7&\r{ID}  \r{=} Sum   & \r{+} & + C * 2 & Shift +\\
+8&\r{ID} \r{=}  Sum \r{+} & \r{ID(C)}  & C * 2 & Shift ID(C) \\
+9&\r{ID} \r{=} Sum \r{+} \r{ID}& \r{*} & * 2 & Reduce Val \to ID\\
+10&\r{ID} \r{=} Sum \r{+} Val & \r{*}& * 2 & Reduce Prod \to Val \\
+11&\r{ID} \r{=} Sum \r{+} Prod  & \r{*} & * 2  & Shift * \\
+12&\r{ID} \r{=} Sum  \r{+} Prod \r{*} & \r{INT(2)} & 2 & Shift INT(2) \\
+13&\r{ID} \r{=} Sum \r{+}  Prod \r{*} \r{INT} &  & &  Reduce Val \to INT \\
+14&\r{ID} \r{=} Sum \r{+} Prod \r{*} Val &  & & Reduce Prod \to Prod * Val\\
+15&\r{ID} = Sum  +  Prod &  & & Reduce Sum \to Sum + Prod\\
+16& \r{ID} \r{=} Sum &  & & Reduce Ass \to ID = Sum\\
+17 & Ass &  &  &Terminate Startsymbol Ass
+\end{tabular}
+
+\textbf{Wesentlich:} 
+Es \textit{existiert} ein solcher Ablauf im Keller-Automaten.
+
+Dieser Ablauf im Keller-Automaten entspricht der folgenden Rechts-Ableitung:
+
+Ass \\ 
+\to ID = \underline{Sum} \\ 
+\to ID = Sum + \underline{Prod} \\
+\to ID = Sum + Prod * \underline{Val} \\
+\to ID = Sum + \underline{Prod} * INT\\
+\to ID = Sum + \underline{Val} * INT\\
+\to ID = \underline{Sum} + ID * INT\\
+\to ID = \underline{Prod} + ID * INT\\
+\to ID = \underline{Val} + ID * INT\\
+\to ID = ID + ID * INT
+</amsmath>
+
+== 1. Blick auf den Heap ==
+<amsmath sans>
+In Zeile 4 stehen die drei Zeichen ID = ID auf dem Stack, die auf
+drei einsymbolige, unverbundene Teilbäume im Heap verweisen: 
+
+
+\begin{tikzpicture}
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {ID};
+\end{tikzpicture}
+
+Nun erfolgt ein Reduce Schritt mit der Regel Val $\to$ ID. Im Ergebnis
+stehen auf dem Stack die drei Zeichen ID = Val. Der Heap reflektiert diese Operation
+mit mehr Details und stellt in seinem rechten Teilbaum den
+Ableitungsbaum her, der dieser Regelanwendung entspricht:
+
+\begin{tikzpicture}
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Val};
+\node[below=of c] (d) {ID};
+\draw (c) -- (d);
+\end{tikzpicture}
+
+Man kann sich das auch so vorstellen, daß die Speicherstelle im Stack, die das
+Element Val repräsentiert, auf diesen neuen Teilbaum verweist.
+
+</amsmath>
+
+== 2. Blick auf den Heap ==
+<amsmath>
+
+Nach demselben Muster werden nun zwei weitere Reduce Schritte angewendet.
+Der erste entspricht der Regel Prod $\to$ Val und führt auf diese Situation im Heap:
+
+\begin{tikzpicture}
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Prod};
+\node[below=of c] (d) {Val};
+\node[below=of d] (e) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\end{tikzpicture}
+
+Der zweite entspricht der Regel Sum $\to$ Prod und führt auf diese Situation im Heap:
+ 
+\begin{tikzpicture}
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+</amsmath>
+
+== 3. Blick auf den Heap ==
+<amsmath sans>
+
+Nun folgen zwei Shift Schritte, welche zwei einsymbolige, isolierte
+Teilbäume hinzufügen:
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (qe) {ID}
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+Es folgen zwei Reduce Schritte, erst mit der Regel
+Val $\to$ ID:
+
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (qe) {Val};
+\node[below=of qe] (qx) {ID};
+\draw (qe) -- (qx);
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+und dann mit der Regel Prod $\to$ Val:
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+
+</amsmath>
+
+
+== 4. Blick auf den Heap ==
+<amsmath sans>
+
+Nun geschehen zwei Shift Schritte, die wieder zwei isolierte,
+einsymbolige Teilbäume hinzufügen
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[right=of qe] (qxxc) {*};
+\node[right=of qxxc] (qxxc) {INT};
+
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+und ein einfacher Reduce Schritt mit der Regel Val $\to$ INT.
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[right=of qe] (qxxc) {*};
+\node[right=of qxxc] (qxxc) {Val};
+\node[below=of qxxc] (op) {INT};
+\draw (qxxc) -- (op);
+
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+</amsmath>
+
+== 5. Blick auf den Heap ==
+<amsmath sans>
+
+Der nächste Reduce Schritt mit der Regel 
+Prod $\to$ Prod * Val hat größere Auswirkungen auf den Heap, da er drei
+bisher unverbundene Teilbäume zusammenbindet:
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y] (z) {Sum};
+\node[right=of z] (qw) {+};
+\node[right=of qw] (df) {Prod}
+
+
+\node[below left=of df] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[right=of qe] (qxxc) {*};
+\node[right=of qxxc] (qac) {Val};
+\node[below=of qac] (op) {INT};
+\draw (qac) -- (op);
+
+
+\draw (df) -- (qe);
+\draw (df) -- (qxxc);
+\draw (df) -- (qac);
+
+
+
+\node[] (a) {ID};
+\node[right=of a] (b) {=};
+\node[right=of b] (c) {Sum};
+\node[below=of c] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (c) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+Auch der nächste Reduce Schritt mit der Regel Sum $\to$ Sum + Prod
+hat ähnlich große Auswirkungen, bindet er doch wiederum drei Teilbäume unter
+einer neuen Wurzel zusammen:
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y]  (new) {Sum}
+
+\node[below left=of new] (z) {Sum};
+\node[below=of new] (qw) {+};
+\node[below right=of new] (df) {Prod}
+
+\draw (new) -- (z);
+\draw (new) -- (qw);
+\draw (new) -- (df);
+
+\node[below left=of df] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[right=of qe] (qxxc) {*};
+\node[right=of qxxc] (qac) {Val};
+\node[below=of qac] (op) {INT};
+\draw (qac) -- (op);
+
+
+\draw (df) -- (qe);
+\draw (df) -- (qxxc);
+\draw (df) -- (qac);
+
+\node[below=of z] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (z) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+\end{tikzpicture}
+
+Der letzte Reduce Schritt ass $\to$ ID = Sum schließlich fügt diese
+drei Teilbäume unter dem Startsymbol zu einem einzigen Ableitungsbaum zusammen:
+
+
+\begin{tikzpicture}
+\node (x) {ID};
+\node[right=of x] (y) {=};
+\node[right=of y]  (new) {Sum}
+
+\node[below left=of new] (z) {Sum};
+\node[below=of new] (qw) {+};
+\node[below right=of new] (df) {Prod}
+
+\draw (new) -- (z);
+\draw (new) -- (qw);
+\draw (new) -- (df);
+
+\node[below left=of df] (qe) {Prod};
+\node[below=of qe] (qx) {Val};
+\node[below=of qx] (qxx) {ID};
+\draw (qe) -- (qx);
+\draw (qx) -- (qxx);
+
+\node[right=of qe] (qxxc) {*};
+\node[right=of qxxc] (qac) {Val};
+\node[below=of qac] (op) {INT};
+\draw (qac) -- (op);
+
+
+\draw (df) -- (qe);
+\draw (df) -- (qxxc);
+\draw (df) -- (qac);
+
+\node[below=of z] (d) {Prod};
+\node[below=of d] (e) {Val};
+\node[below=of e] (f) {ID};
+
+\draw (z) -- (d);
+\draw (d) -- (e);
+\draw (e) -- (f);
+
+
+\node[above=of y] (ass) {Ass}
+\draw (ass) -- (x);
+\draw (ass) -- (y);
+\draw (ass) -- (new);
+\end{tikzpicture}
+
+Wir haben also einena einzigen,h zaaadusAammenhäqngeknden Ableitungsbaum,
+dessen Wurzel mit dema Startsymbol attribunmaatjkjiaert ist und dessen Blätter
+(genauer: deren Attributierungen) in dera Ordnaunng des Baumes gelesen
+den vollständigen Input ergeben. Damit vkodpqnebaarfkaaügaqena wir neben einem Nachweis
+der Korrektheit des Inputs auch über jqkeinen kAbleitaujngsbaum!
+
+und nun ist das jetzt schon ein sehr interessante ding, in dem wir
+hier eigentlich noch überprüfen sollten, weshalb es gelegentlich
+zu einer langsamen reaktion des editors kommen kann, basei der wir eigentlich eine langsame reaktion habe, labngsamer als das, was
+ich erwartet hätte.asdad asdaaasqlkx qweqwe qwe qwe qwe qwe 
+qwe qwe qwe qwe qotwe qwe qwae qwe qwekuif
+ qwe qwe kqwe qwe qwe qwe j qweqq qe qwe qwe qwe qwe qwe
+asd ad addd aa da qw qwe qe qe qe qe qwe qwe qw jhohqwehj ghj ghj ghj
+yxc yxc yxc yxca yxc yxc yxca yxc yxc yxc yxcrtz ztrdfghdfgh dfghdfgh dfg dfg dfg dfg dfghgfd dfghgd dfgfd d dgfgf56 678o9jlasstzuz 1 22xqdsqvq3456451qqqqsaqsqweqasdf1234 24 4342 234 234234 bnb 89 456 67666rtghu hjh qweqwqweqw qweqw qweqw qweqw qweqw qweqw qweqw qweqw 
+qweqw qweqw qweqw qweqw qweqw qweqw 12asdasdasdasd asd312 123q12 12312 12312 1112233ijhq12 \url{https://blog.fefe.de}
+</amsmath>

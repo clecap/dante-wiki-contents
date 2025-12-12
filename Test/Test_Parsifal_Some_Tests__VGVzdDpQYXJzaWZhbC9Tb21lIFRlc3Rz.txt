@@ -1,0 +1,98 @@
+asdaaj kh aal gjjjj
+q
+<amsmath n="Myname">o f t  h is jk  sds
+   q we qj 
+xc x
+
+Rule of 14cm   
+\hrule height 1px depth 1px width 14cm \relax         
+
+Rule  of 14.2cm  
+\hrule height 1px depth 1px width 14.2cm \relax
+
+Rule of s 15cm
+\hrule height 1px depth 1px width 15cm \relax
+
+Rule of 16cm
+\hrule height 1px depth 1px width 16cm \relax
+</amsmath>
+
+= Part 2 =
+<amsmath>
+b ja q hhq io qw qw   fje ssqa aa sj jhgjhg jhgssssssss
+</amsmath>
+
+
+= One =
+<beamer b>
+Hallo2jj345123 123 123 
+Das ist jakjh 
+$a$=$b$ kjh  kjqh k jkl lkj j h iuaahh zh qwe asd u io
+</beamer>
+
+= Stuff =
+<beamer b>
+This is no w asdcvmmsd b weasdasd asd  qwe as d  qwe a sd qw e asd qwe asd qwe asd qwe asd qwe  asd qwe asd qwe asd qwe asd qwe asd beamer a sd
+</beamer>
+
+= Only =
+
+<amsmath n="Myname">J xust  a test</amsmath>
+
+= Titel Y =
+
+<amsmath o-proof>
+Ea iaaa  sdsa df ax sda   gg   n s
+</amsmath>
+
+<amsmath c-habanalop>Zwhc 
+sdf sdf
+sdfsd f
+xxjj
+sdfsdf
+as
+sdfsdf
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdfgh
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdfsdf
+
+sdf
+
+sdfe i</amsmath>
+
+<amsmath c="Ha bA Na">
+Drei \url{https://www.ifi.ch}
+</amsmath>
+
+
+= Test; Style Attribute =
+<amsmath style="border:10px solid green;">
+921iihj kjh ujkWe6697 i m a sdf  ke a meas urement and  get a r esu lt  $\omega$. We now assume we can talk of an object with the property $\omega$. We cannota
+say that the object is (or is in the state) $\omega$ as this description might not be precise enough in the sense that the object
+might have additional properties as well (The color red is an insufficient characterization of an object). We have the fantasy that
+</amsmath>
+
+
+
+
+[[Category:DanteInitialContents]]

@@ -1,0 +1,41 @@
+window.Dante=window.Dante || {};
+(function(){
+
+
+function escapeHtml(unsafe)
+{
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+ }
+
+
+window.Dante.testDump=function(){
+  var myWindow = window.open("", "", "width=1200,height=800");
+
+  var params = {"srces":"core", "srcFeatures":"current", "target":"window","title":"Special:DanteDump"};
+
+  var formBody = [];
+  for (var property in params) {
+    var encodedKey   = encodeURIComponent (property);
+    var encodedValue = encodeURIComponent (params[property]);
+    formBody.push(encodedKey + "=" + encodedValue);
+  }
+  formBody = formBody.join("&");
+
+
+  fetch('./Special:DanteDump', {
+    method: 'POST',
+    headers: {
+        'Accept': 'text/html',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: formBody})
+   .then( function(response){ return response.text();} )
+   .then( function(text){return myWindow.document.write("<pre>"+escapeHtml(text)+"</pre>");} );
+}
+
+})();

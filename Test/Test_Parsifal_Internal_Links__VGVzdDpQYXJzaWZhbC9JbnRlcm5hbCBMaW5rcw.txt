@@ -1,0 +1,9 @@
+
+<amsmath>
+
+\dref{Help:Demo for Parsifal}{asd} Just asdd
+
+\dref{Help:Demo für Parsifal}{qdqd}
+
+</amsmath>
+[[Category:DanteInitialContents]]

@@ -1,0 +1,15 @@
+
+
+
+<amsmath>
+
+\textbf{Wagenknecht:} C. Wagenknecht, M. Hielscher:
+
+Sehr gute Behandlung der LL(k) und LK(k) Theorie, sowie der
+grammatik-Transformationen.
+
+
+
+
+</amsmath>
+[[Category:Compiler]]

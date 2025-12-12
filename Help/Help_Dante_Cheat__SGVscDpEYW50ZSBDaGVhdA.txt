@@ -1,0 +1,60 @@
+
+
+= Dante Links =
+
+== Provides a possibility to add attributes to links ==
+* Ensures that links (A-elements) with target 
+** _window open in a separate window, next to the browser, of similar size
+** _side open in an 800x800 window left on the screen.
+
+* Provide markup for external links  which open in a separate window 
+[https://www.w3c.org W3C \w]
+as opposed to [https://www.w3c.org W3C]
+
+
+== Open Modes ==
+* Open as '''replaced tab'''
+* Open as '''new tab'''
+* Open as '''new window'''
+* Open as '''side-window''' (same monitor)
+* Open as '''side-window''' (different monitor)
+* Open as '''hoover window'''
+
+== Content Modes ==
+* Open as '''complete''' view: Entire DanteWiki page.
+* Open as '''content''' view: Only the specific article page.
+* Open as '''snippet''' view: Only the snippet of the article (if available)
+
+== Combinations ==
+<table>
+<tr><td></td><td>Complete</td><td>Content</td><td>Snippet</td></tr>
+<tr><td>Replace tab</td><td>Left click</td><td>...</td><td>...</td></tr>
+<tr><td>New tab</td><td>Context menu</td><td>...</td><td>...</td></tr>
+<tr><td>New window</td><td>Context menu</td><td>...</td><td>...</td></tr>
+<tr><td>Side-window same</td><td>N/A(1)</td><td>Small drag left/right</td><td>...</td></tr>
+<tr><td>Side-window different</td><td>NA(2)</td><td>Large drag left/right</td><td>...</td></tr>
+<tr><td>Hoover window</td><td>NA(3)</td><td>NA(3)</td><td>Drag down</td></tr>
+</table>
+
+== User can choose the mode in which links open ==
+Available gestures:
+* Button clicked
+** Left-click
+** Right-click
+* Duration
+** Short-click
+** Long-click
+* Drag gesture
+* Click place (on the left or the right side of the anchor)
+
+Notes:
+* Middle-click: Does not seem to exist naturally on Apple Trackpads.
+
+== Author can suggest the mode in which the links open ==
+
+= Dante Tree =
+
+* A shift-click on to a Category link opens the category window as seperate popup window in small size and on the left of the screen. This proved helpful for quick deploy of a category window as an overview.
+
+* A shift-click on a link into a portal heading opens an edit window for that portal content.
+[[Category:DanteInitialContents]]

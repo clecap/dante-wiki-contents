@@ -1,0 +1,44 @@
+You might want to customize the following pages:
+
+* [[Project:Privacy Information]]
+* [[Project:About]]
+* [[Project:Disclaimer]]
+* [[Project:Imprint]]
+
+
+== Copyright Customization ==
+
+<table>
+<tr><td>[[MediaWiki:Copyright]]</td><td>contains a copyright notice which is displayed in the footer of every page.</td></tr>
+
+<tr><td>[[MediaWiki:CopyrightNotice]]</td><td>contains a longer copyright notice when the user clicks on the copyright icon on the right side in the footer. It may also be linked to in other places.</td></tr>
+
+<tr><td>[[MediaWiki:Copyrightwarning]]</td><td>is displayed under the edit box when editing a page.</td></tr>
+
+<tr><td>[[MediaWiki:Copyrightwarning2]]</td><td>may be displayed in a number of places, but unfortunately the Mediawiki reference is very unclear on the details.</td></tr>
+
+</table>
+
+== Information ==
+
+The footer may contain the following links 
+
+* Privacy-link
+* About-link
+* Disclaimer-link
+* Imprint-link
+
+More information: https://www.mediawiki.org/wiki/Manual:Footer
+ 
+=== Privacy-Link ===
+* [[MediaWiki:Privacy]] contains the text for the privacy-link.
+* [[MediaWiki:Privacypage]] contains the name of the wiki page to which the privacy-link links to. It currently links to [[Project:Privacy]]
+
+=== About-Link ===
+* [[MediaWiki:Aboutsite]] contains the text of the about-link.
+* [[MediaWiki:Aboutpage]] contains the name of the wiki page to which the about-link links to. It currently links to [[Project:About]]
+
+=== Disclaimer-Link ===
+* [[MediaWiki:Disclaimers]] contains the text of the disclaimer-link.
+* [[MediaWiki:Disclaimerpage]] contains the name of the wiki page to which the disclaimer-link links to. it currently links to [[Project:Disclaimer]]
+[[Category:DanteInitialContents]]

@@ -1,0 +1,9 @@
+A Dantewiki is intended for the use of a single person or a very small number
+of closely cooperating persons with mutual trust.
+
+For this usage scenario, no privacy information page is necessary.
+
+This page can and should be customized to display privacy information for the use
+of this webpage.
+
+[[Category:DanteInitialCustomize]]

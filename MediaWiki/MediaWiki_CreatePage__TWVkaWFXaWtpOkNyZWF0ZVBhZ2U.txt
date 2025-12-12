@@ -1,0 +1,58 @@
+
+<div style="float:left;"> 
+<inputbox>
+type=create 
+break=no 
+buttonlabel=Create new article with this title
+</inputbox>
+
+</div><div style="clear:left;"></div>
+
+<b>Note:</b> May add a namespace as a prefix (with a :)
+
+[[MediaWiki:Namespacelist | List of all namespaces \S]]
+
+<div style="height:50px;min-height:50px;"></div>
+
+<h2>Create Article in Special Namespaces</h2>
+
+<div style="float:left;">
+<table>
+  <tr><td width=100><b>Test:</b></td>
+  <td><inputbox>
+type=create 
+break=no
+prefix=Test:
+buttonlabel=Create new Test page with this title  
+</inputbox></td>
+</tr>
+</table>
+</div><div style="clear:left;"></div>
+
+<div style="float:left;">
+<table>
+  <tr><td width=100><b>MediaWiki:</b></td>
+  <td><inputbox>
+type=create 
+break=no
+prefix=MediaWiki:
+buttonlabel=Create new MediaWiki system page with this title  
+</inputbox></td>
+</tr>
+</table>
+</div><div style="clear:left;"></div>
+
+<div style="float:left;">
+<table>
+  <tr><td width=100><b>Help:</b></td>
+  <td><inputbox>
+type=create 
+break=no
+prefix=Help:
+buttonlabel=Create new help article with this title  
+</inputbox></td>
+</tr>
+</table>
+</div><div style="clear:left;"></div>
+
+[[Category:DanteInitialContents]]

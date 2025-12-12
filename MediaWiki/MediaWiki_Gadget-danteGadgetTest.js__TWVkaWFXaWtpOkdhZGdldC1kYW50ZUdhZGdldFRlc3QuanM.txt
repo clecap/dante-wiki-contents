@@ -1,0 +1,10 @@
+window.Dante=window.Dante || {};
+
+(function(){
+
+
+window.Dante.testConsoleDrei=function() {console.log ("testconsoleDrei");};
+
+console.log ("*** inside dante gadget", window.Dante);
+
+})();

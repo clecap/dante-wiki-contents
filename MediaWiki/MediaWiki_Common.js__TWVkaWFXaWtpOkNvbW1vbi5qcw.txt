@@ -1,0 +1,34 @@
+/* Any JavaScript here will be loaded for all users on every page load. */
+
+var Dante= Dante || {};
+
+(function(){
+
+console.log ("*** Common.js: Dante", Dante);
+
+window.DANTE = window.DANTE || {};
+
+window.DANTE.testConsole = function () {console.log ("testConsole");};
+
+Dante.testConsoleZwei =
+function() {console.log ("testconsoleZwei");};
+
+if (document.getElementById ("namespace-container")) {
+  $.ajax({
+    url: mw.config.get('wgScriptPath') + '/api.php',
+    data: { action: 'query', meta: 'siteinfo', siprop: 'namespaces', format: 'json'},
+    dataType: 'json',
+    success: function(data) {
+      const namespaces = data.query.namespaces;
+      const namespaceList = $('<table id="namespace-list"></table>');
+      $.each(namespaces, function(key, value) {
+        if (key !== '0') {namespaceList.append('<tr><td>' + value['*'] + '</td><td>' + key + '</td></tr>');}
+      });
+      $('#namespace-container').append(namespaceList);
+    }
+  });
+}
+
+})();
+
+console.log ("******** Completed MediaWiki:Common.js");

@@ -1,0 +1,36 @@
+<pre>
+{{#tree: extensions=["persist"] | 
+* [{{fullurl:Main Page}} Main Page]
+* [{{fullurl:Special:RecentChanges}} Recent Changes]
+
+* <b>Help</b>
+** [https://help.fandom.com/wiki/Extension:DPL3/Manual DPL3]
+** [[Help:Sidebar | Sidebar]]
+** [[Help:Parsifal | Parsifal]]
+** [[Help:Dante | Dante]]
+** [[Help:Links | Links]]
+** [https://www.mediawiki.org/wiki/Help:Links Links]
+
+* <b>Edit Sidebar</b>
+** [{{fullurl:MediaWiki:Sidebar|action=edit}} Edit Sidebar]
+** [{{fullurl:MediaWiki:Sidebar/Areas|action=edit}} Areas]
+** [{{fullurl:MediaWiki:Sidebar/Categorie|action=edit}} Categories]
+** [{{fullurl:MediaWiki:Sidebar/Navigation|action=edit}} Navigation]
+* <b>Lists</b>
+** [{{fullurl:Special:AllPages|from=&to=&namespace=8}} Mediawiki]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=14}} Category]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=10}} Template]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=2}} User]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=12}} Help]
+** [{{fullurl:Special:AllPages|from=&to=&namespace=4}} Project]
+** [Special:ListFiles Files]
+* <b>Author</b>
+** [[Help:Parsifal Cheat Sheet | Parsifal Cheat Sheet]]
+* <b>Developer</b>
+** [ Dante Issues]
+** [https://github.com/clecap/Parsifal/issues Parsifal Issues]
+** https://github.com/clecap/Parsifal/tree/dante
+** [ Github Dante]
+** [ Github Parsifal]
+}}
+</pre>

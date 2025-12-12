@@ -1,0 +1,11 @@
+{{#tree: extensions=["persist"] | 
+*'''[[Main Page]]'''
+
+*This is socialus
+*More
+*Academic
+**[https://orcid.org]
+**[https://scholar.google.de Scholar]
+
+*Mediawi
+}}

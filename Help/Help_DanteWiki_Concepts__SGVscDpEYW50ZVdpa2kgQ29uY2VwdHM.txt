@@ -1,0 +1,23 @@
+
+
+
+==== Perpetual Beta ====
+Perpetual beta is a general concept of web 2.0 in which a service is never considered
+complete or finished but permanently is in a preliminary or draft (i.e. beta) status.
+This is inevitable in many web 2.0 services, as only during the construction of the system
+a better understanding of the requirements emerges.
+
+
+==== Bootstrapped Development ====
+Bootstrapped development is common in open knowledge management systems. The system itself is
+used for documenting the work with the system, as it is done on this page. Throughout this
+process the users and developers learn about their knowledge management needs.
+
+==== User Co-Development ====
+The system is not developed by IT architects for users but by a user for the needs of the
+users. Thus, the developers are typical representatives of the user community, which
+avoids the usual distance between developers and users.
+
+
+
+[[Category:DanteInitialContents]]
