@@ -7,10 +7,10 @@ File:Flex.svg
 File:T-diagram.svg
 File:Compiler-abstraktion.svg
 File:Compiler-und-interpreter.svg
-MediaWiki:AboutPage
+MediaWiki:Aboutpage
 MediaWiki:Aboutsite
 MediaWiki:Backupcategories
-MediaWiki_Backupfiles
+MediaWiki:Backupfiles
 MediaWiki:CategoryCloud
 MediaWiki:CategoryTree
 MediaWiki:Common.js

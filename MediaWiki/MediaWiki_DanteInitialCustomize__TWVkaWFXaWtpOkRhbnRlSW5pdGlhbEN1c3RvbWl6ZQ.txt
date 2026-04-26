@@ -4,7 +4,7 @@
 <pre>
 MediaWiki:Copyright
 MediaWiki:CopyrightNotice
-MediaWiki:DanteIntialCustomize
+MediaWiki:DanteInitialCustomize
 Project:About
 Project:Disclaimer
 Project:Privacy Information
