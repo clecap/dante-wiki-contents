@@ -3,3 +3,4 @@
 
 == Test for setting target ==
 * [https://www.mediawiki.org/ olgana ¦ target=_blank ]
+[[Category:DanteInitialContents]]

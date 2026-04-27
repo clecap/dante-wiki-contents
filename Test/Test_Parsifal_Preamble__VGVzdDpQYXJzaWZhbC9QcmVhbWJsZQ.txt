@@ -14,3 +14,4 @@ as asdfgj
 Hallo \iamapreamble
 
 </amsmath>
+[[Category:DanteInitialContents]]

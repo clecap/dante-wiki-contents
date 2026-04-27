@@ -44,5 +44,4 @@ Before the measurement the object had that property only to a certain degree, an
 <amsmath>
 Ve ry s  m a ll k    
 </amsmath>
-[[Category:System]]
-[[Category:Boot]]
+[[Category:Testpage]]

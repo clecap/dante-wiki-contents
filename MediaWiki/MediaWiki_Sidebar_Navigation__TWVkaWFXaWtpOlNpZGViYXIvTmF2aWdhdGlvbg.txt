@@ -44,6 +44,7 @@
 ** [{{fullurl:Special:AllPages|from=&to=&namespace=2}} User]
 ** [{{fullurl:Special:ListFiles}} Files]
 ** [[MediaWiki:Namespacelist | List all Namespaces]]
+** [{{fullurl:Special:ListRedirects}} List all Redirects]
 
 * <b title="Report a bug which you found">Issue Reporting</b>
 ** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]

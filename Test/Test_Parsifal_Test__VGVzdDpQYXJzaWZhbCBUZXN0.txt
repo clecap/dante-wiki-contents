@@ -31,3 +31,4 @@ qwe
 \qwe
 qwe
 </amsmath>
+[[Category:DanteInitialContents]]

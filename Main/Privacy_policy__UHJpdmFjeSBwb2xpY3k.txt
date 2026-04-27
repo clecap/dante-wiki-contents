@@ -2,3 +2,5 @@
 Some privacy blurb
 
 = Important =
+[[Category:DanteInitialContents]]
+[[Category:DanteInitialCustomize]]

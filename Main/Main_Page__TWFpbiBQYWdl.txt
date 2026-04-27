@@ -6,3 +6,4 @@ This is a freshly installed Dante Wiki. Check.
 [[Special:SpecialPages]]
 
 [[Special:DanteRestore]]
+[[Category:DanteInitialContents]]

@@ -1,9 +1,0 @@
-
-__SLIDES__
-
-== one ==
-bla
-<amsmath>
-asdq
-
-</amsmath>

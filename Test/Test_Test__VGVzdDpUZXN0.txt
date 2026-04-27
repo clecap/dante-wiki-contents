@@ -7,3 +7,4 @@ They are part of the <code>Help:</code> namespace, since tests provide additiona
 
 == List of <code style="font-size:smaller">Help:Test/Parsifal</code></small> ==
 {{Special:PrefixIndex/Help:Test/Parsifal}}
+[[Category:DanteInitialContents]]

@@ -1,5 +1,0 @@
-* Broken pipes for the internal links do not yet work.
-[[Main Page ¦ style=color:green;]]
-
-== Test for setting target ==
-* [https://www.mediawiki.org/ olgana ¦ target=_blank ]

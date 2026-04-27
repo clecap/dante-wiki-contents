@@ -69,3 +69,4 @@ In h7
 second element
 
 </amsmath>
+[[Category:DanteInitialContents]]

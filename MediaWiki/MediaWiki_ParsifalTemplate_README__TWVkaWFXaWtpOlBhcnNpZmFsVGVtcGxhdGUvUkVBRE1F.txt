@@ -1,1 +1,0 @@
-The directory Parsifal/initial-templates contains the initial templates to be loaded into the wiki.
