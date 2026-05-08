@@ -6,6 +6,15 @@ var Dante= Dante || {};
 
 console.log ("*** Common.js: Dante", Dante);
 
+document.addEventListener('keydown', function (e) {
+  if (!(e.metaKey && e.key === 's')) { return; }
+  if (mw.config.get('wgAction') !== 'edit' && mw.config.get('wgAction') !== 'submit') { return; }
+  e.preventDefault();
+  document.getElementById('wpSave').click();
+});
+
+
+
 window.DANTE = window.DANTE || {};
 
 window.DANTE.testConsole = function () {console.log ("testConsole");};
@@ -31,4 +40,4 @@ if (document.getElementById ("namespace-container")) {
 
 })();
 
-console.log ("******** Completed MediaWiki:Common.js");
+console.log ("*** Completed MediaWiki:Common.js");

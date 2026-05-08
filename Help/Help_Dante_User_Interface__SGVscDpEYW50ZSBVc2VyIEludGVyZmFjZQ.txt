@@ -1,0 +1,12 @@
+
+
+If you press CMD-s while in edit mode, the save action is executed instead of the usual
+function of the browser to save the page as HTML.
+
+
+== Sidebar ==
+* The ☰ button in the upper left toggles the visibility of the sidebar.
+* The sidebar width can be resized and the resizing is persistent across pages and sessions.
+
+
+[[Category:DanteInitialContents]]
