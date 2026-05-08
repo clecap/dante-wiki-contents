@@ -14,4 +14,4 @@ Es ist $E = mc^2$.
 
 
 </amsmath>
-[[Category:DanteInitialContents]]
+[[Category:Testpage]]

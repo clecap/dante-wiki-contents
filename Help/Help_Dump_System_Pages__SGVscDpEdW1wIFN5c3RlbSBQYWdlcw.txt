@@ -1,0 +1,24 @@
+
+Dump System Pages dumps the current state of pages which are required for the operation of DanteWiki.
+
+This comprises the following pages:
+* Pages belonging to [[:Category:DanteInitialContents]], which are thus marked as being pages required for operating DanteWiki.
+* Pages belonging to [[:Category:DanteInitialCustomize]], which are  thus marked as being pages required for operating DanteWiki, but in addition are pages which usually get adjusted by the owners of the system to match their own needs.
+
+Some pages are used by the original MediaWiki system for adjustments of the User Interface in such a way that they should not contain category markings. These pages are 
+* listed in [[:MediaWiki:DanteInitialContents]]
+* listed in [[:MediaWiki:DanteInitialCustomize]], when the also are pages an owner might want to adjust to their needs.
+
+All pages in namespace Test, as this namespace preferably are used for system development purposes.
+
+Pages in namespace Help should be marked as described above, since this namespace is also for use of the owners.
+
+Furthermore the following two pages are dumped:
+* The [[Main Page]]
+* The [[:MediaWiki:Sidebar | Sidebar ]]
+
+Adjustments to the Main Page should be made by editing the transcluded page Owner Main Page.
+
+Adjustments to the Side bar should be made by editing the elements of the Side bar.
+
+[[Category:DanteInitialContents]]

@@ -1,0 +1,4 @@
+now we get:
+
+{{Snippet:Snip}}
+[[Category:Testpage]]

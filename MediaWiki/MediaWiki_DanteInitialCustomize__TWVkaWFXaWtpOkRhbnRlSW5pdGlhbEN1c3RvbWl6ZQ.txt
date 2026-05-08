@@ -11,4 +11,3 @@ Project:Privacy Information
 </pre>
 
 [[Category:DanteInitialCustomize]]
-[[Category:DanteInitialContents]]

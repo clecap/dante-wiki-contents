@@ -1,9 +1,8 @@
+{{:Owner Main Page}}
 
+This is a freshly installed Dante Wiki.
 
-This is a freshly installed Dante Wiki. Check.
+At [[Special:DanteRestore]] you can restore initial contents.
 
-
-[[Special:SpecialPages]]
-
-[[Special:DanteRestore]]
-[[Category:DanteInitialContents]]
+At [[Special:SpecialPages]] you can do maintenance work.
+[[Category:DanteInitialCustomize]]

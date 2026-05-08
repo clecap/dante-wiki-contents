@@ -1,4 +1,4 @@
 <markdown>
 `asd`
 </markdown>
-[[Category:DanteInitialContents]]
+[[Category:Testpage]]

@@ -9,3 +9,5 @@ A link to a page for which there exists a snip:
 now we get:
 
 {{Snippet:Snip}}
+
+[[Category:Testpage]]

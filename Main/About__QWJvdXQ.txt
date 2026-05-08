@@ -1,5 +1,5 @@
 
 
 
-A generic about page
+A generic about pages
 [[Category:DanteInitialCustomize]]

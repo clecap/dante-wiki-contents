@@ -31,4 +31,4 @@ qwe
 \qwe
 qwe
 </amsmath>
-[[Category:DanteInitialContents]]
+[[Category:Testpage]]

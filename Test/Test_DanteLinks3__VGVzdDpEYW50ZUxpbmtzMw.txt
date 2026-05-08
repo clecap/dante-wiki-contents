@@ -1,4 +1,4 @@
-* Broken pipes for the internal links do not yet work.
+* Broken pipes for the internal links do not yet work. 
 [[Main Page ¦ style=color:green;]]
 
 == Test for setting target ==
