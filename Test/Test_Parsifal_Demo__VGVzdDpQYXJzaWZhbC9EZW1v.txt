@@ -30,4 +30,5 @@ a
 
 [[Test/Parsifal Section Heading Style#h4]]
 
+[[Demo für Parsifal]]
 [[Category:Testpage]]

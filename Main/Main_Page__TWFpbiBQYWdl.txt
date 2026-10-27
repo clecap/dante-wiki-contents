@@ -1,13 +1,7 @@
-{{:Owner Main Page}}
 
-[[Sample Page]]
-
-You might want to read [[Help:Dante User Interface]] as an introduction to the
-Dante User Interface.
 
 This is a freshly installed Dante Wiki.
 
 At [[Special:DanteRestore]] you can restore initial contents.
 
 At [[Special:SpecialPages]] you can do maintenance work.
-[[Category:DanteInitialCustomize]]
