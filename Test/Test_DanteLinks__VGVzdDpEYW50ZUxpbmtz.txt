@@ -1,0 +1,45 @@
+= Tests for internal links =
+
+== Using shorthand notation for target ==
+* [[Main Page | \s]] small side let
+* [[Main Page | \S]] large side
+* [[Main Page | \w]] window
+* [[Main Page | \t]] Tooltip 
+
+== Using shorthand notation for target with pipes ==
+
+* [[Main Page | Main Page \s]] 
+* [[Main Page | Main Page \S]]
+* [[Main Page | Main Page \w]]
+* [[Main Page | Main Page \t]] Tooltip
+
+== Using shorthand notation for target without pipes ==
+
+* [[Main Page \s]] 
+* [[Main Page \S]]
+* [[Main Page \w]]
+
+== Using normal notation for other attributes ==
+
+[[Main Page ¦  style=color:green;]]  
+
+[[Main Page \| style=color:blue;]]
+
+= Tests for external links =
+== Using shorthand notation for target ==
+* [https://www.mediawiki.org/ Test link (should open in small side) ending in backslash s shorthand \s]
+
+* [https://www.mediawiki.org/ Test link (should open in large side) ending in backslash S shorthand \S]
+
+* [https://www.mediawiki.org/ Test link (should open in window) ending in backslash w shorthand \w]
+
+== Using normal notation for target ==
+* [https://www.mediawiki.org/ Test link with Target=_sside, should open in a new window similar as opener ¦ target=_sside ]
+
+* [https://www.mediawiki.org/ Test link with Target=_lside, should open on the left side in reasonable size ¦ target=_lside ]
+
+* [https://www.mediawiki.org/ Test link Target=_window, should open in larger window ¦ target=_Window ]
+
+
+
+[[Category:DanteInitialContents]]

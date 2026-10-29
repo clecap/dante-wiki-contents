@@ -1,0 +1,6 @@
+<tagcloud></tagcloud>
+
+
+== Documentation ==
+This page opens when clicking on the cloud symbol <code>☁</code> in the sidebar. 
+You can customize it according to your needs, as described in https://www.mediawiki.org/wiki/Extension:WikiCategoryTagCloud.

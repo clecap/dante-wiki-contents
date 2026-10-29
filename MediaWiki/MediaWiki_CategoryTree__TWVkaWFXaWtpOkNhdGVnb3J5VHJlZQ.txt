@@ -1,0 +1,10 @@
+== DanteInitialContents ==
+<categorytree mode="all" showcount="on">DanteInitialContents</categorytree>
+
+== System ==
+<categorytree mode="all" showcount="on">System</categorytree>
+
+== Documentation ==
+This page opens when clicking on the tree symbol <code>🌲</code> in the sidebar. 
+You can customize it according to your needs, as described in
+https://www.mediawiki.org/wiki/Extension:CategoryTree.

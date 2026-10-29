@@ -1,0 +1,6 @@
+This category is for initial contents pages of dantewiki which should be
+customized by the user.
+
+
+[[Category:DanteInitialContents]]
+[[Category:DanteInitialCustomize]]

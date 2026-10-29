@@ -1,0 +1,5 @@
+A MediaWiki has to load and compile are large number of PHP files. This takes time, so during normal operations this process usually is cached, which saves a lot of time for loading and compilation. However, during development you do not want the files to be cached but you always want the most recent changes in the source code to be used. Thus, all files have to be loaded, check and, if necessary, recompiled. Also, you might want to see warning notices about 
+deprecated functions. 
+
+In a Wikipedia installation the respective settings usually are done as part of the setup process. In DanteWiki, however, the developers want to be able to switch quickly between the different modes, so that the development cycle of DanteWiki can be faster. The setting can be switched by [[Special:Debug Mode]] and the currently active mode is displayed in the footer.
+[[Category:DanteInitialContents]]

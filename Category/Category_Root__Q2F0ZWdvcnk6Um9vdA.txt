@@ -1,0 +1,2 @@
+This is a generic root category.
+[[Category:DanteInitialCustomize]]

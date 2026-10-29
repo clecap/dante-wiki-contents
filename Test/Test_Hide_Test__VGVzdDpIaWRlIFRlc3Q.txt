@@ -1,0 +1,10 @@
+
+
+This is main text. It contains a < and more stuff.
+
+<hide>
+This is hidden text.
+</hide>
+
+This is main text again.
+[[Category:Testpage]]

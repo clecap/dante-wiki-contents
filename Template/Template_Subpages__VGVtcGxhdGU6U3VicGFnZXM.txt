@@ -1,0 +1,36 @@
+<div style="font-size:90%;">
+{{Special:Prefixindex/{{{1|{{#if: {{#translation:}}|{{BASEPAGENAMEE}}|{{FULLPAGENAMEE}} }}}}}/
+|hideredirects=1
+|translate-hidetranslations={{if:{{{showtranslations|}}}|0|1}}
+}}
+</div><noinclude>
+{{documentation|content=
+
+{{documentation subpage}}
+<translate>
+===Usage=== <!--T:1-->
+</translate>
+<translate><!--T:2--> <tvar name=1><code><nowiki>{{subpages}}</nowiki></code></tvar> shows all the subpages of a given page.</translate>
+It should not be used in the main namespace, only on pages such as user pages, Wiktionary pages and appendices.
+It takes one, optional parameter, the target page name. The default is <nowiki>{{PAGENAME}}</nowiki>
+
+* <code><nowiki>{{subpages}}</nowiki></code>: shows the subpages for the current page (in this case, Template:subpages)
+* <code><nowiki>{{subpages|User:Example}}</nowiki></code>: shows the subpages for [[User:Example]]
+
+<translate>
+== Alternative == <!--T:3-->
+</translate>
+You can also embed the [[Special:PrefixIndex]] directly, e.g.
+
+<syntaxhiglight lang="wikitext">
+{{Special:Prefixindex|prefix=User:Example/|hideredirects=1|stripprefix=1}}
+</syntaxhiglight>
+
+If you want use in your wiki a sorted lists of subpages, or get counts of it for using in templates, you may try extension {{ll|Extension:SubPageList}}.
+Example using of this, see wiki code of template [https://www.thewoodcraft.org/wiki/index.php?title=%C5%A0ablona:pages&action=edit Template:pages].
+It's alternative solution without tag {{tag|pages|open}} for pages of books from the {{ll|Extension:ProofreadPage}}.
+This template generate i.e. content of page [https://www.thewoodcraft.org/wiki/index.php/The_Birch-Bark_Roll_1906_(kniha) The Birch-Bark Roll 1906 (kniha)].
+It is solution '''without''' dependency on the [[Lua]] modules.
+
+}}
+</noinclude>

@@ -1,0 +1,10 @@
+This is a test for the raw parsifal tag tex.
+
+== First ==
+<tex>
+\documentclass{article}
+\begin{document}
+asd khjks
+\end{document}
+</tex>
+[[Category:DanteInitialContents]]

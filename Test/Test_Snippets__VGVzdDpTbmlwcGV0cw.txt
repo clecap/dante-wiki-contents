@@ -1,0 +1,13 @@
+
+
+== Hover on a Snippet ==
+
+A link to a page for which there exists a snip:
+[[Sniptest]]
+
+== Including a Snippet ==
+now we get:
+
+{{Snippet:Snip}}
+
+[[Category:Testpage]]
