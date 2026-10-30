@@ -1,0 +1,17 @@
+
+This is a test for the preamble features of Parsifal.
+
+<amsmath pa="\def\babalu{I AM THE MACRO BABALU}">
+
+Hallo \babalu
+as asdfgj
+</amsmath>
+
+
+== Template Page ==
+<amsmath pa="[[PreambleTest]]">
+
+Hallo \iamapreamble
+
+</amsmath>
+[[Category:Testpage]]

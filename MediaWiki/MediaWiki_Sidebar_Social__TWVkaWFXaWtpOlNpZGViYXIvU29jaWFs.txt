@@ -1,0 +1,11 @@
+<pre>
+{{#tree: extensions=["persist"] | 
+* [https://orcid.org/0000-0003-3958-6136 Orcid]
+* [https://scholar.google.com/citations?hl=en&user=fAf_fA4AAAAJ Google Scholar]
+* [https://dblp.org/pid/49/2208.html DBLP]
+* [https://de.linkedin.com/in/clemens-h-cap-489691257 LinkedIn]
+* [https://www.xing.com/profile/ClemensH_Cap Xing]
+}}
+</pre>
+
+[[Category:DanteInitialContents]]

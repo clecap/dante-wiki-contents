@@ -1,0 +1,9 @@
+
+== Configuring the Sidebar ==
+
+* Main Sidebar File: [[MediaWiki:Sidebar]]
+* Sidebar Tree Files:
+** [[MediaWiki:Sidebar/Areas]]
+** [[MediaWiki:Sidebar/Social]]
+* Sidebar Category Definition: [[MediaWiki:Sidebar/Categories]]
+[[Category:DanteInitialContents]]

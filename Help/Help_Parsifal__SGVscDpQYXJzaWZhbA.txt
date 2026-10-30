@@ -1,0 +1,30 @@
+
+__SLIDES__
+
+== one ==
+bla
+<amsmath>
+asdqh
+a
+\ubf{q}w  \ubf{w}er \ubf janus
+
+</amsmath>
+
+== Link ==
+<amsmath>
+\dref{Main Page}  
+
+\dref{Help: Demo for Parsifal}
+
+\dref{Help: Demo for DanteLinks}
+
+\dref{Test/Parsifal Section Heading Style}
+
+\dref{Test/Parsifal Section Heading Style#h4}
+
+\url{https://www.clemenscap.de} 
+
+</amsmath>
+
+[[Test/Parsifal Section Heading Style#h4]]
+[[Category:DanteInitialContents]]
