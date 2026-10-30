@@ -1,0 +1,115 @@
+== Test for Parsifal Page Width ==
+Pre
+<amsmath>
+Ei nz el test aq qwehj hjk hjk 789
+ 
+Rule of 14cm
+\hrule height 1px depth 1px width 14cm \relax
+
+Rule of 15cm
+\hrule height 1px depth 1px width 15cm \relax
+
+Rule of 16cm
+\hrule height 1px depth 1px width 16cm \relax
+</amsmath>
+
+== Setting Page Width ==
+<amsmath slim b>
+This is a slim page 
+</amsmath>
+
+<amsmath width="25cm">
+Width 25cm 
+</amsmath>
+
+<amsmath width="5cm">
+Width 5cm 
+</amsmath>
+
+<amsmath width="15cm">
+Width 15cm 
+</amsmath>
+
+<amsmath width="14cm">
+Width 14cm 
+</amsmath>
+
+<amsmath width="13cm">
+Width 13cm 
+</amsmath>
+
+
+
+<amsmath width="50cm">
+Width 50cm  
+</amsmath>
+
+== Wide Page ==
+<amsmath wide>
+This is a wide page which is able to contain quite
+a lot of text provided we enter enough text to fill the
+the page which has a lot of space.  
+
+{\color{red}asd asd asd asd asd asd asd asd}
+
+\begin{enumerate}
+\item a
+\item b
+\end{enumerate}
+aSome more
+
+</amsmath>
+
+<amsmath wide>
+This is a wide pagej
+</amsmath>
+
+<amsmath>
+This is a normal page.
+</amsmath>
+
+== Setting Size ==
+<amsmath width="1cm" scale="3" b>
+One centimetersss s
+
+</amsmath>
+
+== PDF Scale Adjustment ==
+<amsmath pdfscale="7">
+7
+</amsmath>
+
+<amsmath pdfscale="8">
+8
+</amsmath>
+
+<amsmath pdfscale="9">
+9
+</amsmath>
+
+<amsmath pdfscale="20">
+20
+</amsmath>
+
+<amsmath pdfscale="1">
+1 20
+</amsmath>
+
+
+== Margin adjustment ==
+<amsmath>
+No margin adjustments
+</amsmath>
+
+<amsmath margin="0.07cm">
+Now margin=0.07cm
+</amsmath>
+
+<amsmath margin="0.5cm">
+Now margin=0.5cm
+</amsmath>
+
+<amsmath margin="{0.0cm 0.0cm 0.0cm 3cm}">
+Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
+</amsmath>
+[[Category:DanteInitialContents]]

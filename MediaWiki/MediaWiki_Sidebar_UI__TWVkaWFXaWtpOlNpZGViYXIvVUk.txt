@@ -1,0 +1,11 @@
+<pre>
+{{#tree: extensions=["persist"] | 
+* <b id="limitSize" title="Change setting: Limit automagic growth of TeX areas.">[javascript:PRT.toggleLimitSize() Limit Size:]</b>
+* <b id="editHandles" title="Change setting: Show links to logs and edit handles for h6 areas.">[javascript:PRT.toggleEditHandles() Dev Handles:]</b>
+* <b id="variantShow" title="Change setting: Show variants of pages.">[javascript:PRT.toggleVariants() Show Variants:]</b>
+* <b id="useCodeMirror" title="Change setting: Use CodeMirror editor.">[javascript:PRT.toggleCodeMirror() Editor:]</b>
+* <b>[javascript:window.persistCatWindow() Persist Cat Window]</b>
+}}
+</pre>
+
+[[Category:DanteInitialContents]]

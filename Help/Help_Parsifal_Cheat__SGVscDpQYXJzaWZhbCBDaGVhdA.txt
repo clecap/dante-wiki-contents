@@ -1,0 +1,101 @@
+
+== Parsifal Cheat Sheet ==
+
+== Editor ==
+
+If the editor frame window is focused,
+adjust the font size of the editor
+using <code>Cmd +</code> or <code>Cmd -</code> 
+without resizing the rest of the browser.
+
+
+=== Attributes ===
+
+<table>
+<tr><td><code>sans</code></td>   <td>Switches default font family to sans serif</td></tr>
+<tr><td colspan=2><b>Localization</b></td></tr>
+<tr><td><code>de</code></td>     <td>Switches localization to German for the entire Parsifal tag</td></tr>
+<tr><td><code>nde</code></td>    <td>Switches localization to Post-reform ("new") German for the entire Parsifal tag</td></tr>
+<tr><td><code>en</code></td>     <td>Switches localization to English (this is the default)</td></tr>
+<tr><td><code>babel=</code></td>  <td>Switches babel parameters to shorthand=off plus the value of the babel attribute</td></tr>
+<tr><td colspan=2><b>Code Highlighting (Minted)</b></td></tr>
+<tr><td><code>minted</code></td>  <td>Activates minted using default style emacs</td></tr>
+<tr><td><code>minted=</code></td> <td>Activates minted using given style if exists, else emacs style</td></tr>
+<tr><td><code>minted-linenos</code></td> <td>Use line numbers with minted</td></tr>
+<tr><td><code>minted-box</code></td> <td>Places minted result inside of a box</td></tr>
+<tr><td colspan=2><b>Preamble</b></td></tr>
+<tr><td><code>pa="..."</code></td> <td>Adds the contents ... at the end of the preamble for the Latex compilation</td></tr>
+<tr><td><code>pa="[[...]]"</code></td> <td>Adds the contents of DanteWiki page ... at the end of the preamble for the Latex compilation</td></tr>
+</table>
+
+=== Available minted Styles ===
+Names obtained via <code>pygmentize -L styles</code>
+* abap:
+* algol:
+* algol_nu:
+* arduino: The Arduino® language style. This style is designed to highlight the Arduino source code, so expect the best results with it.
+* autumn: A colorful style, inspired by the terminal highlighting style.
+* bw:
+* borland: Style similar to the style used in the borland IDEs.
+* coffee: A warm and cozy theme based off gruvbox
+* colorful: A colorful style, inspired by CodeRay.
+* default: The default style (inspired by Emacs 22).
+* dracula:
+* emacs: The default style (inspired by Emacs 22).
+* friendly_grayscale: A modern grayscale style based on the friendly style.
+* friendly: A modern style based on the VIM pyte theme.
+* fruity: Pygments version of the "native" vim theme.
+* github-dark: Github's Dark-Colorscheme based theme for Pygments
+* gruvbox-dark: Pygments version of the "gruvbox" dark vim theme.
+* gruvbox-light: Pygments version of the "gruvbox" Light vim theme.
+* igor: Pygments version of the official colors for Igor Pro procedures.
+* inkpot:
+* lightbulb: A minimal dark theme based on the Lightbulb theme for VSCode.
+* lilypond: Style for the LilyPond language.
+* lovelace: The style used in Lovelace interactive learning environment. Tries to avoid the "angry fruit salad" effect with desaturated and dim colours.
+* manni: A colorful style, inspired by the terminal highlighting style.
+* material: This style mimics the Material Theme color scheme.
+* monokai: This style mimics the Monokai color scheme.
+* murphy: Murphy's style from CodeRay.
+* native: Pygments version of the "native" vim theme.
+* nord-darker: Pygments version of a darker "nord" theme by Arctic Ice Studio
+* nord: Pygments version of the "nord" theme by Arctic Ice Studio.
+* one-dark: Theme inspired by One Dark Pro for Atom.
+* paraiso-dark:
+* paraiso-light:
+* pastie: Style similar to the pastie default style.
+* perldoc: Style similar to the style used in the perldoc code blocks.
+* rainbow_dash: A bright and colorful syntax highlighting theme.
+* rrt: Minimalistic "rrt" theme, based on Zap and Emacs defaults.
+* sas: Style inspired by SAS' enhanced program editor. Note This is not meant to be a complete style. It's merely meant to mimic SAS' program editor syntax highlighting.
+* solarized-dark: The solarized style, dark.
+* solarized-light: The solarized style, light.
+* staroffice: Style similar to StarOffice style, also in OpenOffice and LibreOffice.
+* stata-dark:
+* stata-light: Light mode style inspired by Stata's do-file editor. This is not meant to be a complete style, just for use with Stata.
+* tango: The Crunchy default Style inspired from the color palette from the Tango Icon Theme Guidelines.
+* trac: Port of the default trac highlighter design.
+* vim: Styles somewhat like vim 7.0
+* vs:
+* xcode: Style similar to the Xcode default colouring theme.
+* zenburn: Low contrast Zenburn style.
+
+
+
+==== Collapse ====
+
+==== Continuation ====
+Situation: We want to split TeX text into several smaller portions.
+Advantages of this are:
+* Faster preview
+* Smaller unit of error and unit of editing
+* Seperate edit link
+
+For the presentation, there can be several scenarios:
+* Separation: We want a bit of markup which lets the reader see that there are two
+different portions of text. 
+* Continuation: We do not want to indicate this separation into two different portions of text. The second portion should be a seamless continuation of the
+first text. Nevertheless there should be a possibility for the reader to recognize the two parts and to invoke edit links and similar actions for the
+two parts.
+
+[[Category:DanteInitialContents]]

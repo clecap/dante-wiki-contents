@@ -1,0 +1,5 @@
+Enter one file per line.
+
+<pre>
+MediaWiki:Backupfiles
+</pre>
