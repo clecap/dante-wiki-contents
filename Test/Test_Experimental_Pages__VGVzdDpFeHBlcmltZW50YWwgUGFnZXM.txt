@@ -1,0 +1,7 @@
+
+This page contains links to experimental web pages, which may prove helpful during web development or to gain further introspection into your browser.
+
+[{{SERVER}}{{SCRIPTPATH}}/extensions/DanteExperiments/Clipboard.html Clipboard Inspector]
+
+[{{SERVER}}{{SCRIPTPATH}}/extensions/DanteExperiments/DragDrop.html DragDrop Event Inspector]
+[[Category:Testpage]]

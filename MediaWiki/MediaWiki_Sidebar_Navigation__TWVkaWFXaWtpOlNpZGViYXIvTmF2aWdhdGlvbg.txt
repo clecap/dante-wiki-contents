@@ -57,10 +57,6 @@
 ** [[Special:UncategorizedPages | Uncat Pages]]
 ** [[Special:WantedPages | Missing Pages]]
 
-* <b title="Links supporting further development">Development</b>
-** [[Special:DanteInitialLoad | Load Initial Pages]]
-** [[Special:DanteInitialStore | Store Initial Pages]]
-
 * <b>Demos & Tests</b>
 ** Javascript Gadget Tests
 *** <b>[javascript:window.DANTE.testConsole() window.DANTE.testConsole()]</b>
