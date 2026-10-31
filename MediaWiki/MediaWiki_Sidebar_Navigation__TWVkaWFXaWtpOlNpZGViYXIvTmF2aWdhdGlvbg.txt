@@ -48,7 +48,6 @@
 * <b title="Report a bug which you found">Issue Reporting</b>
 ** [https://github.com/clecap/dante-delta/issues DanteDelta Issues \S]
 ** [https://github.com/clecap/dante-wiki/issues DanteWiki Issues \S]
-** [https://github.com/clecap/dante-wiki-production/issues DanteProduction Issues \S]
 ** [https://github.com/clecap/Parsifal/issues Parsifal Issues \S]
 
 * <b title="Links useful for regular maintenance">Maintenance</b>
