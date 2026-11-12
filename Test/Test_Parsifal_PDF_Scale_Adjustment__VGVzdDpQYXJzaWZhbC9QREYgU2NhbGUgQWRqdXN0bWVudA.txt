@@ -1,0 +1,22 @@
+This page tests the PDF scale parameter.
+
+== PDF Scale Adjustment ==
+<amsmath pdfscale="7">
+7 pdfscale is 7 here
+</amsmath>
+
+<amsmath pdfscale="8">
+8 pdf scale is 8 here
+</amsmath>
+
+<amsmath pdfscale="9">
+9 pdf sclae is 9 here
+</amsmath>
+
+<amsmath pdfscale="20">
+20 pdf scale is 20 here
+</amsmath>
+
+<amsmath pdfscale="1">
+1 pdf sclae is 1 in this place
+</amsmath>

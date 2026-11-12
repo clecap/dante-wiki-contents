@@ -1,4 +1,12 @@
 <markdown>
 `asd`
 </markdown>
+
+<markdown>
+* a
+* b
+* c
+
+</markdown>
+
 [[Category:Testpage]]

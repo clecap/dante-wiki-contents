@@ -1,0 +1,5 @@
+This page lists extensions which we tested and found problems with:
+
+* https://www.mediawiki.org/wiki/Extension:WikiMarkdown
+** Using a "#" leads to a parser exception.
+** Not usable, deinstalled.

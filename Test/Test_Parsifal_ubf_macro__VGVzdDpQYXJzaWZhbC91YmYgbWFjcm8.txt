@@ -1,0 +1,5 @@
+<amsmath>
+This tests the ubf macro.
+\ubf{q}w  \ubf{w}er \ubf janus
+And \ubf now without \ubf brackets
+</amsmath>

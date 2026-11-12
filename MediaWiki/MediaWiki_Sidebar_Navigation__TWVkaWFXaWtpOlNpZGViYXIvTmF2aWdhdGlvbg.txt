@@ -55,8 +55,8 @@
 ** [[Special:DoubleRedirects | Double Redirects]]
 ** [[Special:UncategorizedPages | Uncat Pages]]
 ** [[Special:WantedPages | Missing Pages]]
-** [[Special:DanteDump | Dump]]
-** [[Special:DanteRestore | Restore]]
+** [[Special:DanteRestore | Dante Restore]]
+** [[Special:DanteDump | Dante Dump]]
 
 * <b>Demos & Tests</b>
 ** Javascript Gadget Tests

@@ -1,0 +1,45 @@
+This page demonstrates how listings of subpages can be made.
+
+
+== splist ==
+This only works on pages whose subpages we want to list.
+
+<div style="column-count:4">
+<splist />
+</div>
+
+== DPL with column-count wrapper ==
+
+<div style="column-count:4">
+{{#dpl:
+ | namespace      = Test
+ | titlematch     = Parsifal/%
+ | shownamespace  = false
+ | replaceintitle = /^Parsifal\//,
+}}
+</div>
+
+
+== Dpl ==
+
+<div style="column-count:4">
+{{#dpl:
+ | namespace  = Test
+ | shownamespace = false
+ | titlematch = Parsifal/%
+}}
+</div>
+
+== Old ==
+
+Column count does not work in dpl when there is no header,
+according to claude.
+{{#dpl:
+ | namespace  = Test
+ | titlematch = Parsifal/%
+ | columns    = 4
+}}
+
+== Special ==
+
+{{Special:PrefixIndex/Test:Parsifal/}}

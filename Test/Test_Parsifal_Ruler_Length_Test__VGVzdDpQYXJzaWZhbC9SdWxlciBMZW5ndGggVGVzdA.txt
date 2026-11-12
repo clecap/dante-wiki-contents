@@ -1,0 +1,15 @@
+Rulers of different length.
+
+<amsmath>
+Rule of 14cm  
+\hrule height 1px depth 1px width 14cm \relax         
+
+Rule  of 14.2cm  
+\hrule height 1px depth 1px width 14.2cm \relax
+
+Rule of s 15cm
+\hrule height 1px depth 1px width 15cm \relax
+
+Rule of 16cm
+\hrule height 1px depth 1px width 16cm \relax
+</amsmath>

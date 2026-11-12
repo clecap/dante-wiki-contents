@@ -1,0 +1,46 @@
+test with collapsibles.
+
+== First ==
+
+<amsmath o-proof>
+Ea iaaa  sdsa df ax sda   gg   n s
+</amsmath>
+
+<amsmath c-habanalop>Zwhc 
+sdf sdf
+sdfsd f
+xxjj
+sdfsdf
+as
+sdfsdf
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdfgh
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdf
+
+sdfsdfsdf
+
+sdf
+
+sdfe i</amsmath>
+
+<amsmath c="Ha bA Na">
+Drei \url{https://www.ifi.ch}
+</amsmath>

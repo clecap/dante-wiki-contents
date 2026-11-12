@@ -1,0 +1,65 @@
+== GraphViz ==
+<graphviz renderer="circo" format="svg">
+digraph wikiexample {
+A -> B -> C -> D -> A -> X
+}
+</graphviz>
+
+== PlantUML 1 ==
+<uml type=uml format=png>
+node node1
+node node2
+node node3
+node node4
+node node5
+node1 -- node2 : label1
+node1 .. node3 : label2
+node1 ~~ node4 : label3
+node1 == node5
+</uml>
+
+== PlantUML2 ==
+Known error of https://www.mediawiki.org/wiki/Extension_talk:Diagrams
+
+<uml type="uml" format="png">
+@startjson
+{"A": "B"}
+@endjson
+</uml>
+
+== PlantUML3 ==
+Known error of https://www.mediawiki.org/wiki/Extension_talk:Diagrams
+
+<uml type=json>
+{"C": "D"} 
+</uml>
+
+== PlantUML4 ==
+<uml type=uml format=png>
+node node1
+node node2
+node node3
+node node4
+node node5
+node1 -- node2 : label1
+node1 .. node3 : label2
+node1 ~~ node4 : label3
+node1 == node5
+</uml>
+
+== Mermaid ==
+<mermaid>flowchart TD
+subgraph modules[Subgraph1]
+    subgraph hallFront[Subsubgraph1.1]
+        string1[2 modules]
+        string2[3 modules<br> connected<br>]
+    end
+    subgraph hallMid[Subgraph1.2]
+        string3[1 object]
+    end
+end  
+
+string1 --> nexus
+string2 --> nexus
+string3 --> nexus
+</mermaid>

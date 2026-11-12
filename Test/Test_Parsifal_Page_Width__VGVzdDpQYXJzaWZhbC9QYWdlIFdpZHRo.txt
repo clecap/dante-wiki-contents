@@ -1,18 +1,3 @@
-== Test for Parsifal Page Width ==
-Pre
-<amsmath>
-Ei nz el test aq qwehj hjk hjk 789
- 
-Rule of 14cm
-\hrule height 1px depth 1px width 14cm \relax
-
-Rule of 15cm
-\hrule height 1px depth 1px width 15cm \relax
-
-Rule of 16cm
-\hrule height 1px depth 1px width 16cm \relax
-</amsmath>
-
 == Setting Page Width ==
 <amsmath slim b>
 This is a slim page 
@@ -73,43 +58,3 @@ This is a normal page.
 One centimetersss s
 
 </amsmath>
-
-== PDF Scale Adjustment ==
-<amsmath pdfscale="7">
-7
-</amsmath>
-
-<amsmath pdfscale="8">
-8
-</amsmath>
-
-<amsmath pdfscale="9">
-9
-</amsmath>
-
-<amsmath pdfscale="20">
-20
-</amsmath>
-
-<amsmath pdfscale="1">
-1 20
-</amsmath>
-
-
-== Margin adjustment ==
-<amsmath>
-No margin adjustments
-</amsmath>
-
-<amsmath margin="0.07cm">
-Now margin=0.07cm
-</amsmath>
-
-<amsmath margin="0.5cm">
-Now margin=0.5cm
-</amsmath>
-
-<amsmath margin="{0.0cm 0.0cm 0.0cm 3cm}">
-Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
-</amsmath>
-[[Category:DanteInitialContents]]

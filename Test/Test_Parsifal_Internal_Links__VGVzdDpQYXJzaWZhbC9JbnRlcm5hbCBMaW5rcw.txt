@@ -6,4 +6,20 @@
 \dref{Help:Demo für Parsifal}{qdqd}
 
 </amsmath>
+
+== Second Test ==
+<amsmath>
+\dref{Main Page}{Link to Main Page}
+
+\dref{Help: Demo for Parsifal}{Link to Help: Demo for Parsiofal}
+
+\dref{Test/Parsifal Section Heading Style}{Link to a Subpage}
+
+\dref{Test/Parsifal Section Heading Style#h4}{Link to a subpage with a name}
+
+\url{https://www.clemenscap.de} 
+
+</amsmath>
+
+
 [[Category:DanteInitialContents]]
