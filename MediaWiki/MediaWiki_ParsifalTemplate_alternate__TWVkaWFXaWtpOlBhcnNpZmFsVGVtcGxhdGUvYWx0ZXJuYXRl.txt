@@ -1,0 +1,18 @@
+<pre>
+\documentclass{article}
+
+\def\testingmyself{TESTING MYSELF}
+
+\begin{document}
+
+\testingmyself
+
+magic-line-identifier-for-inclusion
+
+\end{document}
+
+
+</pre>
+
+[[Category:DanteInitialContents]]
+[[Category:ParsifalTemplate]]

@@ -1,5 +1,8 @@
 This page lists test pages for Parsifal.
 
+<details><summary>Subpages</summary>
 <div style="column-count:4">
 <splist />
 </div>
+
+</details>

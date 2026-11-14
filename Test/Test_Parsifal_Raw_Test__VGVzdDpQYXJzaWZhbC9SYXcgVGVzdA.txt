@@ -1,10 +1,18 @@
-This is a test for the raw parsifal tag tex.
+This is a test for the raw parsifal tag tex. 
 
 == First ==
 <tex>
 \documentclass{article}
+
+\title{sdf}
+\author{test}
+
 \begin{document}
-asd khjks
+
+\maketitle
+
+
+asd khjksn q jHHHHH 
 \end{document}
 </tex>
 

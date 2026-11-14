@@ -19,8 +19,6 @@ node1 == node5
 </uml>
 
 == PlantUML2 ==
-Known error of https://www.mediawiki.org/wiki/Extension_talk:Diagrams
-
 <uml type="uml" format="png">
 @startjson
 {"A": "B"}
@@ -28,8 +26,6 @@ Known error of https://www.mediawiki.org/wiki/Extension_talk:Diagrams
 </uml>
 
 == PlantUML3 ==
-Known error of https://www.mediawiki.org/wiki/Extension_talk:Diagrams
-
 <uml type=json>
 {"C": "D"} 
 </uml>

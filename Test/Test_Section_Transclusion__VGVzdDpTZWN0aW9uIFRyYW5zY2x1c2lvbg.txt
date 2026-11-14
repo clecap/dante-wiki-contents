@@ -1,0 +1,8 @@
+
+{{#lst:Test:Transclusion: Parts to be transcluded|chapter1}}
+
+{{Test:Parsifal}}
+
+<syntaxhighlight lang="wikitext">
+{{#lst:Test:Transclusion: Parts to be transcluded|chapter1}}
+</syntaxhighlight>

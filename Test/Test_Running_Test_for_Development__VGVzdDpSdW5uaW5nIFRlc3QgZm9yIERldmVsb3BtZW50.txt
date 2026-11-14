@@ -1,0 +1,5 @@
+<amsmath minted>
+\begin{minted}{javascript}
+var x = 0; 
+\end{minted}
+</amsmath>

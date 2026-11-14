@@ -3,12 +3,12 @@ test with collapsibles.
 == First ==
 
 <amsmath o-proof>
-Ea iaaa  sdsa df ax sda   gg   n s
+Ea iaaa  sds a df ax s da   gg   n s
 </amsmath>
 
 <amsmath c-habanalop>Zwhc 
 sdf sdf
-sdfsd f
+sd fsd f
 xxjj
 sdfsdf
 as
@@ -41,6 +41,6 @@ sdf
 
 sdfe i</amsmath>
 
-<amsmath c="Ha bA Na">
+<amsmath c="H a bA Na">
 Drei \url{https://www.ifi.ch}
 </amsmath>

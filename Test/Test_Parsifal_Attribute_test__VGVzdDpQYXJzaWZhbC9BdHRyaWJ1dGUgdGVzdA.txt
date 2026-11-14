@@ -6,3 +6,4 @@ Some text which gets a thick green solid border.
 
 
 [[Category:DanteInitialContents]]
+[[Category:Testpage]]

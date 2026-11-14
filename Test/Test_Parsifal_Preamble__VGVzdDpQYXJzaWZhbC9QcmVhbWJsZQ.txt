@@ -1,17 +1,19 @@
-
 This is a test for the preamble features of Parsifal.
 
-<amsmath pa="\def\babalu{I AM THE MACRO BABALU}">
+The <code>&lt;preamble&gt;</code> tag defines Latex abbreviations and macros which are applied to all following Latex sections. Multiple tags overwrite each other.
+<preamble>
+\def\Alice{Alice}
+</preamble>
 
-Hallo \babalu
-as asdfgj
+== Usage 1 ==
+<amsmath>
+This here is \Alice
+</amsmath>
+
+== Usage 2 ==
+<amsmath>
+And this here also is \Alice again.
 </amsmath>
 
 
-== Template Page ==
-<amsmath pa="[[PreambleTest]]">
-
-Hallo \iamapreamble
-
-</amsmath>
 [[Category:Testpage]]

@@ -1,7 +1,7 @@
 
 
 == Simple Highlight ==
-<syntaxhighlight>
+<syntaxhighlight lang="javascript">
 let x = 7;
 </syntaxhighlight>
 
@@ -21,3 +21,4 @@ def quick_sort(arr):
 
 
 [[Category:DanteInitialContents]]
+[[Category:Testpage]]

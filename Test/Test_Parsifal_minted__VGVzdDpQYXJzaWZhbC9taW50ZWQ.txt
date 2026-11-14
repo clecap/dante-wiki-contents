@@ -1,0 +1,44 @@
+== Normal minted ==
+<amsmath minted>
+This isa paragraph.\par 
+ 
+Another paragraph\par 
+
+And now a minted:
+\begin{center}
+\begin{minted}{js}
+var x=0; 
+\end{minted}
+\end{center}
+</amsmath>
+
+== Inline minted ==
+<amsmath minted>
+The declaration \mintinline{js}{var x;} is
+</amsmath>
+
+== With line numbers ==
+<amsmath minted minted-linenos>
+\begin{minted}{js}
+var x=0;
+\end{minted}
+</amsmath>
+
+== Minted with a box ==
+<amsmath minted minted-box>
+\begin{minted}{js}
+var x=0; 
+\end{minted}
+</amsmath>
+
+== minted centered ==
+<amsmath minted>
+\begin{center}
+  \begin{minipage}{0.5\linewidth}
+    \begin{minted}{python}
+def hello():
+  print("Hello, world!")
+    \end{minted}
+  \end{minipage}
+\end{center}
+</amsmath>

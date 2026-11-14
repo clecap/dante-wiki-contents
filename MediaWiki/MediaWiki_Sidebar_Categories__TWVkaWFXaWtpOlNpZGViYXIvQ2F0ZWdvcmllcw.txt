@@ -15,7 +15,8 @@ The contents of this page must conform to the following rules:
 [
   {"root": "Root", "depth":4},
   {"name": "Example", "style": "color:red;"},
-  {"name": "Testpage", "style": "color:green;"}
+  {"name": "Testpage", "style": "color:green;"},
+  {"name": "Testpage with Error", "style": "color:red;"}
 ]
 </pre>
 

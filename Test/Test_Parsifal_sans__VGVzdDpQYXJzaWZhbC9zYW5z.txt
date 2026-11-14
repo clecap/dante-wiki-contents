@@ -1,0 +1,15 @@
+The attribute sans requires a sans-serif font variant to be used
+
+== Text in sans ==
+<amsmath sans>
+Text in sans.
+
+$a=b+\sqrt{c}$
+</amsmath>
+
+== Text not in sans ==
+<amsmath>
+Text not in sans
+
+$a=b+\sqrt{c}$
+</amsmath>

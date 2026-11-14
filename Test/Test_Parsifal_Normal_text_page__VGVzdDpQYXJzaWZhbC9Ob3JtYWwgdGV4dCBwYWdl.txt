@@ -1,0 +1,7 @@
+<amsmath>
+Just a line\par
+ 
+More line Jjjj
+
+Another line
+</amsmath>

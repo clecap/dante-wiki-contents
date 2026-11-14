@@ -1,19 +1,20 @@
 This page tests the margin adjustment.
 
-== Margin adjustment ==
+== Margin Attribute ==
 <amsmath>
-No margin adjustments
+No margin adjustmentsss aaa 
 </amsmath>
 
 <amsmath margin="0.07cm">
-Now margin=0.07cm
+Now margin=0.07cm  
 </amsmath>
 
 <amsmath margin="0.5cm">
-Now margin=0.5cm
+Now margin=0.5cm 
 </amsmath>
 
-<amsmath margin="{0.0cm 0.0cm 0.0cm 3cm}">
-Now margin=0.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
+<amsmath margin="{1.0cm 0.0cm 0.0cm 3cm}">
+Now margin=1.0cm 0.0cm 0.0cm 3cm  as in left bottom right top
 </amsmath>
 [[Category:DanteInitialContents]]
+[[Category:Testpage]]
